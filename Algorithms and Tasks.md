@@ -3,6 +3,33 @@
 ## Table of Contents
 - <a href="#categories">Algorithm Categories</a>
 - <a href="#regression">Regression (Supervised) - Univariate, Multivariate, ...</a>
+- <a href="#classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a>
+- <a href="#regularization">Regularization and Overfitting Prevention</a>
+- <a href="#clustering">Clustering (Unsupervised)</a>
+- <a href="#ensemble">Ensemble Methods (Supervised, Unsupervised)</a>
+- <a href="#recommendation">Recommendation</a>
+- <a href="#neural-nets" href="http://www.asimovinstitute.org/neural-network-zoo/">Neural Networks and Deep Learning</a>
+- <a href="#anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a>
+- <a href="#text-analytics">Text Analytics, Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a>
+- <a href="#reinforcement">Reinforcement Learning</a>
+- <a href="#model-selection">Model selection, validation, and resampling methods</a>
+- <a href="#model-tuning">Model tuning: bias variance tradeoff and model complexity</a>
+- <a href="#features">Feature extraction, feature selection, and feature engineering</a>
+- <a href="#dimensionality-reduction">Dimensionality Reduction</a>
+- <a href="#information-retrieval">Information Retrieval</a>
+- <a href="#logical-reasoning">Logical Reasoning</a>
+- <a href="#optimization">Optimization</a>
+- <a href="#risk">Quantitative Finance and Risk Management</a>
+- <a href="#ranking">Ranking</a>
+- <a href="#time-series">Time-series</a>
+- <a href="#survival">Survival</a>
+- <a href="#forecasting">Forecasting (Wikipedia)</a>
+- <a href="#simulation">Simulation</a>
+- <a href="#segmentation">Segmentation</a>
+- <a href="#experimentation">Experimentation</a>
+- <a href="#hypothesis">Hypothesis Testing</a>
+- <a href="#other">Other Fields, Algorithms, and Tasks</a>
+- <a href="#polls">Polls and Popularity</a>
 
 <h2><a name="categories">Algorithm Categories</a></h2>
 
@@ -37,7 +64,8 @@
 - Logistic regression
 - Nonlinear regression
 
-## Classification (Supervised) - Unary (one-class), Binary, and Multi-class
+<h2><a name="classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a></h2>
+
 - Linear
     + Linear discriminant analysis (LDA), aka Fisher's linear discriminant
     + Logistic regression and multinomial logistic regression
@@ -55,13 +83,15 @@
 - One vs Rest and One vs One (binary transformation)
 - Gradient tree boosting
 
-## Regularization and Overfitting Prevention
+<h2><a name="regularization">Regularization and Overfitting Prevention</a></h2>
+
 - Least absolute shrinkage and selection operator (LASSO)
 - Ridge regression
 - Akaike information criterion (AIC)
 - Bayesian information criterion (BIC)
 
-## Clustering (Unsupervised)
+<h2><a name="clustering">Clustering (Unsupervised)</a></h2>
+
 - Hierarchical clustering, aka connectivity-based clustering
     + Single-linkage clustering
     + Complete linkage clustering
@@ -84,7 +114,8 @@
 - Fractal
 - Guassian mixture models
 
-## Ensemble Methods (Supervised, Unsupervised)
+<h2><a name="ensemble">Ensemble Methods (Supervised, Unsupervised)</a></h2>
+
 - Bootstrap aggregating (bagging)
     + Random Forests and ExtraTrees
 - Boosting
@@ -105,12 +136,14 @@
 - Bayesian model combination (BMC)
 - Bucket of models
 
-## Recommendation
+<h2><a name="recommendation">Recommendation</a></h2>
+
 - Collaborative filtering
 - Content-based filtering
 - Graph-based methods
 
-## [Neural Networks and Deep Learning](http://www.asimovinstitute.org/neural-network-zoo/)
+<h2><a name="neural-nets" href="http://www.asimovinstitute.org/neural-network-zoo/">Neural Networks and Deep Learning</a></h2>
+
 - Feed forward neural networks (FF or FFNN) and perceptrons (P)
 - Radial basis function (RBF)
 - Hopfield network (HN)
@@ -136,7 +169,8 @@
 - Support vector machines (SVM)
 - Kohonen networks (KN, also self organising (feature) map, SOM, SOFM) 
 
-## Anomaly Detection (Supervised, Unsupervised, Semi-supervised)
+<h2><a name="anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a></h2>
+
 - Density-based techniques - K-nearest neighbor, Local outlier factor
 - Subspace and correlation-based outlier detection for high-dimensional data
 - One class support vector machines
@@ -147,7 +181,8 @@
 - Ensemble techniques, using feature bagging, score normalization and different sources of diversity
 - PCA (Principle component analysis)
 
-## Text Analytics, Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)
+<h2><a name="text-analytics">Text Analytics, Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a></h2>
+
 - Sentiment analysis
 - Word clouds
 - NLP, NLG, NLU
@@ -160,7 +195,8 @@
 - Tokenization
 - Topic detection
 
-## Reinforcement Learning
+<h2><a name="reinforcement">Reinforcement Learning</a></h2>
+
 - Markov decision process (MDP)
 - Finite MDPs
 - Monte Carlo methods
@@ -177,7 +213,8 @@
 - Example
     + Multi-armed bandit problem
 
-## Model selection, validation, and resampling methods
+<h2><a name="model-selection">Model selection, validation, and resampling methods</a></h2>
+
 - Cross-validation
 - Hyperparameter optimization
 - Bootstrap
@@ -186,14 +223,16 @@
 - Bayesian information criterion (BIC)
 - Minimum description length (MDL)
 
-## Model tuning: bias variance tradeoff and model complexity
+<h2><a name="model-tuning">Model tuning: bias variance tradeoff and model complexity</a></h2>
+
 - Validation curve
 - Learning curve
 - Residual sum of squares
 - Goodness-of-fit metrics
 - Grid search
 
-## Feature extraction, feature selection, and feature engineering
+<h2><a name="features">Feature extraction, feature selection, and feature engineering</a></h2>
+
 - Wrapper methods
 - Sensitivity analysis
 - PCA
@@ -207,7 +246,8 @@
 - Least absolute shrinkage and selection operator (LASSO)
 - Subset selection
 
-## Dimensionality Reduction
+<h2><a name="dimensionality-reduction">Dimensionality Reduction</a></h2>
+
 - Principle component analysis (PCA)
 - Factor analysis
 - K-means clustering
@@ -221,16 +261,19 @@
     + Inverse document frequency (IDF)
 - Latent Dirichlet Allocation (LDA)
 
-## Information Retrieval
+<h2><a name="information-retrieval">Information Retrieval</a></h2>
+
 - Discounted cumulative gain (DCG)
 - Discounted cumulative gain (nDCG)
 - Term frequency–inverse document frequency (TF-IDF)
 
-## Logical Reasoning
+<h2><a name="logical-reasoning">Logical Reasoning</a></h2>
+
 - Expert systems
 - Logical reasoning
 
-## Optimization
+<h2><a name="optimization">Optimization</a></h2>
+
 - Stochastic search
 - Genetic algorithms
 - Simulated annealing
@@ -244,25 +287,30 @@
 - Maximun
 - Optimal value or optimal combination
 
-## Quantitative Finance and Risk Management
+<h2><a name="risk">Quantitative Finance and Risk Management</a></h2>
+
 - Linear Regression
 - Monte Carlo methods
 - Empirical risk minimization
 
-## Ranking
+<h2><a name="ranking">Ranking</a></h2>
+
 - Coming soon...
 
-## Time-series
+<h2><a name="time-series">Time-series</a></h2>
+
 - Rolling means
 - Autocorrelation
 - Frequency vs time domains and transfers (e.g., spectral analysis)
 - Trend and residual component decomposition
 - ARIMA modeling for forecasting and detecting trends
 
-## Survival
+<h2><a name="survival">Survival</a></h2>
+
 Coming soon...
 
-## Forecasting (Wikipedia)
+<h2><a name="forecasting">Forecasting (Wikipedia)</a></h2>
+
 - Last period demand
 - Simple and weighted N-Period moving averages
 - Simple exponential smoothing
@@ -306,7 +354,8 @@ Coming soon...
 - Considerations
     + Seasonality and cyclic behaviour
 
-## Simulation
+<h2><a name="simulation">Simulation</a></h2>
+
 - Discrete event simulation
 - Markov models
 - Agent-based simulations
@@ -316,20 +365,24 @@ Coming soon...
 - ODES and PDES
 - Fuzzy logic
 
-## Segmentation
+<h2><a name="segmentation">Segmentation</a></h2>
+
 - Behavioral
 - Demographic
 - Geographic
 
-## Experimentation
+<h2><a name="experimentation">Experimentation</a></h2>
+
 - Design of Experiments (DOE)
 - A/B testing
 
-## Hypothesis Testing
+<h2><a name="hypothesis">Hypothesis Testing</a></h2>
+
 - T-test - Compare two groups
 - ANOVA - Compare multiple groups
 
-## Other Fields, Algorithms, and Tasks
+<h2><a name="other">Other Fields, Algorithms, and Tasks</a></h2>
+
 - Massive-scale graph
 - Geospatial temporal predictive analytics
 - Hyperfast analytics
@@ -346,7 +399,8 @@ Coming soon...
 - Swarm intelligence
 - Genetic algorithms
 
-## Polls and Popularity
+<h2><a name="polls">Polls and Popularity</a></h2>
+
 - [Top Algorithms and Methods Used by Data Scientists](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
 
 <!-- ## References
