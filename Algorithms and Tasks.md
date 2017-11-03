@@ -10,7 +10,8 @@
 - <a href="#recommendation">Recommendation</a>
 - <a href="#neural-nets" href="http://www.asimovinstitute.org/neural-network-zoo/">Neural Networks and Deep Learning</a>
 - <a href="#anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a>
-- <a href="#text-analytics">Text Analytics, Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a>
+- <a href="#text-analytics">Text Processing and Analytics</a>
+- <a href="#nlp">Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a>
 - <a href="#reinforcement">Reinforcement Learning</a>
 - <a href="#model-selection">Model selection, validation, and resampling methods</a>
 - <a href="#model-tuning">Model tuning: bias variance tradeoff and model complexity</a>
@@ -181,19 +182,44 @@
 - Ensemble techniques, using feature bagging, score normalization and different sources of diversity
 - PCA (Principle component analysis)
 
-<h2><a name="text-analytics">Text Analytics, Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a></h2>
+<h2><a name="text-analytics" href="https://en.wikipedia.org/wiki/Natural_language_processing">Text Processing and Analytics</a></h2>
 
-- Sentiment analysis
-- Word clouds
-- NLP, NLG, NLU
-- Text categorization
-- Text tagging
-- Text processing
-- N-grams
-- Entity extraction (e.g., phone numbers, addresses, ...)
-- Levenshtein distance
-- Tokenization
-- Topic detection
+- [Text processing](https://en.wikipedia.org/wiki/Text_processing)
+- [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
+
+<h2><a name="nlp" href="https://en.wikipedia.org/wiki/Natural_language_processing">Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a></h2>
+
+Wikipedia
+- Syntax
+    + Lemmatization
+    + Morphological segmentation
+    + Part-of-speech tagging
+    + Parsing
+    + Sentence breaking (also known as sentence boundary disambiguation)
+    + Stemming
+    + Word segmentation
+    + Terminology extraction
+- Semantics
+    + Lexical semantics
+    + Machine translation
+    + Named entity recognition (NER)
+    + Natural language generation
+    + Natural language understanding
+    + Optical character recognition (OCR)
+    + Question answering
+    + Recognizing Textual entailment
+    + Relationship extraction
+    + Sentiment analysis
+    + Topic segmentation and recognition
+    + Word sense disambiguation
+- Discourse
+    + Automatic summarization
+    + Coreference resolution
+    + Discourse analysis
+- Speech
+    + Speech recognition
+    + Speech segmentation
+    + Text-to-speech
 
 <h2><a name="reinforcement">Reinforcement Learning</a></h2>
 
@@ -287,18 +313,21 @@
 - Maximun
 - Optimal value or optimal combination
 
-<h2><a name="risk">Quantitative Finance and Risk Management</a></h2>
+<h2><a name="risk">Mathematical/quantitative Finance and Risk Management</a></h2>
 
+- [Risk management](https://en.wikipedia.org/wiki/Risk_management)
+- [Mathematical/quantitative Finance](https://en.wikipedia.org/wiki/Mathematical_finance)
 - Linear Regression
 - Monte Carlo methods
 - Empirical risk minimization
 
 <h2><a name="ranking">Ranking</a></h2>
 
-- Coming soon...
+- [Ranking](https://en.wikipedia.org/wiki/Ranking)
 
 <h2><a name="time-series">Time-series</a></h2>
 
+- [Time series](https://en.wikipedia.org/wiki/Time_series)
 - Rolling means
 - Autocorrelation
 - Frequency vs time domains and transfers (e.g., spectral analysis)
@@ -307,7 +336,7 @@
 
 <h2><a name="survival">Survival</a></h2>
 
-Coming soon...
+- [Survival analysis](https://en.wikipedia.org/wiki/Survival_analysis)
 
 <h2><a name="forecasting">Forecasting (Wikipedia)</a></h2>
 
