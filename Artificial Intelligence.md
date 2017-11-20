@@ -3,10 +3,19 @@
 ## Types
 
 - AI (encompasses machine learning and other fields)
-    + Strong/weak
-    + Deep/narrow
-    + Hard/soft
-    + General
+    + Weak/Narrow - Non-sentient artificial intelligence that is focused on one narrow task
+    + Deep - Machine learning based on deep neural networks, i.e., those with more than one hidden layer, each which learns components of the bigger picture
+        * Multiple hidden layers allow deep neural networks to learn simple features of the data in a hierarchy, which are combined by the network
+    + Shallow - One so-called hidden layer
+        * Can be very wide to achieve similar results to deep, but not as good or efficient
+    + Soft - Not really used
+    + Applied - Building ‘smart’ systems or enhancing or extending software applications, where each AI is built for a single purpose
+    + AGI, Strong, Full, Hard, Complete
+        * Hard/Complete (AI-hard/AI-complete) - The most difficult problems, where the difficulty of these computational problems is equivalent to that of solving the central artificial intelligence problem—making computers as intelligent as people, or strong AI
+        * Full - Synonymous with strong and AGI
+        * Strong - Strong AI's goal is to develop artificial intelligence to the point where the machine's intellectual capability is functionally equal to a human's.
+        * AGI - A machine with the ability to apply intelligence to any problem, rather than just one specific problem
+            - The intelligence of a machine that could successfully perform any intellectual task that a human being can
 - Machine learning (ML, and subset of AI)
     + Primary
         * Supervised
@@ -24,6 +33,17 @@
         * Ensemble methods
             - Bagging (random forests) and boosting
 
+## AI Related Terms
+
+- Sentient - Able to perceive or feel things
+- Consciousness - The state of being awake and aware of one's surroundings (opposite is dead or inanimate object)
+    + The awareness or perception of something by a person
+    + The fact of awareness by the mind of itself and the world
+- Mind - The element, part, substance, or process that reasons, thinks, feels, wills, perceives, judges, etc.
+- Think - To employ one’s mind rationally and objectively in evaluating or dealing with a given situation
+- Artificial (aka machine or synthetic) consciousness - The aim of the theory of artificial consciousness is to "Define that which would have to be synthesized were consciousness to be found in an engineered artifact"
+
+
 ## AI and ML Process (High-level)
 
 - Ask the right question
@@ -39,8 +59,22 @@
 - Overfitting (bias vs variance, noise)
 - Model performance vs interpretability
 - Model complexity vs simplicity (i.e., parsimony)
-- Curse of dimensionality
+- Curse of dimensionality, including having enough data to fill the feature space
+- Different statistical, algorithmic, and cognitive biases
 - Unsupervised learning limitations for AI
+- Balanced vs imbalanced data
+- Multicollinearity, correlation, ...
+- Confounding variables and missing features
+- Feature selection and engineering
+- Model selection and performance
+    + Parametric vs non-parametric
+        * Parametric examples
+            - Simple and multiple linear regresion
+        * Non-parametric examples
+            - Decision trees
+            - KNN - k nearest neighbors
+            - SVMs
+
 
 ## Real-world Applications and Vendors by Category
 
