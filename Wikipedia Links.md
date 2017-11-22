@@ -39,6 +39,7 @@ Note that some links are categorized according to my determination of best fit s
 ## Data Science, Data Mining, and Advanced Analytics
 - [Machine learning portal](https://en.wikipedia.org/wiki/Portal:Machine_learning)
 - [Machine learning](https://en.wikipedia.org/wiki/Machine_learning)
+- [Online machine learning](https://en.wikipedia.org/wiki/Online_machine_learning)
 - [Data science](https://en.wikipedia.org/wiki/Data_science)
 - [Data analysis](https://en.wikipedia.org/wiki/Data_analysis)
 - [Descriptive statistics](https://en.wikipedia.org/wiki/Descriptive_statistics)

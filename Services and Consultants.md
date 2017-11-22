@@ -1,5 +1,5 @@
-## Advanced Analytics
-- []()
+## Advanced Analytics (AI, Machine Learning, ...)
+- [Experfy](https://www.experfy.com/)
 
 ## Data Science
 
@@ -33,3 +33,8 @@
 
 ## Digital Services
 - [Rocket Wagon](https://rw.co/)
+
+## Recruiting and Talent
+- [Paladin](http://www.paladinstaff.com/)
+- [Burtch Works](http://www.burtchworks.com/)
+- [Smith Hanley](http://www.smithhanley.com/)
