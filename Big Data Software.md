@@ -88,6 +88,28 @@ for Clojure or Java
     + [Apache Ambari](https://cwiki.apache.org/confluence/display/AMBARI/Ambari) - Tool for provisioning, managing, and monitoring Apache Hadoop clusters
 - Massively parallel processing database (MPP)
 
+## Enterprise Big Data and Analytics Products and Services
+- [Databricks](https://databricks.com/) - Data integration, real-time exploration, and production pipelines in the cloud, powered by Apache® Spark
+- [Talend](http://www.talend.com/) - Open source integration software provider to data-driven enterprises
+- [Teradata](http://www.teradata.com/?LangType=1033)
+    + Business Analytics Solutions
+    + Analytical Architecture Consulting
+    + Hybrid Cloud Products
+- [Pentaho](http://www.pentaho.com/)
+- [Matlab](https://www.mathworks.com/help/matlab/) - The Language of Technical Computing
+- [HPE Vertica](http://www8.hp.com/us/en/software-solutions/advanced-sql-big-data-analytics/) - Enables organizations to manage and analyze massive volumes of structured and semi-structured data quickly and reliably with no limits or business compromises
+- [IBM SPSS Modeler](https://www.ibm.com/marketplace/cloud/spss-modeler/resources/us/en-us#product-header-top) - A predictive analytics platform that helps you build accurate predictive models quickly and deliver predictive intelligence to individuals, groups, systems and the enterprise
+- [IBM SPSS Statistics](https://www.ibm.com/marketplace/cloud/statistical-analysis-and-reporting/us/en-us) - An integrated family of products that addresses the entire analytical process, from planning to data collection to analysis, reporting and deployment
+- [SAS](https://support.sas.com/documentation/) - Business intelligence software
+- [Alteryx](http://downloads.alteryx.com/documentation.html)
+- [Qubole](https://www.qubole.com/)
+- [SAP](https://support.sap.com/documentation.html)
+- [KNIME](https://tech.knime.org/documentation)
+- [Splunk](http://docs.splunk.com/Documentation)
+- [FICO Big Data Analyzer - Formerly Karmasphere](http://www.fico.com/en/products/fico-big-data-analyzer#corebenefits)
+- [DataScience.com](https://www.datascience.com/) - A powerful platform for enterprise data science
+- [DataRobot](https://www.datarobot.com/) - Advanced enterprise machine learning platform
+
 ## IoT
 - [AWS IoT](https://aws.amazon.com/documentation/iot/) - Easily and securely connect devices to the cloud
 
