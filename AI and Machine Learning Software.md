@@ -29,6 +29,15 @@
     + [TextBlob](https://textblob.readthedocs.io/en/dev/) - A Python (2 and 3) library for processing textual data
     + [Gensim](http://radimrehurek.com/gensim/) - Topic modelling for humans
     + [fastText](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md) - Pre-trained word vectors for 90 languages, trained on Wikipedia using fastText
+- Machine Learning
+    + [Scikit-image](http://scikit-image.org/) - A collection of algorithms for image processing
+    + [Scikit-learn](http://scikit-learn.org/stable/documentation.html) - A Python module for machine learning
+    + [Scikit-feature](https://github.com/jundongl/scikit-feature) - Open-source feature selection repository in python
+    + [Shogun](https://github.com/shogun-toolbox/shogun) - Machine learning toolbox that provides a wide range of unified and efficient Machine Learning (ML) methods
+    + [mlpy](http://mlpy.sourceforge.net/docs/3.5/) - A Python module for Machine Learning built on top of NumPy/SciPy and the GNU Scientific Libraries
+    + [Annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+    + [PyMVPA](http://www.pymvpa.org/manual.html) - PyMVPA stands for MultiVariate Pattern Analysis (MVPA) in Python
+    + [Deap](http://deap.gel.ulaval.ca/doc/default/index.html) - A novel evolutionary computation framework for rapid prototyping and testing of ideas
 
 ## R Software, Libraries, and Packages
 - Artificial Intelligence (AI)
@@ -41,6 +50,28 @@
     + [Sentiment Analysis](https://github.com/sfeuerriegel/SentimentAnalysis)
 - Natural language (NLP, NLG, NLU)
     + [GloVe: Global Vectors for Word Representation](http://nlp.stanford.edu/projects/glove/) - An unsupervised learning algorithm for obtaining vector representations for words
+- Machine Learning
+    + [caret](https://cran.r-project.org/web/packages/caret/index.html) - Misc functions for training and plotting classification and regression models
+    + [randomForest](https://cran.r-project.org/web/packages/randomForest/index.html) - Classification and regression based on a forest of trees using random inputs
+    + [e1071](https://cran.r-project.org/web/packages/e1071/index.html) - Functions for latent class analysis, short time Fourier transform, fuzzy clustering, support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, ...
+    + [ISLR](https://cran.r-project.org/web/packages/ISLR/index.html) - The collection of datasets used in the book "An Introduction to Statistical Learning with Applications in R"
+    + [lme4](https://cran.r-project.org/web/packages/lme4/index.html) - Fit linear and generalized linear mixed-effects models
+    + [nlme](https://cran.r-project.org/web/packages/nlme/index.html) - Fit and compare Gaussian linear and nonlinear mixed-effects models
+    + [mda](https://cran.r-project.org/web/packages/mda/index.html) - Mixture and flexible discriminant analysis, multivariate adaptive regression splines (MARS), BRUTO, ...
+    + [lasso2](https://cran.r-project.org/web/packages/lasso2/index.html) - Routines and documentation for solving regression problems while imposing an L1 constraint on the estimates
+    + [lars](https://cran.r-project.org/web/packages/lars/index.html) - Efficient procedures for fitting an entire lasso sequence with the cost of a single least squares fit
+    + [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html) - Extremely efficient procedures for fitting the entire lasso or elastic-net regularization path for linear regression, logistic and multinomial regression models, Poisson regression and the Cox model
+    + [rpart](https://cran.r-project.org/web/packages/rpart/index.html) - Recursive partitioning for classification, regression and survival trees
+    + [kernlab](https://cran.r-project.org/web/packages/kernlab/index.html) - Kernel-based machine learning methods for classification, regression, clustering, novelty detection, quantile regression and dimensionality reduction
+    + [gbm](https://cran.r-project.org/web/packages/gbm/index.html) - Includes regression methods for least squares, absolute loss, t-distribution loss, quantile regression, logistic, multinomial logistic, Poisson, Cox proportional hazards partial likelihood, AdaBoost exponential loss, Huberized hinge loss, and Learning to Rank measures (LambdaMart)
+    + [class](https://cran.r-project.org/web/packages/class/index.html) - Various functions for classification, including k-nearest neighbour, Learning Vector Quantization and Self-Organizing Maps
+    + [gmodels](https://cran.r-project.org/web/packages/gmodels/index.html) - Various R programming tools for model fitting
+    + [princurve](https://cran.r-project.org/web/packages/princurve/index.html) - Fits a principal curve to a data matrix in arbitrary dimensions
+
+## Non-language Specific
+- General machine learning
+    + [Turi](https://turi.com/learn/) - A machine learning modeling tool for developers and data scientists
+    + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
 
 ## APIs
 - [AWS Machine Learning](https://aws.amazon.com/documentation/machine-learning/)
