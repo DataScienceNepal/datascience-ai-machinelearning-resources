@@ -20,6 +20,3 @@ An Introduction](http://incompleteideas.net/sutton/book/the-book-1st.html)
 - [Paradigm of Artificial Intelligence Programming](http://norvig.com/paip.html)
 - [Artificial Intelligence for Humans](http://www.heatonresearch.com/aifh/)
 - [Learning From Data](http://amlbook.com/)
-
-## Book Lists
-- [10 Free Must-Read Books for Machine Learning and Data Science](http://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html)

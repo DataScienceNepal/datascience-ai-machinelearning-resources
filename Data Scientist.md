@@ -4,11 +4,8 @@
 - <a href="#skills">Data Science Skills</a>
 - <a href="#org-structure">Organization Structure</a>
 - <a href="#ex-process">Example Process</a>
-- <a href="#articles">Articles</a>
-- <a href="#trends">Jobs, Skills, and Salary Trends</a>
 - <a href="#projects">Take Home Projects</a>
 - <a href="#datacommunity">Data Science Communities</a>
-- <a href="#freelancing">Freelancing</a>
 
 <h2><a name="roles">Roles</a></h2>
 
@@ -62,28 +59,6 @@
 - Final in-person meeting/follow-up interview
 - Offer
 
-<h2><a name="articles">Articles</a></h2>
-
-- [How to Consistently Hire Remarkable Data Scientists](http://firstround.com/review/how-to-consistently-hire-remarkable-data-scientists/)
-- [Battle of the Data Science Venn Diagrams](http://www.prooffreader.com/2016/09/battle-of-data-science-venn-diagrams.html)
-- [Hiring a data scientist](https://blog.wikimedia.org/2017/02/02/hiring-data-scientist/)
-- [Top mistakes data scientists make](https://cyborgus.com/2017/04/03/top-mistakes-data-scientists-make/)
-- [Nurturing a productive data team](https://pages.dataiku.com/hubfs/Guidebooks/Nurturing-infographics.pdf)
-- [What makes a great data scientist?](https://cyborgus.com/2017/03/19/what-makes-a-great-data-scientist/)
-- [How to think like a data scientist to become one](https://cyborgus.com/2017/03/13/think-like-data-scientist/)
-- [The Life of a Data Scientist](http://www.mastersindatascience.org/careers/data-scientist/)
-- [Data Science Career Paths: Different Roles in the Industry](https://www.springboard.com/blog/data-science-career-paths-different-roles-industry/)
-- [The Data Science Industry: Who Does What (Infographic)](https://www.datacamp.com/community/tutorials/data-science-industry-infographic)
-- [Data Science Falls Into Many Roles](http://www.forbes.com/sites/rawnshah/2015/10/06/data-science-falls-into-many-roles/)
-- [What’s the Difference Between Data Science Roles?](https://www.betterbuys.com/bi/comparing-data-science-roles/)
-- [Doing Data Science Right — Your Most Common Questions Answered](http://firstround.com/review/doing-data-science-right-your-most-common-questions-answered/)
-- [Top 12 Interesting Careers to Explore in Big Data](http://www.kdnuggets.com/2016/10/top-12-interesting-careers-explore-big-data.html)
-
-<h2><a name="trends">Jobs, Skills, and Salary Trends</a></h2>
-
-- [The 3 Highest Paid Jobs in Tech (and 17 Skills That Get You Hired)](https://hired.com/blog/candidates/3-highest-paid-jobs-technology/)
-- [2017 State of Global Tech Salaries](https://hired.com/state-of-salaries-2017)
-
 <h2><a name="projects">Take Home Projects</a></h2>
 
 Coming soon...
@@ -96,13 +71,6 @@ Coming soon...
 - [Data Science Stack Exchange](https://datascience.stackexchange.com/)
 - [KDnuggets](http://www.kdnuggets.com/)
 - [Data Science Central Forum](http://www.datasciencecentral.com/forum)
-
-<h2><a name="freelancing">Freelancing</a></h2>
-
-- [Infographic: How to Calculate Your Freelance Hourly Rate](http://blog.creativelive.com/how-to-calculate-freelance-hourly-rate-infographic/)
-- [Freelancer 101: How to Set Up a Simple Accounting System](https://hired.com/blog/candidates/freelancer-101-simple-accounting-system/)
-- [New to Freelancing? 9 Things You Need to Know](https://hired.com/blog/candidates/new-freelancing-9-things-need-know/)
-- [How to Become a Freelance Data Scientist](https://www.springboard.com/blog/freelance-data-scientist/)
 
 <!-- ## References
 - The Field Guide to Data Science (Booz, Allen, Hamilton) -->

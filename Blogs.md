@@ -1,6 +1,7 @@
 ## Blogs
 
 - [InnoArchiTech](http://www.innoarchitech.com/?utm_source=github&utm_medium=repo&utm_content=repolink&utm_campaign=opensource)
+- [Gigaom](https://gigaom.com/)
 - [Flowing Data](http://flowingdata.com/)
 - [KDnuggets](http://www.kdnuggets.com/)
 - [R-bloggers](https://www.r-bloggers.com/)
