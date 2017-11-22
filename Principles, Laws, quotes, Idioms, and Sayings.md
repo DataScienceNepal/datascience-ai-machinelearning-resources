@@ -1,5 +1,3 @@
-# Principles, Laws, Quotes, Idioms, and Sayings
-
 ## Principles and Rules
 - Principle of least priviledge - Requires that in a particular abstraction layer of a computing environment, every module (such as a process, a user, or a program, depending on the subject) must be able to access only the information and resources that are necessary for its legitimate purpose
 - Peter principle - The selection of a candidate for a position is based on the candidate's performance in their current role, rather than on abilities relevant to the intended role

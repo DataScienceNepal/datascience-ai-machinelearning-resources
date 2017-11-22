@@ -1,5 +1,3 @@
-# Big Data Software, Libraries, Packages, and APIs
-
 ## Lists
 - [Apache Foundation](https://www.apache.org/)
     + [Apache Projects List (by category)](https://projects.apache.org/projects.html?category)

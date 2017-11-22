@@ -1,5 +1,3 @@
-# Artificial Intelligence
-
 ## Types
 
 - AI (encompasses machine learning and other fields)

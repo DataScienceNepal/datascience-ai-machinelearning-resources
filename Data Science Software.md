@@ -1,5 +1,3 @@
-# Data Science Software, Libraries, and Packages
-
 ## Package Managers and Project Organization
 - [Sublime Text Package Control](https://packagecontrol.io/)
 - [Bower](https://bower.io/search/)
@@ -306,6 +304,13 @@
     + [BigML](https://bigml.com/)
     + [Carto.com](https://carto.com/)
     + [RISELab](https://rise.cs.berkeley.edu/) - Real-time Intelligence with Secure Execution
+
+## IDEs
+- [Sublime Text](https://www.sublimetext.com/)
+- [R Studio](https://support.rstudio.com/hc/en-us/categories/200035113-Documentation)
+- [R Studio](https://support.rstudio.com/hc/en-us/categories/200035113-Documentation)
+- [Rodeo](http://rodeo.yhat.com/docs/)
+- [Spyder](https://pythonhosted.org/spyder/)
 
 ## Tools and Language Popularity, Comparisons, Trends, ...
 - [Tiobe Index for Programming Languages](http://www.tiobe.com/tiobe-index/)

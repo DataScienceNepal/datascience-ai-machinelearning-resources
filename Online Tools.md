@@ -1,5 +1,3 @@
-# Online Tools and Utilities
-
 ## Networking, DNS, IP, ...
 - [What is my IP?](http://whatismyipaddress.com/)
 - [Internet speed test](http://www.speedtest.net/)

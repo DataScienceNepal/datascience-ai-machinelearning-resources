@@ -1,5 +1,3 @@
-# Data Scientists, Teams, Hiring, and Freelancing
-
 <h2><a name="toc">Table of Contents</a></h2>
 
 - <a href="#roles">Roles</a>

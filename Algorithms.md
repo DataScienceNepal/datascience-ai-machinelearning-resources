@@ -1,6 +1,4 @@
-# Algorithms & Tasks
-
-## Table of Contents
+### Table of Contents
 - <a href="#categories">Algorithm Categories</a>
 - <a href="#regression">Regression (Supervised) - Univariate, Multivariate, ...</a>
 - <a href="#classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a>

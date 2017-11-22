@@ -1,5 +1,3 @@
-# Datasets
-
 **Lists**
 - [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 - [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets.html)

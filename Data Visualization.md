@@ -1,5 +1,3 @@
-# Data Visualization
-
 ## Online Resources
 - [The Python Graph Gallery](https://python-graph-gallery.com/)
 - [The Data Visualisation Catalogue](http://www.datavizcatalogue.com/)

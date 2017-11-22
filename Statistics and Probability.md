@@ -1,5 +1,3 @@
-# Statistics and Probability
-
 ## Statistics
 - Descriptive statistics
     + Summary statistics

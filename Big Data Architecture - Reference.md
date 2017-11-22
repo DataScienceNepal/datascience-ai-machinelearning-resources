@@ -1,5 +1,3 @@
-# Big Data, Analytics, and IoT Architecture Reference
-
 ## Reference Architectures
 + Extended Relational
 + Non-Relational

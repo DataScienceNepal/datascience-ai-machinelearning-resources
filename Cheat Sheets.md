@@ -1,5 +1,3 @@
-# Cheat Sheets
-
 - Python
     + [Pandas Cheat Sheet - Python for Data Science](https://www.dataquest.io/blog/pandas-cheat-sheet/)
     + [NumPy Cheat Sheet - Python for Data Science](https://www.dataquest.io/blog/numpy-cheat-sheet/)

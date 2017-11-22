@@ -1,5 +1,3 @@
-# Books
-
 ## Book Links
 - [The Deep Learning textbook](http://www.deeplearningbook.org/)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)

@@ -1,5 +1,3 @@
-# Big Data, Analytics, and IoT Architecture Examples
-
 ## Architecture Guides, Usage, and Examples
 
 **AWS**

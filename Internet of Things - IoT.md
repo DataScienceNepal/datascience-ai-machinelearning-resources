@@ -1,5 +1,3 @@
-# Internet of Things (IoT)
-
 ## Typical Sensor Types
 - Volume/level
 - Temp

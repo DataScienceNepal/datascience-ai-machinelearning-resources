@@ -1,5 +1,3 @@
-# GitHub Repos
-
 - General reference
     + [Learn Data Science open resources](https://github.com/nborwankar/LearnDataScience)
     + [List of Data Science/Big Data Resources](https://github.com/chaconnewu/free-data-science-books)

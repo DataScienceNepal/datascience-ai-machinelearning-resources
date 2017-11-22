@@ -1,5 +1,3 @@
-# Programming Languages and OS
-
 - [Python](https://docs.python.org/3/)
 - [R](https://cran.r-project.org/manuals.html)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

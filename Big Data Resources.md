@@ -1,5 +1,3 @@
-# Big Data Learning Resources
-
 ## Articles
 
 - [Architectural Patterns for Near Real-Time Data Processing with Apache Hadoop](http://blog.cloudera.com/blog/2015/06/architectural-patterns-for-near-real-time-data-processing-with-apache-hadoop/)

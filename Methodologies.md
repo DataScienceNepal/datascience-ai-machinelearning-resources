@@ -1,5 +1,3 @@
-# Methodologies - Product, Software, and IoT Development
-
 ## Table of Contents
 - <a href="#methodologies">Product Development Methodologies List</a>
 - <a href="#agilevals">Agile Values</a>

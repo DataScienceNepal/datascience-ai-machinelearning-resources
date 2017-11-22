@@ -1,5 +1,3 @@
-# Product Management and Design
-
 ## Table of Contents
 - <a href="#roles">Product Roles and Hierarchy</a>
 - <a href="#vision">Product Vision and Strategy</a>

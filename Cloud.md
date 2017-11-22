@@ -1,5 +1,3 @@
-# Cloud, SaaS, PaaS, and IaaS
-
 ## Cloud Goals
 - Consolidation
 - Resource pooling
