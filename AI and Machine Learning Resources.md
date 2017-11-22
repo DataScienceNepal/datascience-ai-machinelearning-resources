@@ -2,9 +2,9 @@
 - <a href="#interactive">Interactive</a>
 - <a href="#apidocs">API Docs</a>
 - <a href="#tutorials">Tutorials</a>
-- <a href="#moocs">MOOCS and Online Learning</a>
+- <a href="#moocs">Online Learning</a>
 - <a href="#whitepapers">Whitepapers and Research</a>
-- <a href="#bootcamps">Bootcamps and Training</a>
+- <a href="#bootcamps">Bootcamps</a>
 - <a href="#resources">General Resources</a>
 
 <h2><a name="interactive">Interactive</a></h2>
@@ -29,18 +29,19 @@
 + [Scikit-learn Tutorials](http://scikit-learn.org/stable/tutorial/)
 + [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
 
-<h2><a name="moocs">MOOCS and Online Learning</a></h2>
+<h2><a name="moocs">Online Learning</a></h2>
 
+- [deeplearning.ai](https://www.deeplearning.ai/)
+- [fast.ai](http://www.fast.ai/)
 - [Become A Machine Learning Engineer](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)
 - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
 - [Stanford Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning)
+- [Deeplearningtrack - Online data science school](https://www.deeplearningtrack.com/)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
 - [arXiv.org](https://arxiv.org/) - Cornell University's open access to 1MM+ e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics
 
-<h2><a name="bootcamps">Bootcamps and Training</a></h2>
-
-- [Deeplearningtrack - Online data science school](https://www.deeplearningtrack.com/)
+<h2><a name="bootcamps">Bootcamps</a></h2>
 
 <h2><a name="resources">General Resources</a></h2>

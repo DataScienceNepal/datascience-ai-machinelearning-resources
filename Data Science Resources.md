@@ -2,9 +2,9 @@
 - <a href="#interactive">Interactive</a>
 - <a href="#apidocs">API Docs</a>
 - <a href="#tutorials">Tutorials</a>
-- <a href="#moocs">MOOCS and Online Learning</a>
+- <a href="#moocs">Online Learning</a>
 - <a href="#whitepapers">Whitepapers and Research</a>
-- <a href="#bootcamps">Bootcamps and Training</a>
+- <a href="#bootcamps">Bootcamps</a>
 - <a href="#resources">General Resources</a>
 
 <h2><a name="interactive">Interactive</a></h2>
@@ -43,7 +43,7 @@
     + [Statsmodels Examples](http://statsmodels.sourceforge.net/devel/examples/)
     + [Matplotlib Examples](http://matplotlib.org/examples/index.html)
 
-<h2><a name="moocs">MOOCS and Online Learning</a></h2>
+<h2><a name="moocs">Online Learning</a></h2>
 
 - MOOC platforms and online schools
     + [Coursera](https://www.coursera.org/)
@@ -76,7 +76,7 @@
 - [Increase Your Analytics Proficiency - Making the Move From Analytics to Data Science](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
 - [AWS](https://aws.amazon.com/whitepapers/)
 
-<h2><a name="bootcamps">Bootcamps and Training</a></h2>
+<h2><a name="bootcamps">Bootcamps</a></h2>
 
 - General and Search
     + [Switchup - Data Science](https://www.switchup.org/data-science-bootcamps-and-courses)
