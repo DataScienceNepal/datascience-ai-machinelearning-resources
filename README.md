@@ -24,8 +24,8 @@ Alex
     + [Data Science Books](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Science%20Books.md)
     + [Data Science Overview](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Science%20Overview.md)
     + [Data Science Resources](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Science%20Resources.md)
-    + [Data Science Roles, Hiring, and Freelancing](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Science%20Roles%2C%20Hiring%2C%20and%20Freelancing.md)
     + [Data Science Software](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Science%20Software.md)
+    + [Data Scientist](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Scientist.md)
     + [Data Visualization](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Visualization.md)
     + [Datasets](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Datasets.md)
 - Big data
@@ -55,6 +55,7 @@ Alex
     + [Graphics](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Graphics.md)
     + [Online Tools](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Online%20Tools.md)
     + [Principles, Laws, Quotes, Idioms, and Sayings](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Principles%2C%20Laws%2C%20quotes%2C%20Idioms%2C%20and%20Sayings.md)
+    + [Services and Consultants]()
     + [Wikipedia Links](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Wikipedia%20Links.md)
 
 
