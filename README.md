@@ -55,7 +55,7 @@ Alex
     + [Graphics](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Graphics.md)
     + [Online Tools](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Online%20Tools.md)
     + [Principles, Laws, Quotes, Idioms, and Sayings](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Principles%2C%20Laws%2C%20quotes%2C%20Idioms%2C%20and%20Sayings.md)
-    + [Services and Consultants]()
+    + [Services and Consultants](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Services%20and%20Consultants.md)
     + [Wikipedia Links](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Wikipedia%20Links.md)
 
 
