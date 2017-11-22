@@ -49,6 +49,7 @@ Alex
     + [Cloud](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Cloud.md)
     + [DevOps](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/DevOps.md)
 - General Resources
+    + [Articles]()
     + [Cheat Sheets](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Cheat%20Sheets.md)
     + [Gartner Magic Quadrants](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Gartner%20Magic%20Quadrants.md)
     + [GitHub Repos](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/GitHub%20Repos.md)
