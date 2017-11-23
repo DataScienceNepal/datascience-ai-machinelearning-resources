@@ -1,4 +1,5 @@
 - General reference
+    + [cheatsheets-ai](https://github.com/kailashahirwar/cheatsheets-ai)
     + [Learn Data Science open resources](https://github.com/nborwankar/LearnDataScience)
     + [List of Data Science/Big Data Resources](https://github.com/chaconnewu/free-data-science-books)
     + [ISLR-python](https://github.com/JWarmenhoven/ISLR-python)

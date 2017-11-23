@@ -1,8 +1,6 @@
-- Startup and Entrepreneur
-    + [The Startup Founder’s Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
-- Repository
-    + 
-
+## Advanced Analytics
+- [Gartner Advanced Analytics Glossery](https://www.gartner.com/it-glossary/advanced-analytics/)
+- [The 4 Types of Data Analytics](http://insights.principa.co.za/4-types-of-data-analytics-descriptive-diagnostic-predictive-prescriptive)
 
 ## Artificial Intelligence
 - [59 impressive things artificial intelligence can do today](http://www.businessinsider.com/artificial-intelligence-ai-most-impressive-achievements-2017-3/)
@@ -31,6 +29,8 @@
 - [The Periodic Table of Data Science](https://www.r-bloggers.com/the-periodic-table-of-data-science/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+RBloggers+%28R+bloggers%29)
     + [The Periodic Table of Data Science PNG](https://i2.wp.com/s3.amazonaws.com/assets.datacamp.com/blog_assets/Data-Science-Periodic-Table.png)
 - [10 Free Must-Read Books for Machine Learning and Data Science](http://www.kdnuggets.com/2017/04/10-free-must-read-books-machine-learning-data-science.html)
+- [The 10 Statistical Techniques Data Scientists Need to Master](https://towardsdatascience.com/the-10-statistical-techniques-data-scientists-need-to-master-1ef6dbd531f7?imm_mid=0f81cc&cmp=em-data-na-na-newsltr_20171115)
+- [The Startup Founder’s Guide to Analytics](https://thinkgrowth.org/the-startup-founders-guide-to-analytics-1d2176f20ac1)
 
 ## Data Scientists
 - [How to Consistently Hire Remarkable Data Scientists](http://firstround.com/review/how-to-consistently-hire-remarkable-data-scientists/)
@@ -47,10 +47,14 @@
 - [What’s the Difference Between Data Science Roles?](https://www.betterbuys.com/bi/comparing-data-science-roles/)
 - [Doing Data Science Right — Your Most Common Questions Answered](http://firstround.com/review/doing-data-science-right-your-most-common-questions-answered/)
 - [Top 12 Interesting Careers to Explore in Big Data](http://www.kdnuggets.com/2016/10/top-12-interesting-careers-explore-big-data.html)
+- [How to Job Interview a Data Scientist](https://blog.modeanalytics.com/how-to-job-interview-data-scientist/)
+- [9 Mistakes to Avoid When Starting Your Career in Data Science](https://elitedatascience.com/beginner-mistakes)
 
 ## Jobs, Skills, and Salary Trends
 - [The 3 Highest Paid Jobs in Tech (and 17 Skills That Get You Hired)](https://hired.com/blog/candidates/3-highest-paid-jobs-technology/)
 - [2017 State of Global Tech Salaries](https://hired.com/state-of-salaries-2017)
+- [The State of Data Science and Machine Learning 2017](https://www.kaggle.com/surveys/2017)
+- [Tech Giants Are Paying Huge Salaries for Scarce A.I. Talent](https://www.nytimes.com/2017/10/22/technology/artificial-intelligence-experts-salaries.html)
 
 ## Freelancing and Consulting
 - [Infographic: How to Calculate Your Freelance Hourly Rate](http://blog.creativelive.com/how-to-calculate-freelance-hourly-rate-infographic/)
@@ -86,8 +90,15 @@
 - [Data processing architectures – Lambda and Kappa](https://www.ericsson.com/research-blog/data-knowledge/data-processing-architectures-lambda-and-kappa/)
 
 ## Data Engineering
-- Databases
-    + [Analytics 101: Choosing the right database](https://reflect.io/blog/analytics-101-choosing-the-right-database/)
+
+
+## Databases
+- [Analytics 101: Choosing the right database](https://reflect.io/blog/analytics-101-choosing-the-right-database/)
+- [DB-Engines Ranking](https://db-engines.com/en/ranking)
+
+## Product
+- [The Product Management Hierarchy of Needs](https://medium.com/product-problems/the-product-management-hierarchy-of-needs-1003b6c439d2)
+- [What are the best product management and/or product marketing training programs?](https://www.quora.com/What-are-the-best-product-management-and-or-product-marketing-training-programs)
 
 ## Computer Science and Programming
 - Programming languages
@@ -95,6 +106,9 @@
 ](https://www.quora.com/What-is-SQL-and-why-is-it-important/answer/Kunal-Mukherjee-23?srid=h8DXi)
 - [Suffering-oriented programming](http://nathanmarz.com/blog/suffering-oriented-programming.html)
 - [Stack Overflow Developer Survey Results 2017](https://stackoverflow.com/insights/survey/2017)
+
+## Business
+- [GitLab team handbook](https://about.gitlab.com/handbook/)
 
 ## Gartner Magic Quadrants
 - [Magic Quadrant for Business Intelligence and Analytics Platforms](https://www.gartner.com/doc/reprints?id=1-2XXET8P&ct=160204)

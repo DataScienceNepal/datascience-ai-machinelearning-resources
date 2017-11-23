@@ -69,6 +69,7 @@ Note that some links are categorized according to my determination of best fit s
 - [Pattern matching](https://en.wikipedia.org/wiki/Pattern_matching)
 - [Hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization)
 - [Cross Industry Standard Process for Data Mining - CRISP-DM](https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining)
+- [Out-of-core algorithm](https://en.wikipedia.org/wiki/Out-of-core_algorithm)
 
 ## Artificial Intelligence
 - [Artificial intelligence portal](https://en.wikipedia.org/wiki/Portal:Artificial_intelligence)
@@ -113,6 +114,12 @@ Note that some links are categorized according to my determination of best fit s
 - [Data integration](https://en.wikipedia.org/wiki/Data_integration)
 - [Information integration](https://en.wikipedia.org/wiki/Information_integration)
 - [OLAP Cube](https://en.wikipedia.org/wiki/OLAP_cube)
+
+## Design
+- [Design Thinking](https://en.wikipedia.org/wiki/Design_thinking)
+
+## Data Engineering
+- [Master data management](https://en.wikipedia.org/wiki/Master_data_management)
 
 ## Data Storage, Querying, and CRUD
 - [Data warehouse](https://en.wikipedia.org/wiki/Data_warehouse)

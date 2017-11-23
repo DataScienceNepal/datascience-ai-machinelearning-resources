@@ -2,7 +2,7 @@
 
 - [AnalyticsPro : Analytics Tutorials for Data Science , BI & Big Data](http://analyticspro.org/)
 
-## MOOCS and Online Learning
+## Online Learning
 
 - [Big Data University](https://bigdatauniversity.com/)
 

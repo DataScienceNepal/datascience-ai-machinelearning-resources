@@ -1,5 +1,7 @@
 ## Blogs
 
+## AI, Machine Learning, Data Science
+
 - [InnoArchiTech](http://www.innoarchitech.com/?utm_source=github&utm_medium=repo&utm_content=repolink&utm_campaign=opensource)
 - [Gigaom](https://gigaom.com/)
 - [Flowing Data](http://flowingdata.com/)
@@ -18,5 +20,9 @@
 - [OpenAI](https://openai.com/blog/)
 - [Dataquest](http://www.dataquest.io/blog/)
 
+## Product
+- [Jobs-to-be-Done](https://jobs-to-be-done.com/)
+
 ## Blog Lists
+
 - [Quora - What are the best blogs about data?](https://www.quora.com/What-are-the-best-blogs-about-data)

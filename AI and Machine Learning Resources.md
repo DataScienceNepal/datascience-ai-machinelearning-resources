@@ -15,6 +15,8 @@
 - [RapidMiner Machine Learning Algorithm Reference Guide](http://mod.rapidminer.com/#app)
 - [food2vec - Tools for cooking with machine intelligence](https://altosaar.github.io/food2vec/)
 - [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+- [An Introduction to Hierarchical Modeling](http://mfviz.com/hierarchical-models/)
+- [Machine Learning Flashcards](https://machinelearningflashcards.com/)
 
 <h2><a name="apidocs">API Docs</a></h2>
 
@@ -28,15 +30,19 @@
 - Software Vendor Tutorials
 + [Scikit-learn Tutorials](http://scikit-learn.org/stable/tutorial/)
 + [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
++ [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
++ [r-statistics.co](http://r-statistics.co/)
 
 <h2><a name="moocs">Online Learning</a></h2>
 
+- [Google's Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
 - [deeplearning.ai](https://www.deeplearning.ai/)
 - [fast.ai](http://www.fast.ai/)
 - [Become A Machine Learning Engineer](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)
 - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
 - [Stanford Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning)
 - [Deeplearningtrack - Online data science school](https://www.deeplearningtrack.com/)
+- [Deep Learning Specialization - Coursera](https://www.coursera.org/specializations/deep-learning)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
@@ -45,3 +51,5 @@
 <h2><a name="bootcamps">Bootcamps</a></h2>
 
 <h2><a name="resources">General Resources</a></h2>
+- [My Curated List of AI and Machine Learning Resources from Around the Web](https://unsupervisedmethods.com/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
+- [Top 10 Active Big Data, Data Science, Machine Learning Influencers on LinkedIn, Updated](https://www.kdnuggets.com/2017/09/top-10-big-data-science-machine-learning-influencers-linkedin-updated.html)

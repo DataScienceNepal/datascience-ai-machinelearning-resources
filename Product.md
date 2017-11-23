@@ -239,6 +239,8 @@
 
 <h2><a name="resources">Learning Resources</a></h2>
 
+- Metrics
+    + [Metrics that matter to Product Managers](https://docs.google.com/spreadsheets/u/1/d/1fGlMW1pFGWZnMLahnA8PQG2kvkAc8ATYbi7lkVookow/htmlview#gid=0)
 - Bootcamps and Training
     + [General Assembly](https://generalassemb.ly/)
         * Product Management Bootcamp - 1 full day
@@ -299,8 +301,6 @@
     + [Scrum: a Breathtakingly Brief and Agile Introduction](https://www.amazon.com/Scrum-Breathtakingly-Brief-Agile-Introduction-ebook/dp/B007P5N8D4/ref=sr_1_15)
     + [Kanban](https://www.amazon.com/Kanban-David-J-Anderson-ebook/dp/B0057H2M70/ref=sr_1_1)
     + [#pmbook: How to become a product manager](https://www.inkshares.com/books/pmbook)
-- Articles
-- General
 
 <h2><a name="glossary">Product Management Glossary, Jargon, and Effective Communication</a></h2>
 

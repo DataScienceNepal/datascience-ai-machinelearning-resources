@@ -72,8 +72,11 @@
 - General machine learning
     + [Turi](https://turi.com/learn/) - A machine learning modeling tool for developers and data scientists
     + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
+- Natural language
+    + [Narrative Science](https://narrativescience.com/)
 
-## APIs
+## APIs and Platforms
+- [AWS Artificial Intelligence](https://aws.amazon.com/amazon-ai/)
 - [AWS Machine Learning](https://aws.amazon.com/documentation/machine-learning/)
     + [Lex](https://aws.amazon.com/lex/)
     + [Rekognition](https://aws.amazon.com/rekognition/)
@@ -88,7 +91,7 @@
     + [Speech API](https://cloud.google.com/speech/)
     + [Natural Language API](https://cloud.google.com/natural-language/)
     + [Translation API](https://cloud.google.com/translate/)
-- Other
+- Platforms and other
     + [Houndify](https://www.houndify.com/) - Add a voice-enabled AI to anything
     + [text-processing.com](http://text-processing.com/) - Natural Language Processing APIs and Python NLTK Demos
     + [IBM Watson](http://www.ibm.com/watson/developercloud/doc/getting_started/) - Cognitive computing features in your app using IBM Watson's Language, Vision, Speech and Data APIs
@@ -96,3 +99,4 @@
     + [BigML](https://bigml.com/)
     + [Carto.com](https://carto.com/)
     + [RISELab](https://rise.cs.berkeley.edu/) - Real-time Intelligence with Secure Execution
+    + [Crowdflower](https://www.crowdflower.com/) - AI for your business: Training data, machine learning and human-in-the-loop in a single platform 

@@ -56,3 +56,6 @@
     + http://archive.ics.uci.edu/ml/datasets/Student+Performance
     + http://archive.ics.uci.edu/ml/datasets/Automobile
     + http://archive.ics.uci.edu/ml/datasets/Auto+MPG
+
+## Data Marketplaces and Monetization
+- [Dawex](https://www.dawex.com/en/)

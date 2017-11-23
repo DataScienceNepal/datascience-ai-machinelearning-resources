@@ -13,6 +13,7 @@
 - [An Interactive Tutorial on Numerical Optimization](http://www.benfrederickson.com/numerical-optimization/)
 - [Immersive linear algebra](http://immersivemath.com/ila/index.html)
 - [Seeing Theory - A Visual Introduction to Probability and Statistics](http://students.brown.edu/seeing-theory)
+- [The data science interview](https://www.thedsinterview.com/)
 
 <h2><a name="apidocs">API Docs</a></h2>
 

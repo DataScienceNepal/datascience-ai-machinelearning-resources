@@ -24,6 +24,7 @@
 - [CBIG Consulting](http://www.cbigconsulting.com/)
 - [Datascope](https://datascopeanalytics.com/)
 - [Strong Analytics](https://www.strong.io/)
+- [Silicon Valley Data Science](https://svds.com/)
 
 ## Big Data
 - []()
@@ -38,3 +39,6 @@
 - [Paladin](http://www.paladinstaff.com/)
 - [Burtch Works](http://www.burtchworks.com/)
 - [Smith Hanley](http://www.smithhanley.com/)
+
+## General
+- [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome)
