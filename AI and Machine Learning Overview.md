@@ -54,16 +54,26 @@
 
 ## AI and ML Considerations and Tradeoffs (High-level)
 
-- Overfitting (bias vs variance, noise)
+- Overfitting
+    + Bias vs variance
+    + Noise
+    + Outliers
 - Model performance vs interpretability
+    + Black box vs non-black box algorithms
 - Model complexity vs simplicity (i.e., parsimony)
-- Curse of dimensionality, including having enough data to fill the feature space
+    + Dimensionality reduction
+    + Regulariziation
+    + Feature selection and engineering
+    + Model selection
+    + Resampling methods
 - Different statistical, algorithmic, and cognitive biases
 - Unsupervised learning limitations for AI
 - Balanced vs imbalanced data
-- Multicollinearity, correlation, ...
-- Confounding variables and missing features
+    + Equal proportion of target values
 - Feature selection and engineering
+    + Multicollinearity, correlation, ...
+    + Confounding variables and missing features
+    + Curse of dimensionality, including having enough data to fill the feature space
 - Model selection and performance
     + Parametric vs non-parametric
         * Parametric examples

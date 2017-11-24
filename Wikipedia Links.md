@@ -52,6 +52,7 @@ Note that some links are categorized according to my determination of best fit s
 - [Semantic analysis](https://en.wikipedia.org/wiki/Semantic_analysis_(machine_learning))
 - [Predictive analytics](https://en.wikipedia.org/wiki/Predictive_analytics)
 - [Predictive modeling](https://en.wikipedia.org/wiki/Predictive_modelling)
+- [Predictive Model Markup Language](https://en.wikipedia.org/wiki/Predictive_Model_Markup_Language)
 - [Prescriptive analytics](https://en.wikipedia.org/wiki/Prescriptive_analytics)
 - [Data mining](https://en.wikipedia.org/wiki/Data_mining)
 - [Supervised learning](https://en.wikipedia.org/wiki/Supervised_learning)
@@ -70,6 +71,7 @@ Note that some links are categorized according to my determination of best fit s
 - [Hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization)
 - [Cross Industry Standard Process for Data Mining - CRISP-DM](https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining)
 - [Out-of-core algorithm](https://en.wikipedia.org/wiki/Out-of-core_algorithm)
+- [Learning to rank](https://en.wikipedia.org/wiki/Learning_to_rank)
 
 ## Artificial Intelligence
 - [Artificial intelligence portal](https://en.wikipedia.org/wiki/Portal:Artificial_intelligence)
@@ -184,4 +186,7 @@ Note that some links are categorized according to my determination of best fit s
 - [Knowledge management](https://en.wikipedia.org/wiki/Knowledge_management)
 - [Information management](https://en.wikipedia.org/wiki/Information_management)
 - [Enterprise information management](https://en.wikipedia.org/wiki/Enterprise_information_management)
+
+## Financial
+- [Backtesting](https://en.wikipedia.org/wiki/Backtesting)
 

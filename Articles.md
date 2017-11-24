@@ -13,6 +13,8 @@
 - [The 7 Myths of AI](https://www.crowdflower.com/7-myths-ai/)
 
 ## Machine Learning
+- [Basic Concepts in Machine Learning
+](https://machinelearningmastery.com/basic-concepts-in-machine-learning/)
 - [Choosing a Machine Learning Classifier](http://blog.echen.me/2011/04/27/choosing-a-machine-learning-classifier/)
 - [The 10 Algorithms Machine Learning Engineers Need to Know](http://www.kdnuggets.com/2016/08/10-algorithms-machine-learning-engineers.html)
 - [What are the pros and cons of offline vs. online learning?](https://www.quora.com/What-are-the-pros-and-cons-of-offline-vs-online-learning)
@@ -56,6 +58,22 @@
 - [The State of Data Science and Machine Learning 2017](https://www.kaggle.com/surveys/2017)
 - [Tech Giants Are Paying Huge Salaries for Scarce A.I. Talent](https://www.nytimes.com/2017/10/22/technology/artificial-intelligence-experts-salaries.html)
 
+## Tools and Language Popularity, Comparisons, Trends, ...
+- [Tiobe Index for Programming Languages](http://www.tiobe.com/tiobe-index/)
+- [Top Analytics, Data Science software – KDnuggets 2016 Software Poll Results](http://www.kdnuggets.com/2016/06/r-python-top-analytics-data-mining-data-science-software.html)
+- [What Big Data, Data Science, Deep Learning software goes together?](http://www.kdnuggets.com/2016/06/big-data-science-deep-learning-software-associations.html)
+- [Python Deep Learning Frameworks Reviewed](https://indico.io/blog/python-deep-learning-frameworks-reviewed/)
+- [Best machine learning packages in R](http://www.kdnuggets.com/2015/06/top-20-r-machine-learning-packages.html)
+- [DL4J vs. Torch vs. Theano vs. Caffe vs. TensorFlow](https://deeplearning4j.org/compare-dl4j-torch7-pylearn)
+- [10+ Machine Learning as a Service Platforms](http://www.butleranalytics.com/10-machine-learning-as-a-service-platforms/)
+- [Python, Machine Learning, and Language Wars](http://sebastianraschka.com/blog/2015/why-python.html)
+- [All the best big data tools and how to use them](https://www.import.io/post/all-the-best-big-data-tools-and-how-to-use-them/)
+- [The big data ecosystem for science](https://www.oreilly.com/ideas/the-big-data-ecosystem-for-science?imm_mid=0ea74c&cmp=em-data-na-na-newsltr_20161109)
+- [Firing on All Cylinders: The 2017 Big Data Landscape](http://mattturck.com/bigdata2017/)
+    + [The 2017 Big Data Landscape PNG](http://mattturck.com/wp-content/uploads/2017/04/Big-Data-Landscape-2017-Matt-Turck-FirstMark.png)
+- [Four Ways to Extend Jupyter Notebook](http://mindtrove.info/4-ways-to-extend-jupyter-notebook/)
+- [Making Publication Ready Python Notebooks](http://blog.juliusschulz.de/blog/ultimate-ipython-notebook)
+
 ## Freelancing and Consulting
 - [Infographic: How to Calculate Your Freelance Hourly Rate](http://blog.creativelive.com/how-to-calculate-freelance-hourly-rate-infographic/)
 - [Freelancer 101: How to Set Up a Simple Accounting System](https://hired.com/blog/candidates/freelancer-101-simple-accounting-system/)
@@ -79,7 +97,7 @@
 - [TOP 50 DATA SCIENCE RESOURCES: THE BEST BLOGS, FORUMS, VIDEOS AND TUTORIALS TO LEARN ALL ABOUT DATA SCIENCE](https://www.ngdata.com/top-data-science-resources/)
 - [18 Resources to Learn Data Science Online](https://www.simplilearn.com/resources-to-learn-data-science-online-article)
 
-## Big Data
+## Big Data and Data Engineering
 - [Architectural Patterns for Near Real-Time Data Processing with Apache Hadoop](http://blog.cloudera.com/blog/2015/06/architectural-patterns-for-near-real-time-data-processing-with-apache-hadoop/)
 - [Real-Time Stream Processing as Game Changer in a Big Data World with Hadoop and Data Warehouse](https://www.infoq.com/articles/stream-processing-hadoop/)
 - [Real-time Data Processing in AWS Cloud](https://www.infoq.com/articles/real-time-data-processing-in-aws-cloud)
@@ -88,8 +106,7 @@
 - [Batch vs. Real Time Data Processing](http://www.datasciencecentral.com/profiles/blogs/batch-vs-real-time-data-processing)
 - [Data Lakes: Hadoop Vs. In-Memory Databases](http://www.centurylink.com/business/enterprise/blog/thinkgig/data-lakes-hadoop-vs-in-memory-databases/)
 - [Data processing architectures – Lambda and Kappa](https://www.ericsson.com/research-blog/data-knowledge/data-processing-architectures-lambda-and-kappa/)
-
-## Data Engineering
+- [Getting started: the 3 stages of data infrastructure](https://medium.com/@natekupp/getting-started-the-3-stages-of-data-infrastructure-556dac82e825)
 
 
 ## Databases

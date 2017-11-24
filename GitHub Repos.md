@@ -34,6 +34,7 @@
     + [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
     + [Python Data Science Tutorials](https://github.com/ujjwalkarn/DataSciencePython)
     + [R Data Science Tutorials](https://github.com/ujjwalkarn/DataScienceR)
+    + [TensorFlow-World](https://github.com/astorfi/TensorFlow-World)
 - Notebooks
     + [GitHub-powered Jupyter nbviewer](http://nbviewer.jupyter.org/)
     + [A gallery of interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
