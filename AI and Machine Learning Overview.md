@@ -52,14 +52,31 @@
 - Iterate and improve performance
 - Deliver/communicate/present results
 
-## AI and ML Considerations and Tradeoffs (High-level)
+## AI and ML Tradeoffs, Considerations, and Constraints (High-level)
 
-- Overfitting
+- Overfitting and quality of fit
     + Bias vs variance
     + Noise
     + Outliers
 - Model performance vs interpretability
     + Black box vs non-black box algorithms
+- Model performance
+    + Performance metric selection
+    + Inability to achieve desired performrmance level
+    + Collinearity, multicollinearity, correlation, ...
+    + Confounding variables
+    + Missing features
+- Model complexity reduction
+    + Subset selection
+        * Best subset selection
+        * Stepwise selection (forward and backward)
+    + Shrinkage and regularization
+        * Ridge regression
+        * The Lasso
+    + Dimension reduction
+        * PCA
+        * Partial least squares
+    + Tree methods (e.g., pruning, ...)
 - Model complexity vs simplicity (i.e., parsimony)
     + Dimensionality reduction
     + Regulariziation
@@ -71,10 +88,13 @@
 - Balanced vs imbalanced data
     + Equal proportion of target values
 - Feature selection and engineering
-    + Multicollinearity, correlation, ...
-    + Confounding variables and missing features
-    + Curse of dimensionality, including having enough data to fill the feature space
-- Model selection and performance
+    + Collinearity, multicollinearity, correlation, ...
+    + Confounding variables
+    + Missing features
+- Curse of dimensionality
+    + Exponential increase in data needed to prevent loss of predictive power
+    + Data must fill as much as the feature space as possible
+- Model selection
     + Parametric vs non-parametric
         * Parametric examples
             - Simple and multiple linear regresion
@@ -82,6 +102,31 @@
             - Decision trees
             - KNN - k nearest neighbors
             - SVMs
+- Model tuning and performance optimization
+    + Hyperparameter tuning
+    + Grid search
+    + Ensemble methods
+    + Bagging and boosting
+- Resampling
+    + Cross-validation
+    + Bootstrap
+- Computing resources and power
+    + CPU processing speed and computing time
+    + CPU vs GPU
+    + System memory (RAM)
+- Working with large datasets <sup>1</sup>, <sup>2</sup>
+    + Partition data vs partition execution
+    + Software-specific memory allocation
+    + Full dataset vs subset (down sampling, e.g., 1/10 to 1/100)
+    + Local development vs remote compute resources (e.g., AWS) with lots of RAM
+    + Data format transformation
+    + Iterative learning (e.g., stochastic gradient descent)
+    + Streaming machine learning
+    + Progressively loading
+    + Direct database connection for machine learning
+    + Big data platformes (e.g., Spark and MLLib)
+    + Parallel and distributed computing and associated communications cost and complexity
+    + Parameter server
 
 
 ## Real-world Applications and Vendors by Category
@@ -339,3 +384,7 @@
 - Videos
     + [The Promise of AI](https://vimeo.com/215926017)
 
+## References
+
+1. [7 Ways to Handle Large Data Files for Machine Learning](https://machinelearningmastery.com/large-data-files-machine-learning/)
+2. [Beyond Distributed ML Algorithms: Techniques for Learning from Large Data Sets](https://iwringer.wordpress.com/2015/10/06/techniques-for-learning-from-large-amounts-of-data/)
