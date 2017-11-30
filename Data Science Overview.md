@@ -95,9 +95,6 @@
     + Gives calibrated probabilities of class membership?
     + Parametric?
     + Features might need scaling?
-- Tradeoff analysis and reporting
-    + Precision vs recall
-    + Cost of false positives vs false negatives
 
 ## Data Science Components and Considerations
 - Data types
@@ -140,18 +137,6 @@
     + Scheduling
         * Streaming execution
         * Batch execution
-- Key considerations
-    + Curse of dimensionality
-    + Prediction vs inference
-        * Prediction
-            - Model an output variable Y (aka response or dependent variable) as a function of a set of input variables X (aka inputs, features, predictors, independent variables)
-                + Estimate f such that: Y = f(X) + err
-            - Consider reducible vs irreducible errors
-        * Inference
-            - Understand how Y varies with X and any underlying relationships between Y and X, particularly wrt. individual predictors and each of their impact on the response
-            - Understand the degree to which Y varies with each predictor, e.g., linear, non-linear, ...
-    + Prediction accuracy vs model interpretability
-    + Bias/variance tradeoff
 
 ## Analytics Toolbox
 - Mathematical

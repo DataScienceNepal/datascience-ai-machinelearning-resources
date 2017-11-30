@@ -113,6 +113,10 @@
     + Black box vs non-black box algorithms
 - Model performance
     + Performance metric selection
+        * Precision vs recall
+        * ROC and AUC
+    + Performance metric tradeoffs
+        * Cost of false positives vs false negatives
     + Inability to achieve desired performrmance level
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
@@ -139,6 +143,10 @@
 - Unsupervised learning limitations for AI
 - Balanced vs imbalanced data
     + Equal proportion of target values
+- Data availability, amount, and depth
+    + Curse of dimensionality
+    + Small data sets
+    + Sparse data
 - Feature selection and engineering
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
@@ -195,6 +203,14 @@
 - AI and machine learning automations and future advancements
     + Automated learning (AutoML)
         * Auto-sklearn, TPOT, ...
+- Prediction vs inference
+    + Prediction
+        * Model an output variable Y (aka response or dependent variable) as a function of a set of input variables X (aka inputs, features, predictors, independent variables)
+            - Estimate f such that: Y = f(X) + err
+        * Consider reducible vs irreducible errors
+    + Inference
+        * Understand how Y varies with X and any underlying relationships between Y and X, particularly wrt. individual predictors and each of their impact on the response
+        * Understand the degree to which Y varies with each predictor, e.g., linear, non-linear, ...
 
 
 ## Real-world Applications and Vendors by Category
