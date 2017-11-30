@@ -66,6 +66,7 @@
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
     + Missing features
+    + Global vs local minima
 - Model complexity reduction
     + Subset selection
         * Best subset selection
@@ -114,7 +115,7 @@
     + CPU processing speed and computing time
     + CPU vs GPU
     + System memory (RAM)
-- Working with large datasets <sup>1</sup>, <sup>2</sup>
+- Working with large datasets <sup>1</sup><sup>,</sup><sup>2</sup>
     + Partition data vs partition execution
     + Software-specific memory allocation
     + Full dataset vs subset (down sampling, e.g., 1/10 to 1/100)
@@ -127,6 +128,22 @@
     + Big data platformes (e.g., Spark and MLLib)
     + Parallel and distributed computing and associated communications cost and complexity
     + Parameter server
+- AI limitations
+    + Unsupervised learning to some extent
+    + Solving multiple problems at once
+- AI and machine learnng in production
+    + Deploying and maintaining
+    + Scalability
+    + Online vs offline learning
+- Statistical, algorithmic, and cognitive biases
+    + Sample or selection bias
+    + Confirmation bias
+    + Algorithmic bias <sup>3</sup>
+- AI and machine learning process
+    + CRISP-DM, etc.
+- AI and machine learning automations and future advancements
+    + Automated learning (AutoML)
+        * Auto-sklearn, TPOT, ...
 
 
 ## Real-world Applications and Vendors by Category
@@ -366,25 +383,8 @@
         * Companies
             - [InsideSales.com](https://www.insidesales.com/)
 
-## AI-specific Resources
-
-- Articles
-    + [AI 100: The Artificial Intelligence Startups Redefining Industries](https://www.cbinsights.com/blog/artificial-intelligence-top-startups/)
-    + [Sensors, Plus Brains: 17 IoT Companies Using Artificial Intelligence Tech](https://www.cbinsights.com/blog/artificial-intelligence-iot-company-list/)
-    + [Meet the 2017 CNBC Disruptor 50 companies](http://www.cnbc.com/2017/05/16/the-2017-cnbc-disruptor-50-list-of-companies.html)
-    + [MIT - The Missing Link of Artificial Intelligence](https://www.technologyreview.com/s/600819/the-missing-link-of-artificial-intelligence/)
-    + [Everyday Examples of Artificial Intelligence and Machine Learning](https://www.techemergence.com/everyday-examples-of-artificial-intelligence-and-machine-learning/)
-    + [What is Artificial Intelligence? An Informed Definition](https://www.techemergence.com/what-is-artificial-intelligence-an-informed-definition/)
-    + [Meet the 2017 CNBC Disruptor 50 companies](http://www.cnbc.com/2017/05/16/the-2017-cnbc-disruptor-50-list-of-companies.html)
-    + Company-specific
-        * [Q&A: Uber’s machine learning chief says pattern-finding computing fuels ride-hailing giant](https://www.geekwire.com/2016/uber-collapse-without-pattern-finding-computers-says-chief-machine-learning/)
-        * [Netflix - Recommending for the World](https://medium.com/netflix-techblog/recommending-for-the-world-8da8cbcf051b)
-        * [Netflix Recommendations: Beyond the 5 stars (Part 1)](https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429)
-        * [Amazon Help - About Recommendations](https://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=16465251)
-- Videos
-    + [The Promise of AI](https://vimeo.com/215926017)
-
 ## References
 
 1. [7 Ways to Handle Large Data Files for Machine Learning](https://machinelearningmastery.com/large-data-files-machine-learning/)
 2. [Beyond Distributed ML Algorithms: Techniques for Learning from Large Data Sets](https://iwringer.wordpress.com/2015/10/06/techniques-for-learning-from-large-amounts-of-data/)
+3. [Joy Buolamwini - TED Talk](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms)

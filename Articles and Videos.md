@@ -11,6 +11,19 @@
 - [THE NEURAL NETWORK ZOO](http://www.asimovinstitute.org/neural-network-zoo/)
 - [Part of Speech Tags](http://www.winwaed.com/blog/2011/11/08/part-of-speech-tags/)
 - [The 7 Myths of AI](https://www.crowdflower.com/7-myths-ai/)
+- [AI 100: The Artificial Intelligence Startups Redefining Industries](https://www.cbinsights.com/blog/artificial-intelligence-top-startups/)
+- [Sensors, Plus Brains: 17 IoT Companies Using Artificial Intelligence Tech](https://www.cbinsights.com/blog/artificial-intelligence-iot-company-list/)
+- [Meet the 2017 CNBC Disruptor 50 companies](http://www.cnbc.com/2017/05/16/the-2017-cnbc-disruptor-50-list-of-companies.html)
+- [MIT - The Missing Link of Artificial Intelligence](https://www.technologyreview.com/s/600819/the-missing-link-of-artificial-intelligence/)
+- [Everyday Examples of Artificial Intelligence and Machine Learning](https://www.techemergence.com/everyday-examples-of-artificial-intelligence-and-machine-learning/)
+- [What is Artificial Intelligence? An Informed Definition](https://www.techemergence.com/what-is-artificial-intelligence-an-informed-definition/)
+- [Meet the 2017 CNBC Disruptor 50 companies](http://www.cnbc.com/2017/05/16/the-2017-cnbc-disruptor-50-list-of-companies.html)
+- Company-specific
+    + [Q&A: Uber’s machine learning chief says pattern-finding computing fuels ride-hailing giant](https://www.geekwire.com/2016/uber-collapse-without-pattern-finding-computers-says-chief-machine-learning/)
+    + [Netflix - Recommending for the World](https://medium.com/netflix-techblog/recommending-for-the-world-8da8cbcf051b)
+    + [Netflix Recommendations: Beyond the 5 stars (Part 1)](https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429)
+    + [Amazon Help - About Recommendations](https://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=16465251)
+- [Video: The Promise of AI](https://vimeo.com/215926017)
 
 ## Machine Learning
 - [Basic Concepts in Machine Learning
