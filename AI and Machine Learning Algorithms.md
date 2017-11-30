@@ -45,6 +45,30 @@
 - Sparse dictionary learning
 - Genetic algorithms
 
+<h2><a name="tasks">Tasks by Algorithm Type</a></h2>
+
+- Text analytics/mining <sup>1</sup>
+    + Information retrieval
+    + Text categorization
+    + Text clustering
+    + Concept/entity extraction
+    + Production of granular taxonomies
+    + Sentiment analysis
+    + Document summarization
+    + Entity relation modeling
+    + Named entity recognition
+    + Recognition of Pattern Identified Entities
+    + Coreference
+    + Syntactic parsing
+    + Part-of-speech tagging
+    + Quantitative text analysis
+- Anomaly detection <sup>1</sup>
+    + Intrusion detection
+    + Fraud detection
+    + Fault detection
+    + System health monitoring
+    + Event detection in sensor networks
+
 <h2><a name="regression">Regression (Supervised) - Univariate, Multivariate, ...</a></h2>
 
 - Simple and multiple linear regression
@@ -430,5 +454,10 @@ Wikipedia
 
 - [Top Algorithms and Methods Used by Data Scientists](http://www.kdnuggets.com/2016/09/poll-algorithms-used-data-scientists.html)
 
+## References
+
+1. [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+
 <!-- ## References
 - [The Field Guide to Data Science (Booz, Allen, Hamilton)](https://www.boozallen.com/content/dam/boozallen/documents/2015/12/2015-FIeld-Guide-To-Data-Science.pdf) -->
+

@@ -1,3 +1,54 @@
+## Goals
+
+- Derive discoveries, insights, and value from data collections
+- Turning data into actions, including real-time
+- Build data products providing actionable information while abstracting away technical details, data, and analytics
+- Question discovery
+- Improving products for user benefit and experience
+- Driving business decisions and solutions
+    + Improving the decisions your business makes
+        * Decision science uses data to analyze business metrics — such as growth, engagement, profitability drivers, and user feedback — to inform strategy and key business decisions.
+        * Decision science uses data analysis and visualization to inform business and product decisions.
+    + Inform strategic decisions
+    + Inform product changes and drive company KPIs
+    + Shift from HiPPO decision making to data-driven decision making
+- Automated decision making, predictions, recommendations, and deeper insights
+- Competitive advantage, differentiation, future-proofing, and opportunity costs
+- Complement business intelligence functions
+- Predict and advise
+- Grow data economy wealth
+- Shifting between deductive (hypothesis-based) and inductive (pattern- based) reasoning (ref. Booz, Allen, Hamilton)
+    + Deductive
+        * Formulate hypotheses about relationships and underlying models
+        * Carry out experiments with the data to test hypotheses and models
+    + Inductive
+        * Exploratory data analysis to discover or refine hypotheses
+        * Discover new relationships, insights and analytic paths from the data
+- Business-level goals
+    + Increase ROI and ROA
+    + Increase revenue
+    + Increase profit
+    + Decrease costs
+    + Predict and/or reduce risk
+    + Increase operational efficiency
+    + Reduce waste
+    + Increase customer acquisition, retention, and growth
+    + Improve customer service
+    + Enhance business development
+    + Improve business governance
+    + Improve business processes
+    + Drive data and evidence-driven decisions
+    + Improve business agility
+    + Decision management and inform decisions
+    + Drive new business models
+    + Discover new products and services
+    + Business reporting and analysis
+- Self-service (ad-hoc) analytics and insights
+- Personalize customer experiences
+- Health diagnosis
+- Enterprise performance management (EPM)
+- Information discovery
+
 ## Types
 
 - AI (encompasses machine learning and other fields)
