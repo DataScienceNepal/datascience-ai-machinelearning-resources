@@ -1,9 +1,9 @@
-## Goals
+## Goals and Purpose
 
-- Derive discoveries, insights, and value from data collections
-- Turning data into actions, including real-time
-- Build data products providing actionable information while abstracting away technical details, data, and analytics
-- Question discovery
+- Derive discoveries, information, patterns, trends, and actionable insights
+    + Automated, ad-hoc, and self-service
+- Transform data into value
+- Build data products providing actionable information while abstracting away technical details
 - Improving products for user benefit and experience
 - Driving business decisions and solutions
     + Improving the decisions your business makes
@@ -16,7 +16,6 @@
 - Competitive advantage, differentiation, future-proofing, and opportunity costs
 - Complement business intelligence functions
 - Predict and advise
-- Grow data economy wealth
 - Shifting between deductive (hypothesis-based) and inductive (pattern- based) reasoning (ref. Booz, Allen, Hamilton)
     + Deductive
         * Formulate hypotheses about relationships and underlying models
@@ -24,7 +23,7 @@
     + Inductive
         * Exploratory data analysis to discover or refine hypotheses
         * Discover new relationships, insights and analytic paths from the data
-- Business-level goals
+- Business top-level goals
     + Increase ROI and ROA
     + Increase revenue
     + Increase profit
@@ -43,11 +42,27 @@
     + Drive new business models
     + Discover new products and services
     + Business reporting and analysis
-- Self-service (ad-hoc) analytics and insights
-- Personalize customer experiences
-- Health diagnosis
-- Enterprise performance management (EPM)
-- Information discovery
+- Customer goals
+    + Great user experience and design
+        * Self-evident, or at least self-explanatory
+        * Easy to use
+        * Easy to understand
+        * No extra fluff or unnecessary information
+    + Products that are sticky
+    + Personalized experiences
+- Goals for artificial intelligence in the future
+    + It just works
+    + Great user experience
+    + Helps humanity, not hurts
+- Generating and delivering actionable insights via
+    + Story telling
+    + Writing
+    + Speaking
+    + Reports
+    + Dashboards
+    + Visualizations
+    + Presentation
+    + Asynchronous messaging, notifications, insights, and alerts
 
 ## Types
 
@@ -109,7 +124,7 @@
     + Bias vs variance
     + Noise
     + Outliers
-- Model performance vs interpretability
+- Model performance vs interpretability and explainability
     + Black box vs non-black box algorithms
 - Model performance
     + Performance metric selection
@@ -122,7 +137,8 @@
     + Confounding variables
     + Missing features
     + Global vs local minima
-- Model complexity reduction
+    + Ensemble learning
+- Model complexity and reduction
     + Subset selection
         * Best subset selection
         * Stepwise selection (forward and backward)
@@ -133,24 +149,21 @@
         * PCA
         * Partial least squares
     + Tree methods (e.g., pruning, ...)
-- Model complexity vs simplicity (i.e., parsimony)
-    + Dimensionality reduction
-    + Regulariziation
     + Feature selection and engineering
-    + Model selection
-    + Resampling methods
-- Different statistical, algorithmic, and cognitive biases
-- Unsupervised learning limitations for AI
+        * Collinearity, multicollinearity, correlation, ...
+        * Confounding variables
+        * Missing features
+- Model complexity vs simplicity (i.e., parsimony)
+- Statistical, algorithmic, and cognitive biases
 - Balanced vs imbalanced data
     + Equal proportion of target values
-- Data availability, amount, and depth
+- Data availability, amount, depth, and quality
     + Curse of dimensionality
     + Small data sets
+        * Selecting models that excel with small data sets
     + Sparse data
-- Feature selection and engineering
-    + Collinearity, multicollinearity, correlation, ...
-    + Confounding variables
-    + Missing features
+    + Data veracity
+    + Signal to noise ratio
 - Curse of dimensionality
     + Exponential increase in data needed to prevent loss of predictive power
     + Data must fill as much as the feature space as possible
@@ -162,6 +175,12 @@
             - Decision trees
             - KNN - k nearest neighbors
             - SVMs
+    + Handling of redundant or irrelevant features
+    + Ability to perform with small data sets
+    + Complexity vs parsimony
+    + Ability to automatically learn feature interactions
+    + Classification via definitive vs probabilistic assigment
+- Generalization vs representation
 - Model tuning and performance optimization
     + Hyperparameter tuning
     + Grid search
@@ -172,6 +191,7 @@
     + Bootstrap
 - Computing resources and power
     + CPU processing speed and computing time
+        * Data processing, model training, and prediction speed
     + CPU vs GPU
     + System memory (RAM)
 - Working with large datasets <sup>1</sup><sup>,</sup><sup>2</sup>
@@ -180,7 +200,9 @@
     + Full dataset vs subset (down sampling, e.g., 1/10 to 1/100)
     + Local development vs remote compute resources (e.g., AWS) with lots of RAM
     + Data format transformation
-    + Iterative learning (e.g., stochastic gradient descent)
+    + Iterative learning
+        * Stochastic gradient descent
+        * KNN
     + Streaming machine learning
     + Progressively loading
     + Direct database connection for machine learning
@@ -211,6 +233,20 @@
     + Inference
         * Understand how Y varies with X and any underlying relationships between Y and X, particularly wrt. individual predictors and each of their impact on the response
         * Understand the degree to which Y varies with each predictor, e.g., linear, non-linear, ...
+- Execution models
+    + Sequencing
+        * Serial execution
+        * Parallel execution
+    + Scheduling
+        * Streaming execution
+        * Batch execution
+- Data types
+    + Structured data
+    + Unstructured data
+    + Semi-structured data
+    + Streaming data
+    + Batch data
+- Disparate data sources
 
 
 ## Real-world Applications and Vendors by Category
@@ -288,7 +324,7 @@
             - Scene reconstruction
             - Image restoration
         * Examples
-            - Manufacturing 
+            - Manufacturing
                 + Inspections
                 + Quality control
                 + Assembly line

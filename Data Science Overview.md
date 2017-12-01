@@ -1,142 +1,27 @@
-## Fields, Techniques, and Deliverables
-- General
-    + Descriptive, predictive, and prescriptive analytics
+## Applications
+- Descriptive, predictive, and prescriptive analytics
+- Machine learning
+- Data/text mining and data exploration
+- Real-time stream processing and computing (spot opportunities and risks)
+- Statistical analysis
+- Multivariate statistics
+- Automated decision making, predictions, recommendations, and insights
+- Deployed batch and/or real-time solution (e.g., analytics models and algorithms), potentially including monitoring, performance measurement, analytics, dashboards, and reporting
+
+## Analytics Types
+- Descriptive analytics - What happened and why?
+    + Visualization
+    + EDA
+- Predictive analytics - What is the probability of something happening?
     + Machine learning
-    + Data/text mining and data exploration
-    + Real-time stream processing and computing (spot opportunities and risks)
-    + Statistical analysis
-    + Multivariate statistics
-    + Automated decision making, predictions, recommendations, and insights
-    + Deployed batch and/or real-time solution (e.g., analytics models and algorithms), potentially including monitoring, performance measurement, analytics, dashboards, and reporting
-- Analytics
-    + Descriptive analytics - What happened and why?
-        * Visualization
-        * EDA
-    + Predictive analytics - What is the probability of something happening?
-        * Machine learning
-        * Artificial intelligence
-        * Forecasting
-    + Prescriptive analytics - What specific recommendations will drive business decisions and help achieve business goals (i.e., what to do if 'X' happens)
-    + Entity analytics
-    + Streaming media analytics
-    + Text analytics
-        * Semantic analysis
-    + Graph analytics (e.g., social network analysis)
-- Deep and actionable insights
-    + Story telling
-    + Writing
-    + Speaking
-    + Reports
-    + Dashboards
-    + Visualizations
-    + Presentation
-    + Asynchronous messaging, notifications, insights, and alerts
-- Supervised, unsupervised, and semi-supervised learning and prediction
-    + Pattern Matching
-    + Clustering, grouping, and characterizations
-    + Anomaly detection
-        + Fraud detection
-    - Prediction
-    - Classification
-    - Trends discovery
-- Reinforcement learning
-- Recommender system - recommendations
-- Recognition
-    + Image
-    + Speech
-    + Video
-    + Text and optical character
-    + Pattern
-    + Audio
-    + Facial    
-    + Handwriting
-- Forecasting
-- Visualization and business intelligence
-- Simulation
-- Optimization
-- Experimental design
-- Complex event processing
-- Autonomous systems
-- Smart machines and devices
-- Network and cluster analysis
-- Embedded
-    + Deep learning
-    + Robotic cognition
-- Marketing, sales, and retail
-    + Market basket analysis
-    + Churn prediction
-    + Segmentation
-    + Ranking/scoring
-    + Targeted advertising
+    + Artificial intelligence
     + Forecasting
-- Risk analysis
-- Cognitive IoT
-- Cognitive chatbots
-- Computer vision
-- Virtual and augmented reality
-- Knowledge management
-- Real time intelligence and analytics
-- Security intelligence (security, fraud, and risk analysis)
-- Stream computing
-    * Event and data streams
-
-## General Considerations
-- Dimensions for comparison (Kevin Markham)
-    + Problem type (classification/regression)
-    + Results interpretable by you?
-    + Easy to explain algorithm to others?
-    + Average predictive accuracy
-    + Training speed
-    + Prediction speed
-    + Amount of parameter tuning needed (excluding feature selection)
-    + Performs well with small number of observations?
-    + Handles lots of irrelevant features well (separates signal from noise)?
-    + Automatically learns feature interactions?
-    + Gives calibrated probabilities of class membership?
-    + Parametric?
-    + Features might need scaling?
-
-## Data Science Components and Considerations
-- Data types
-    + Structured data
-    + Unstructured data
-    + Semi-structured data
-    + Streaming data
-    + Batch data
-- Analytic classes
-    + Transforming analytics
-        * Aggregation
-        * Enrichment
-        * Processing
-    + Learning analytics
-        * Regression
-        * Clustering
-        * Classification
-        * Recommend
-    + Predictive analytics
-        * Simulation
-        * Optimization
-    + Descriptive analytics
-    + Prescriptive analytics
-- Learning models
-    + Learning style
-        * Supervised
-        * Unsupervised
-        * Semi-supervised
-    + Training style
-        * Reinforcement learning
-        * Online learning
-        * Offline learning
-    + Parametric vs non-parametric
-        * Parametric - assume model form and estimate coefficients
-        * Non-parametric - don't assume model form and find best fit to data
-- Execution models
-    + Sequencing
-        * Serial execution
-        * Parallel execution
-    + Scheduling
-        * Streaming execution
-        * Batch execution
+- Prescriptive analytics - What specific recommendations will drive business decisions and help achieve business goals (i.e., what to do if 'X' happens)
+- Entity analytics
+- Streaming media analytics
+- Text analytics
+    + Semantic analysis
+- Graph analytics (e.g., social network analysis)
 
 ## Analytics Toolbox
 - Mathematical
@@ -168,7 +53,7 @@
                 - Standard score aka z-score (+/-): (x-Mean)/StdDev
                 - Min-Max aka unity-based normalization ([0, 1]): (x-Min)/Range
             * Other
-                - General feature scaling (adjust to range): (Min+Range)*FeatureScaledValue
+                - General feature scaling (adjust to range): (Min+Range) * FeatureScaledValue
                     + FeatureScaledValue between 0 and 1
                 - Relative to mean: x/Mean
                 - Relative to max: x/Max
@@ -318,7 +203,6 @@
     + Model validation, resampling methods, and selection
         * E.g., cross-validation
     + Model complexity reduction via subset selection, shrinkage methods, regularization (e.g., ridge regression and lasso), and dimensionality reduction
-        * Dimensionality reduction
     + Bias variance tradeoff
     + Hyperparameter optimization, grid search, ...
     + Model tuning goals
@@ -327,32 +211,6 @@
         * Robustness
         * Speed
 - Deliverables, deployment, and results communication
-
-## Types of Analytics
-- [The four types of analytics - Neil Raden](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
-    + Quantitative R&D - Type I
-        * PHD or equivalent
-        * The creation of theory and development of algorithms for all forms of quantitative analysis
-        * Quantitative Research analytics are performed by mathematicians, statisticians and other pure quantitative scientists
-    + Data scientist or quantitative analyst - Type II
-        * Advanced math/stats, not nec. PHD
-        * More practical than theoretical
-        * Incorporation of advanced analytical approaches derived from quantitative R&D activities
-        * Two sub-types - both perform roughly the same function – providing guidance and expertise in the application of quantitative analysis – they are differentiated by the sophistication of the techniques applied
-            - Heavy
-                + Understand the mathematics behind the analytics and may apply very complex tools
-            - Light
-                + Work with more common and well-understood techniques
-                + Approach the problems they deal with using more conventional best practices and/or packaged analytical solutions from third parties
-    + Operational analytics - Type III
-        * Business domain knowledge, optional background in statistics
-            - The part of analytics we’re most familiar with
-            - The application of Type II applications into real work is the realm of operational analysts
-            - Analytics using the _whats_ without always knowing the _whys_
-    + Business intelligence/discovery - Type IV
-        * Data and numbers oriented, but no special advanced statistical skills
-        * The analytical work we are most familiar with via reports, OLAP, dashboards and visualizations
-        * Pulling the right information, and understanding what information means
 
 ## Tips
 - Random forest usually reach optimum when max_features is set to the square root of the total number of features.
@@ -478,9 +336,6 @@
 - [Team Data Science Process (TDSP)](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-process-overview) and [Interactive graphic](https://azure.microsoft.com/en-us/documentation/learning-paths/data-science-process/)
 - [Acquire, Prepare, Analyze, Report, Act](https://www.coursera.org/learn/big-data-introduction/lecture/Fonq2/steps-in-the-data-science-process)
 - [The REASON Method: Relating, Explaining, Selecting, Outlining, and Navigating](http://www.datasciencecentral.com/m/blogpost?id=6448529%3ABlogPost%3A369943)
-
-## Data Mining
-Coming soon...
 
 <!-- ## References
 - [The Field Guide to Data Science (Booz, Allen, Hamilton)](https://www.boozallen.com/content/dam/boozallen/documents/2015/12/2015-FIeld-Guide-To-Data-Science.pdf) -->

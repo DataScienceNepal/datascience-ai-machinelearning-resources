@@ -1,12 +1,14 @@
 ### Table of Contents
 - <a href="#categories">Algorithm Categories</a>
+- <a href="#fields">Algorithms and Tasks by Field/Industry</a>
 - <a href="#regression">Regression (Supervised) - Univariate, Multivariate, ...</a>
 - <a href="#classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a>
 - <a href="#regularization">Regularization and Overfitting Prevention</a>
 - <a href="#clustering">Clustering (Unsupervised)</a>
 - <a href="#ensemble">Ensemble Methods (Supervised, Unsupervised)</a>
 - <a href="#recommendation">Recommendation</a>
-- <a href="#neural-nets" href="http://www.asimovinstitute.org/neural-network-zoo/">Neural Networks and Deep Learning</a>
+- <a href="#neural-nets">Neural Networks and Deep Learning</a>
+- <a href="#recognition">Recognition</a>
 - <a href="#anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a>
 - <a href="#text-analytics">Text Processing and Analytics</a>
 - <a href="#nlp">Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a>
@@ -25,7 +27,8 @@
 - <a href="#forecasting">Forecasting (Wikipedia)</a>
 - <a href="#simulation">Simulation</a>
 - <a href="#segmentation">Segmentation</a>
-- <a href="#experimentation">Experimentation</a>
+- <a href="#experimentation">Experimentation and Experimental Design</a>
+- <a href="#embedded">Embedded</a>
 - <a href="#hypothesis">Hypothesis Testing</a>
 - <a href="#other">Other Fields, Algorithms, and Tasks</a>
 - <a href="#polls">Polls and Popularity</a>
@@ -68,6 +71,16 @@
     + Fault detection
     + System health monitoring
     + Event detection in sensor networks
+
+<h2><a name="fields">Algorithms and Tasks by Field/Industry</a></h2>
+
+- Marketing
+    + Market basket analysis
+    + Churn prediction
+    + Segmentation
+    + Ranking/scoring
+    + Targeted advertising
+    + Forecasting
 
 <h2><a name="regression">Regression (Supervised) - Univariate, Multivariate, ...</a></h2>
 
@@ -192,8 +205,28 @@
 - Support vector machines (SVM)
 - Kohonen networks (KN, also self organising (feature) map, SOM, SOFM) 
 
+<h2><a name="recognition">Recognition</a></h2>
+
+- Image
+- Speech
+- Video
+- Text and optical character
+- Pattern
+- Audio
+- Facial    
+- Handwriting
+
 <h2><a name="anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a></h2>
 
+**Applications**
+
+- Intrusion detection
+- Fraud detection
+- Fault detection
+- System health monitoring
+- Event detection in sensor networks
+
+**Algorithms**
 - Density-based techniques - K-nearest neighbor, Local outlier factor
 - Subspace and correlation-based outlier detection for high-dimensional data
 - One class support vector machines
@@ -422,17 +455,22 @@ Wikipedia
 - Demographic
 - Geographic
 
-<h2><a name="experimentation">Experimentation</a></h2>
+<h2><a name="experimentation">Experimentation and Experimental Design</a></h2>
 
 - Design of Experiments (DOE)
 - A/B testing
+
+<h2><a name="embedded">Embedded</a></h2>
+
+- Deep learning
+- Robotic cognition
 
 <h2><a name="hypothesis">Hypothesis Testing</a></h2>
 
 - T-test - Compare two groups
 - ANOVA - Compare multiple groups
 
-<h2><a name="other">Other Fields, Algorithms, and Tasks</a></h2>
+<h2><a name="other">Other Algorithms</a></h2>
 
 - Massive-scale graph
 - Geospatial temporal predictive analytics

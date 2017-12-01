@@ -47,6 +47,7 @@
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
 - [arXiv.org](https://arxiv.org/) - Cornell University's open access to 1MM+ e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics
+- [The four types of analytics - Neil Raden](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
 
 <h2><a name="bootcamps">Bootcamps</a></h2>
 

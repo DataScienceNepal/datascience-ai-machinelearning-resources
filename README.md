@@ -17,7 +17,7 @@ Alex
 <h2><a name="toc">Table of Contents</a></h2>
 
 - Data Science and Advanced Analytics
-    + [AI and Machine Learning Algorithms](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/AI%20and%20Machine%20Learning%20Algorithms.md)
+    + [AI and Machine Learning Algorithms and Applications](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/AI%20and%20Machine%20Learning%20Algorithms%20and%20Applications.md)
     + [AI and Machine Learning Overview](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/AI%20and%20Machine%20Learning%20Overview.md)
     + [AI and Machine Learning Software](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/AI%20and%20Machine%20Learning%20Software.md)
     + [Data Science Overview](https://github.com/InnoArchiTech/datascience-ai-machinelearning-resources/blob/master/Data%20Science%20Overview.md)
