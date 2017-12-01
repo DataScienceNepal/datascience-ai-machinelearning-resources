@@ -1,6 +1,6 @@
 ### Table of Contents
 - <a href="#categories">Algorithm Categories</a>
-- <a href="#fields">Algorithms and Tasks by Field/Industry</a>
+- <a href="#fields">Algorithms and Applications by Field/Industry</a>
 - <a href="#regression">Regression (Supervised) - Univariate, Multivariate, ...</a>
 - <a href="#classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a>
 - <a href="#regularization">Regularization and Overfitting Prevention</a>
@@ -31,7 +31,8 @@
 - <a href="#experimentation">Experimentation and Experimental Design</a>
 - <a href="#embedded">Embedded</a>
 - <a href="#hypothesis">Hypothesis Testing</a>
-- <a href="#other">Other Fields, Algorithms, and Tasks</a>
+- <a href="#hybrid">Hybrid Solutions and Applications</a>
+- <a href="#other">Other Algorithms</a>
 - <a href="#polls">Polls and Popularity</a>
 
 <h2><a name="categories">Algorithm Categories</a></h2>
@@ -49,15 +50,21 @@
 - Sparse dictionary learning
 - Genetic algorithms
 
-<h2><a name="fields">Algorithms and Tasks by Field/Industry</a></h2>
+<h2><a name="fields">Algorithms and Applications by Field/Industry</a></h2>
 
 - Marketing
-    + Market basket analysis
-    + Churn prediction
     + Segmentation
     + Ranking/scoring
-    + Targeted advertising
-    + Forecasting
+    + Market basket analysis > location and promotions of items
+    + Cohort analysis and segmentation > targeted marketing
+    + Customer churn prediction > churn prevention
+    + Customer lifetime value forecasting > future business value and predicting growth
+    + Targeted and personalized advertising
+    + Companies
+        * [Appier](https://www.appier.com/)
+        * [Voyager Labs](http://voyagerlabs.co/)
+- Sales
+    + Revenue forecasting and growth
 - Security intelligence (security, fraud, and risk analysis)
 
 <h2><a name="regression">Regression (Supervised) - Univariate, Multivariate, ...</a></h2>
@@ -80,6 +87,14 @@
 
 **Example Applications**
 
+- Stock market predictions and algorithmic trading
+    + Companies
+        * [Kavout](https://www.kavout.com/)
+        * [Sentient](http://www.sentient.ai/)
+        * [Genotick](http://genotick.com/)
+        * [Numerai](https://numer.ai/)
+        * [QPLUM](https://www.qplum.co/)
+
 <h2><a name="classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a></h2>
 
 - Linear
@@ -100,6 +115,22 @@
 - Gradient tree boosting
 
 **Example Applications**
+
+- Many diseases or issues, including stroke, cancer, ...
+    + Cancer detection using cell-free genomes
+    + Cardiovascular events prediction (e.g., heart attack, stroke)
+    + Companies
+        * [Google DeepMind](https://deepmind.com/)
+        * IBM's [Watson](https://www.ibm.com/watson/) (Watson for Oncology)
+        * Others
+            * [Freenome](https://www.freenome.com/)
+            * [CureMetrix](http://curemetrix.com/)
+- Spam for email
+- Smart email categorization (Gmail)
+    + Primary, social, and promotion inboxes, as well as labeling emails as important
+- Credit decisions
+    + Companies
+        * [Underwrite.ai](http://www.underwrite.ai/)
 
 <h2><a name="regularization">Regularization and Overfitting Prevention</a></h2>
 
@@ -230,6 +261,58 @@
 
 **Example Applications**
 
+- Recognition
+    + [Shazam](https://www.shazam.com/)
+    + Wine
+        * Companies
+            - [Delectable](https://delectable.com/)
+            - [Vivino](https://www.vivino.com/)
+    + Facebook photo recognition (highlights faces and suggests friends to tag)
+    + Speech/Voice to text (faster to talk than to type acc'g to Stanford)
+        * Companies
+            - [Google Cloud Speech API](https://cloud.google.com/speech/)
+    + Text to speech
+        * Companies
+            - [Amazon Polly](https://aws.amazon.com/polly/)
+    + Video
+        * Companies
+            - [Clarifai](https://www.clarifai.com/)
+            - [Google Cloud Video Intelligence](https://cloud.google.com/video-intelligence/)
+    + OCR
+        * Mobile app check deposits and uploading receipts
+        * Post office address recognition
+    + Object recognition
+        * Companies
+            - [Pinterest](https://medium.com/@Pinterest_Engineering) (then used to recommend other pins)
+    + Image
+        * Companies
+            - [Clarifai](https://www.clarifai.com/)
+            - [Captricity](http://captricity.com/)
+            - [Google Cloud Vision API](https://cloud.google.com/vision/)
+            - [Amazon Rekognition](https://aws.amazon.com/rekognition/)
+- Computer vision
+    + Manufacturing
+        * Inspections
+        * Quality control
+        * Assembly line
+    + Visual surveillance
+        * Companies
+            - [BRS Labs AISight](https://www.genetec.com/solutions/resources/brs-labs-aisight-technology-and-omnicast-integration)
+    + Navigation, including autonomous vehicles
+        * Land, water, and space
+    + Medical image processing and diagnosis
+    + Military
+        * Detection of enemy solidiers and vehicles
+        * Missle guidance
+    + Drones
+        * Inspection (pipelines), surveillance, exploration (buildings), and protection
+        * Companies
+            - [Digital Signal](http://www.digitalsignalcorp.com/)
+            - [Shield.ai](http://shield.ai/)
+    + Item recognition
+        * Companies
+            - [Amazon Go](https://www.amazon.com/b?node=16008589011)
+
 <h2><a name="anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a></h2>
 
 **Algorithms**
@@ -245,12 +328,21 @@
 
 **Example Applications**
 
-- Wikipedia
+- Per Wikipedia
     + Intrusion detection
     + Fraud detection
     + Fault detection
     + System health monitoring
     + Event detection in sensor networks
+- Manufacturing
+- Data security
+    + Companies
+        * [Cylance](https://www.cylance.com/en_us/home.html)
+        * [Darktrace](https://www.darktrace.com/)
+- Personal security (security screenings at airports, stadiums, concerts, and other venues)
+- Law enforcement
+- Application performance
+- Credit card fraud detection
 
 <h2><a name="text-analytics" href="https://en.wikipedia.org/wiki/Natural_language_processing">Text Processing, Analytics, and Mining</a></h2>
 
@@ -306,6 +398,49 @@
     + Text-to-speech
 
 **Example Applications**
+
+- Smart personal assistants
+    + Companies
+        * [Alexa](https://developer.amazon.com/alexa)
+        * [Google Assistant](https://assistant.google.com/)
+        * [Siri](https://www.apple.com/ios/siri/)
+    + Uses
+        * Internet searches and answer questions
+        * Set reminders
+        * Integrate with your calendar
+            - Make appointments
+        * Receive sports, news, and finance updates
+        * Create to-do lists
+        * Order items online
+        * Use services (e.g., order an Uber)
+        * Play music
+        * Play games
+        * Smart home integration
+- NLG - computer generated reports and news
+    + Summarizing documents
+    + Story telling
+    + Sports recaps
+    + Companies
+        * [Narrative Science](https://www.narrativescience.com/)
+- NLP and language translation
+    + Voicemail transcripts
+    + eDiscovery
+    + Companies
+        * [Google Natural Language API](https://cloud.google.com/natural-language/)
+        * [Google Cloud Translation API](https://cloud.google.com/translate/)
+        * [Textio](https://textio.com/) for writing optimal job descriptions
+- NLU and Chatbots
+    + Shopping
+    + Errands
+    + Day to day tasks
+    + Companies
+        * [x.ai](https://x.ai/) (personal assistant)
+        * [MindMeld](https://www.mindmeld.com/)
+        * [Google Inbox Smart Reply](https://blog.google/products/gmail/save-time-with-smart-reply-in-gmail/)
+        * [Amazon Lex](https://aws.amazon.com/lex/), includes Automatic speech recognition (ASR)
+- Smart instant messaging
+    + Companies
+        * [Google Allo](https://allo.google.com/) smart messaging app (https://allo.google.com/)
 
 <h2><a name="reinforcement">Reinforcement Learning</a></h2>
 
@@ -525,6 +660,69 @@
 
 - T-test - Compare two groups
 - ANOVA - Compare multiple groups
+
+<h2><a name="hybrid">Hybrid Solutions and Applications</a></h2>
+
+**Example Applications**
+- Google search
+- Autonymous vehicles (Business insider)
+    + Reduce accidents and related injuries and death
+    + Improved traffic (via ridesharing and smart traffic lights) and fuel efficiency
+    + Reduced carbon emissions
+    + Faster commutes and travel time
+    + Get your time back in the vehicle to do what you want
+    + Efficient ride-sharing
+    + Companies
+        * [Zoox](http://zoox.com/)
+        * [Nauto](http://www.nauto.com/)
+        * [nuTonomy](http://nutonomy.com/)
+- Home monitoring, control, and security
+    + Companies
+        * [Flare](https://buddyguard.io/)
+- Voice-controled robotics
+- Photo-realistic pictures generation from text or sketches
+    + [NYU article](http://cds.nyu.edu/astronomers-explore-uses-ai-generated-images-using-ai-generating-imagess/)
+- Music generation
+    + Companies
+        * [Jukedeck](https://www.jukedeck.com/)
+- Movie and script generation
+- Automatically generated software code
+    + Companies
+        * [DeepCoder](https://openreview.net/pdf?id=ByldLrqlx) (Microsoft and Cambridge)
+- Authentication without passwords (using mobile phone that knows it's you)
+    + Companies
+        * [TypingDNA](https://typingdna.com/)
+- Customer support
+    + Companies
+        * [DigitalGenius](https://www.digitalgenius.com/)
+- Optimized directions and routes
+- Plagiarism Checkers
+- Robo-readers and graders
+- Virtual reality
+- Gaming
+- [Zillow’s](https://www.zillow.com/zestimate/) “zestimate” feature, which estimates the price of homes
+- Medical/Health
+    + Companies
+        * [BenevolentAI](http://benevolent.ai/)
+- Sales
+    + Companies
+        * [InsideSales.com](https://www.insidesales.com/)
+- Crime
+    + Who, Type, and location
+    + Based on previous crime and social media activity
+    + Companies
+        * [BRS Labs AISight](https://www.genetec.com/solutions/resources/brs-labs-aisight-technology-and-omnicast-integration)
+- Suicide risk
+    + Based on a lot of different risk factors
+    + Companies
+        * [Facebook](https://research.fb.com/category/facebook-ai-research-fair/)
+        * [Instagram](https://www.instagram.com/)
+        * [Cogito](https://www.cogitocorp.com/)
+- Agriculture - predicting crop yields
+    + Companies
+        * [Descartes Lab](http://www.descarteslabs.com/)
+        * [Stanford's Sustainability and Artificial Intelligence Lab](http://sustain.stanford.edu/)
+- Uber's ETA
 
 <h2><a name="other">Other Algorithms</a></h2>
 
