@@ -48,30 +48,6 @@
 - Sparse dictionary learning
 - Genetic algorithms
 
-<h2><a name="tasks">Tasks by Algorithm Type</a></h2>
-
-- Text analytics/mining <sup>1</sup>
-    + Information retrieval
-    + Text categorization
-    + Text clustering
-    + Concept/entity extraction
-    + Production of granular taxonomies
-    + Sentiment analysis
-    + Document summarization
-    + Entity relation modeling
-    + Named entity recognition
-    + Recognition of Pattern Identified Entities
-    + Coreference
-    + Syntactic parsing
-    + Part-of-speech tagging
-    + Quantitative text analysis
-- Anomaly detection <sup>1</sup>
-    + Intrusion detection
-    + Fraud detection
-    + Fault detection
-    + System health monitoring
-    + Event detection in sensor networks
-
 <h2><a name="fields">Algorithms and Tasks by Field/Industry</a></h2>
 
 - Marketing
@@ -218,7 +194,7 @@
 
 <h2><a name="anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a></h2>
 
-**Applications**
+**Applications** <sup>1</sup>
 
 - Intrusion detection
 - Fraud detection
@@ -237,14 +213,28 @@
 - Ensemble techniques, using feature bagging, score normalization and different sources of diversity
 - PCA (Principle component analysis)
 
-<h2><a name="text-analytics" href="https://en.wikipedia.org/wiki/Natural_language_processing">Text Processing and Analytics</a></h2>
+<h2><a name="text-analytics" href="https://en.wikipedia.org/wiki/Natural_language_processing">Text Processing, Analytics, and Mining</a></h2>
 
 - [Text processing](https://en.wikipedia.org/wiki/Text_processing)
 - [Lexical Analysis](https://en.wikipedia.org/wiki/Lexical_analysis)
+- [Text Mining](https://en.wikipedia.org/wiki/Text_mining)
+    + Information retrieval
+    + Text categorization
+    + Text clustering
+    + Concept/entity extraction
+    + Production of granular taxonomies
+    + Sentiment analysis
+    + Document summarization
+    + Entity relation modeling
+    + Named entity recognition
+    + Recognition of Pattern Identified Entities
+    + Coreference
+    + Syntactic parsing
+    + Part-of-speech tagging
+    + Quantitative text analysis
 
 <h2><a name="nlp" href="https://en.wikipedia.org/wiki/Natural_language_processing">Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a></h2>
 
-Wikipedia
 - Syntax
     + Lemmatization
     + Morphological segmentation
