@@ -8,7 +8,7 @@
 - <a href="#ensemble">Ensemble Methods (Supervised, Unsupervised)</a>
 - <a href="#recommendation">Recommendation</a>
 - <a href="#neural-nets">Neural Networks and Deep Learning</a>
-- <a href="#recognition">Recognition</a>
+- <a href="#recognition">Recognition and Computer Vision</a>
 - <a href="#anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a>
 - <a href="#text-analytics">Text Processing and Analytics</a>
 - <a href="#nlp">Natural Language Processing (NLP), Natural Language Generation (NLG), and Natural Language Understanding (NLU)</a>
@@ -17,6 +17,7 @@
 - <a href="#model-tuning">Model tuning: bias variance tradeoff and model complexity</a>
 - <a href="#features">Feature extraction, feature selection, and feature engineering</a>
 - <a href="#dimensionality-reduction">Dimensionality Reduction</a>
+- <a href="#reality">Virtual and Augmented Reality</a>
 - <a href="#information-retrieval">Information Retrieval</a>
 - <a href="#logical-reasoning">Logical Reasoning</a>
 - <a href="#optimization">Optimization</a>
@@ -57,6 +58,7 @@
     + Ranking/scoring
     + Targeted advertising
     + Forecasting
+- Security intelligence (security, fraud, and risk analysis)
 
 <h2><a name="regression">Regression (Supervised) - Univariate, Multivariate, ...</a></h2>
 
@@ -181,7 +183,7 @@
 - Support vector machines (SVM)
 - Kohonen networks (KN, also self organising (feature) map, SOM, SOFM) 
 
-<h2><a name="recognition">Recognition</a></h2>
+<h2><a name="recognition">Recognition and Computer Vision</a></h2>
 
 - Image
 - Speech
@@ -332,6 +334,10 @@
     + Inverse document frequency (IDF)
 - Latent Dirichlet Allocation (LDA)
 
+<h2><a name="reality">Virtual and Augmented Reality</a></h2>
+
+- Coming soon... 
+
 <h2><a name="information-retrieval">Information Retrieval</a></h2>
 
 - Discounted cumulative gain (DCG)
@@ -466,7 +472,7 @@
 - Geospatial temporal predictive analytics
 - Hyperfast analytics
 - Embedded deep learning
-- Cognitive machine learning
+- Cognitive machine learning and IoT
 - Natural language processing, generation, and understanding
 - Structured database generation
 - Game theory
