@@ -6,7 +6,7 @@
 - <a href="#regularization">Regularization and Overfitting Prevention</a>
 - <a href="#clustering">Clustering (Unsupervised)</a>
 - <a href="#ensemble">Ensemble Methods (Supervised, Unsupervised)</a>
-- <a href="#recommendation">Recommendation</a>
+- <a href="#recommendation">Recommender Systems and Recommendations</a>
 - <a href="#neural-nets">Neural Networks and Deep Learning</a>
 - <a href="#recognition">Recognition and Computer Vision</a>
 - <a href="#anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a>
@@ -78,6 +78,8 @@
 - Logistic regression
 - Nonlinear regression
 
+**Example Applications**
+
 <h2><a name="classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a></h2>
 
 - Linear
@@ -96,6 +98,8 @@
     + Nearest neighbor methods (e.g., k-NN or k-Nearest Neighbors)
 - One vs Rest and One vs One (binary transformation)
 - Gradient tree boosting
+
+**Example Applications**
 
 <h2><a name="regularization">Regularization and Overfitting Prevention</a></h2>
 
@@ -128,6 +132,8 @@
 - Fractal
 - Guassian mixture models
 
+**Example Applications**
+
 <h2><a name="ensemble">Ensemble Methods (Supervised, Unsupervised)</a></h2>
 
 - Bootstrap aggregating (bagging)
@@ -150,11 +156,39 @@
 - Bayesian model combination (BMC)
 - Bucket of models
 
-<h2><a name="recommendation">Recommendation</a></h2>
+<h2><a name="recommendation">Recommender Systems and Recommendations</a></h2>
 
 - Collaborative filtering
 - Content-based filtering
 - Graph-based methods
+
+**Example Applications**
+
+- Netflix
+    + Increase engagement, retention, and revenues
+    + Examples
+        * "Because you watched ..."
+        * "Top picks for ..."
+        * Recommendations by category
+            - Trending Now
+            - Neflix originals
+            - TV Documentaries
+- Amazon
+    + Increase average order size and therefore sales (studies show between 5.9 to 30%)
+    + Examples
+        * "Customers who bought this item also bought"
+        * "Customers who viewed this item also viewed"
+        * "What other items do customers buy after viewing this item?"
+        * "Recommendations for you in ..." (e.g., "Recommended for You in Kindle Books")
+        * "New for you"
+        * "Inspired by your shopping trends"
+        * "Inspired by your Wish List"
+- Robo-advisors and portfolio rebalancing
+    + [Weathfront](https://www.wealthfront.com/)
+    + [Betterment](https://www.betterment.com/)
+- Spotify
+    + [Daily Mix](https://support.spotify.com/us/using_spotify/search_play/daily-mix/)
+- Personalized news feeds, including Facebook
 
 <h2><a name="neural-nets" href="http://www.asimovinstitute.org/neural-network-zoo/">Neural Networks and Deep Learning</a></h2>
 
@@ -181,7 +215,7 @@
 - Extreme learning machines (ELM)
 - Liquid state machines (LSM)
 - Support vector machines (SVM)
-- Kohonen networks (KN, also self organising (feature) map, SOM, SOFM) 
+- Kohonen networks (KN, also self organising (feature) map, SOM, SOFM)
 
 <h2><a name="recognition">Recognition and Computer Vision</a></h2>
 
@@ -194,15 +228,9 @@
 - Facial    
 - Handwriting
 
+**Example Applications**
+
 <h2><a name="anomaly">Anomaly Detection (Supervised, Unsupervised, Semi-supervised)</a></h2>
-
-**Applications** <sup>1</sup>
-
-- Intrusion detection
-- Fraud detection
-- Fault detection
-- System health monitoring
-- Event detection in sensor networks
 
 **Algorithms**
 - Density-based techniques - K-nearest neighbor, Local outlier factor
@@ -214,6 +242,15 @@
 - Fuzzy logic based outlier detection
 - Ensemble techniques, using feature bagging, score normalization and different sources of diversity
 - PCA (Principle component analysis)
+
+**Example Applications**
+
+- Wikipedia
+    + Intrusion detection
+    + Fraud detection
+    + Fault detection
+    + System health monitoring
+    + Event detection in sensor networks
 
 <h2><a name="text-analytics" href="https://en.wikipedia.org/wiki/Natural_language_processing">Text Processing, Analytics, and Mining</a></h2>
 
@@ -268,6 +305,8 @@
     + Speech segmentation
     + Text-to-speech
 
+**Example Applications**
+
 <h2><a name="reinforcement">Reinforcement Learning</a></h2>
 
 - Markov decision process (MDP)
@@ -285,6 +324,8 @@
 - Learning Automata[edit]
 - Example
     + Multi-armed bandit problem
+
+**Example Applications**
 
 <h2><a name="model-selection">Model selection, validation, and resampling methods</a></h2>
 
@@ -336,7 +377,7 @@
 
 <h2><a name="reality">Virtual and Augmented Reality</a></h2>
 
-- Coming soon... 
+- Coming soon...
 
 <h2><a name="information-retrieval">Information Retrieval</a></h2>
 
@@ -372,9 +413,13 @@
 - Monte Carlo methods
 - Empirical risk minimization
 
+**Example Applications**
+
 <h2><a name="ranking">Ranking</a></h2>
 
 - [Ranking](https://en.wikipedia.org/wiki/Ranking)
+
+**Example Applications**
 
 <h2><a name="time-series">Time-series</a></h2>
 
@@ -385,9 +430,13 @@
 - Trend and residual component decomposition
 - ARIMA modeling for forecasting and detecting trends
 
+**Example Applications**
+
 <h2><a name="survival">Survival</a></h2>
 
 - [Survival analysis](https://en.wikipedia.org/wiki/Survival_analysis)
+
+**Example Applications**
 
 <h2><a name="forecasting">Forecasting (Wikipedia)</a></h2>
 
@@ -434,6 +483,8 @@
 - Considerations
     + Seasonality and cyclic behaviour
 
+**Example Applications**
+
 <h2><a name="simulation">Simulation</a></h2>
 
 - Discrete event simulation
@@ -445,20 +496,29 @@
 - ODES and PDES
 - Fuzzy logic
 
+**Example Applications**
+
 <h2><a name="segmentation">Segmentation</a></h2>
 
 - Behavioral
 - Demographic
 - Geographic
 
+**Example Applications**
+
 <h2><a name="experimentation">Experimentation and Experimental Design</a></h2>
 
 - Design of Experiments (DOE)
 - A/B testing
 
+**Example Applications**
+
 <h2><a name="embedded">Embedded</a></h2>
 
 - Deep learning
+
+**Example Applications**
+
 - Robotic cognition
 
 <h2><a name="hypothesis">Hypothesis Testing</a></h2>
