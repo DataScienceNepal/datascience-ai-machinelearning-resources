@@ -111,3 +111,4 @@
 - [Data Science Weekly resources](https://www.datascienceweekly.org/data-science-resources)
 - [Data School resources](http://www.dataschool.io/resources/)
 - [Learn DataSci Data Science Resources](http://www.learndatasci.com/data-science-resources/)
+- [Advanced R Style guide](http://adv-r.had.co.nz/Style.html)

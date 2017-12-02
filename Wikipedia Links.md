@@ -88,6 +88,7 @@ Note that some links are categorized according to my determination of best fit s
     + [WordNet](https://en.wikipedia.org/wiki/WordNet)
 - [Natural language generation](https://en.wikipedia.org/wiki/Natural_language_generation)
 - [Natural language understanding](https://en.wikipedia.org/wiki/Natural_language_understanding)
+- [Activation function](https://en.wikipedia.org/wiki/Activation_function)
 
 ## Data visualization
 - [Business intelligence](https://en.wikipedia.org/wiki/Business_intelligence)

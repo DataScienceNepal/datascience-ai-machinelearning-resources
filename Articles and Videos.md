@@ -13,6 +13,7 @@
 - <a href="#big-data">Big Data and Data Engineering</a>
 - <a href="#databases">Databases, Schemas, and Data Modeling</a>
 - <a href="#product">Product</a>
+- <a href="#methodologies">Methodologies</a>
 - <a href="#cs">Computer Science and Programming</a>
 - <a href="#biz">Business</a>
 - <a href="#gartner">Gartner Magic Quadrants</a>
@@ -49,6 +50,10 @@
 - [Here are 50 Companies Leading the AI Revolution](http://fortune.com/2017/02/23/artificial-intelligence-companies/)
 - [The Race For AI: Google, Baidu, Intel, Apple In A Rush To Grab Artificial Intelligence Startups](https://www.cbinsights.com/research/top-acquirers-ai-startups-ma-timeline/)
 - [Emerging AI: 7 Industries Including Law, HR, Travel And Media Where AI Is Making An Impact](https://www.cbinsights.com/research/artificial-intelligence-emerging-industries/)
+- [The Basics of Artificial Intelligence Decoded](http://blog.solvvy.com/blog/the-basics-of-artificial-intelligence-decoded)
+- [Demystifying Deep Reinforcement Learning](https://www.intelnervana.com/demystifying-deep-reinforcement-learning/)
+- [Applying deep learning to real-world problems](https://medium.com/merantix/applying-deep-learning-to-real-world-problems-ba2d86ac5837)
+- [Top AI Influencers](http://www.onalytica.com/blog/posts/artificial-intelligence-2017-top-100-influencers-brands-and-publications/)
 
 <h2><a name="ml"></a>Machine Learning</h2>
 
@@ -63,6 +68,7 @@
 - [Which machine learning algorithm should I use?](http://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/)
 - [How to choose algorithms for Microsoft Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice)
 - [Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb](https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8)
+- [8 Ways Machine Learning Is Improving Companies’ Work Processes](https://hbr.org/2017/05/8-ways-machine-learning-is-improving-companies-work-processes)
 
 <h2><a name="data-sci"></a>Data Science</h2>
 
@@ -78,6 +84,7 @@
 - [40 Techniques Used by Data Scientists](https://www.datasciencecentral.com/profiles/blogs/40-techniques-used-by-data-scientists?imm_mid=0f1a15&cmp=em-data-na-na-newsltr_20170517)
 - [Top 10 Active Big Data, Data Science, Machine Learning Influencers on LinkedIn, Updated](https://www.kdnuggets.com/2017/09/top-10-big-data-science-machine-learning-influencers-linkedin-updated.html)
 - [7 awesome data science newsletters to keep you informed](http://www.dataquest.io/blog/data-science-newsletters/)
+- [Teaching the data science process](https://towardsdatascience.com/teaching-the-data-science-process-f1e9d6f87ad5)
 
 <h2><a name="scientists"></a>Data Scientists</h2>
 
@@ -116,6 +123,7 @@
 - [Tech Giants Are Paying Huge Salaries for Scarce A.I. Talent](https://www.nytimes.com/2017/10/22/technology/artificial-intelligence-experts-salaries.html)
 - [What’s next for the 2017 data science and analytics job market?](https://www.pwc.com/us/en/publications/data-science-and-analytics.html)
 - [Defining Baseline Skills](http://burning-glass.com/research/baseline-skills/)
+- [Top 12 Interesting Careers to Explore in Big Data](https://www.kdnuggets.com/2016/10/top-12-interesting-careers-explore-big-data.html)
 
 <h2><a name="tools"></a>Tools and Language Popularity, Comparisons, Trends, ...</h2>
 
@@ -137,6 +145,7 @@
 - [Stack Overflow - Developer Hiring Trends in 2017](https://stackoverflow.blog/2017/03/09/developer-hiring-trends-2017/)
 - [Top 15 Python Libraries for Data Science in 2017](https://medium.com/activewizards-machine-learning-company/top-15-python-libraries-for-data-science-in-in-2017-ab61b4f9b4a7)
 - [Top 15 Frameworks for Machine Learning Experts](https://www.kdnuggets.com/2016/04/top-15-frameworks-machine-learning-experts.html)
+- [Github stats for Python data science libraries - April, 2017](https://docs.google.com/spreadsheets/d/1wLOtLLJ65QMbLumc3F2Mop_4uPIFbyJ6iDZwOp0cXrQ/edit#gid=0)
 
 <h2><a name="freelancing"></a>Freelancing and Consulting</h2>
 
@@ -176,6 +185,7 @@
 - [Getting started: the 3 stages of data infrastructure](https://medium.com/@natekupp/getting-started-the-3-stages-of-data-infrastructure-556dac82e825)
 - [Data Pipelines in Hadoop](https://www.svds.com/data-pipelines-hadoop/)
 - [10 Data Acquisition Strategies for Startups](https://medium.com/@muellerfreitag/10-data-acquisition-strategies-for-startups-47166580ee48)
+- [Getting started: the 3 stages of data infrastructure](https://medium.com/@natekupp/getting-started-the-3-stages-of-data-infrastructure-556dac82e825)
 
 <h2><a name="databases"></a>Databases, Schemas, and Data Modeling</h2>
 
@@ -185,6 +195,8 @@
 - [Stack Overflow - Data Warehouse vs. OLAP Cube?](https://stackoverflow.com/questions/18916682/data-warehouse-vs-olap-cube)
 - [MongoDB and HBase Compared](https://www.mongodb.com/compare/mongodb-hbase)
 - [Dimensional modeling](http://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
+- [The 10 Essential Rules of Dimensional Modeling](http://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/)
+- [The importance of a date dimension in a data warehouse and BI project](https://www.linkedin.com/pulse/importance-date-dimension-data-warehouse-bi-project-dirk-cludts/)
 - [How to Choose the Right Database System: RDBMS vs. NoSql vs. NewSQL](http://www.innoarchitech.com/how-choose-right-database-system-relational-rdbms-vs-nosql-vs-newsql/)
 - [DAO vs ORM vs ActiveRecord vs TableGateway vs AHHHH!](https://www.sitepoint.com/community/t/dao-vs-orm-vs-activerecord-vs-tablegateway-vs-ahhhh/2473/2)
 
@@ -192,6 +204,14 @@
 
 - [The Product Management Hierarchy of Needs](https://medium.com/product-problems/the-product-management-hierarchy-of-needs-1003b6c439d2)
 - [What are the best product management and/or product marketing training programs?](https://www.quora.com/What-are-the-best-product-management-and-or-product-marketing-training-programs)
+- [How product marketing helps build product](https://blog.intercom.com/how-product-marketing-helps-build-product/)
+- [WHAT MAKES A GREAT PRODUCT MANAGER](https://hackernoon.com/what-makes-a-great-product-manager-3c1d03b90356)
+- [Books for Product Managers](https://www.kennorton.com/essays/books-for-product-managers.html)
+
+<h2><a name="methodologies"></a>Methodologies</h2>
+
+- [Transitioning from Scrum to Kanban](https://www.mindtheproduct.com/2017/06/transitioning-scrum-kanban/)
+- [Running in Circles - Why Agile Isn’t Working and What We Do Differently](https://m.signalvnoise.com/running-in-circles-aae73d79ce19)
 
 <h2><a name="cs"></a>Computer Science and Programming</h2>
 

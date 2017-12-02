@@ -5,7 +5,6 @@
 - <a href="#moocs">Online Learning</a>
 - <a href="#whitepapers">Whitepapers and Research</a>
 - <a href="#bootcamps">Bootcamps and Offline Learning</a>
-- <a href="#resources">General Resources</a>
 
 <h2><a name="interactive">Interactive</a></h2>
 
@@ -14,10 +13,12 @@
 - [Scikit-learn's Choosing the right estimator](http://scikit-learn.org/stable/tutorial/machine_learning_map/)
 - [RapidMiner Machine Learning Algorithm Reference Guide](http://mod.rapidminer.com/#app)
 - [food2vec - Tools for cooking with machine intelligence](https://altosaar.github.io/food2vec/)
-- [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
+- [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/Visual-interactive-guide-basics-neural-networks/)
 - [An Introduction to Hierarchical Modeling](http://mfviz.com/hierarchical-models/)
 - [Machine Learning Flashcards](https://machinelearningflashcards.com/)
 - [ConvNetJS MNIST demo](http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
+- [Exploring LSTMs](http://blog.echen.me/2017/05/30/exploring-lstms/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_134)
+- [TensorFlow Playground](http://playground.tensorflow.org/)
 
 <h2><a name="apidocs">API Docs</a></h2>
 
@@ -29,11 +30,13 @@
 - [7 Steps to Mastering Machine Learning With Python](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html)
 - [7 More Steps to Mastering Machine Learning With Python](http://www.kdnuggets.com/2017/03/seven-more-steps-machine-learning-python.html)
 - Software Vendor Tutorials
-+ [Scikit-learn Tutorials](http://scikit-learn.org/stable/tutorial/)
-+ [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
-+ [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-+ [r-statistics.co](http://r-statistics.co/)
-+ [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+- [Scikit-learn Tutorials](http://scikit-learn.org/stable/tutorial/)
+- [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [r-statistics.co](http://r-statistics.co/)
+- [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+- [Hands-on Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
+- [Machine learning algorithms tutorials](https://github.com/ethen8181/machine-learning)
 
 <h2><a name="moocs">Online Learning</a></h2>
 
@@ -47,14 +50,14 @@
 - [Deeplearningtrack - Online data science school](https://www.deeplearningtrack.com/)
 - [Deep Learning Specialization - Coursera](https://www.coursera.org/specializations/deep-learning)
 - [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai)
+- [AI Progress Measurement](https://www.eff.org/ai/metrics)
+- [Neural Networks and Deep Learning Online Book](http://neuralnetworksanddeeplearning.com/index.html)
+- [Elite Data Science Free Applied Machine Learning](https://elitedatascience.com/)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
 - [arXiv.org](https://arxiv.org/) - Cornell University's open access to 1MM+ e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics
+    + [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846)
 - [The four types of analytics - Neil Raden](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
 
 <h2><a name="bootcamps">Bootcamps and Offline Learning</a></h2>
-
-<h2><a name="resources">General Resources</a></h2>
-- [My Curated List of AI and Machine Learning Resources from Around the Web](https://unsupervisedmethods.com/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
-- [Top 10 Active Big Data, Data Science, Machine Learning Influencers on LinkedIn, Updated](https://www.kdnuggets.com/2017/09/top-10-big-data-science-machine-learning-influencers-linkedin-updated.html)

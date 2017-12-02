@@ -1,6 +1,7 @@
 ## Online Resources
 - [The Python Graph Gallery](https://python-graph-gallery.com/)
 - [The Data Visualisation Catalogue](http://www.datavizcatalogue.com/)
+- [Python Plotting for EDA](http://pythonplot.com/)
 - [dataviz.tools](http://dataviz.tools/)
 - [Tableau Public Gallery](https://public.tableau.com/en-us/s/gallery)
 - [D3 Gallery](https://github.com/d3/d3/wiki/Gallery)

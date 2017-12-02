@@ -25,6 +25,9 @@
 - [Datascope](https://datascopeanalytics.com/)
 - [Strong Analytics](https://www.strong.io/)
 - [Silicon Valley Data Science](https://svds.com/)
+- [Fishtown Analytics](https://www.fishtownanalytics.com/)
+- [District Data Labs](http://www.districtdatalabs.com/#data-science-consulting-services)
+- [InData Labs](https://indatalabs.com/)
 
 ## Big Data
 - []()

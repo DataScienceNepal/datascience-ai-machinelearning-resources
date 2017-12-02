@@ -54,6 +54,12 @@
 ## Social and Sharing
 - [Linktally.com](http://linktally.com/) - Count how many times a URL was ever shared across the 4 major social sharing sites: Facebook, Twitter, Google Plus and LinkedIn
 
+## SSL
+- [Let’s Encrypt](https://letsencrypt.org/)
+
+## CDN
+- [Fastly](https://www.fastly.com/)
+
 ## MISC
 - [Open Source License Chooser](http://choosealicense.com/)
 - [Dictionary.com](http://www.dictionary.com/)

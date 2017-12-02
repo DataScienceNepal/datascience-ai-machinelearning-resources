@@ -24,6 +24,7 @@
 - [Data.gov](https://www.data.gov/)
 - [FiveThirtyEight datasets and code](https://github.com/fivethirtyeight/data)
 - [data.world](https://data.world/)
+- [Great IoT, Sensor and other Data Sets Repositories](https://www.datasciencecentral.com/profiles/blogs/great-sensor-datasets-to-prepare-your-next-career-move-in-iot-int)
 
 **Dataset By Category**
 - Streaming Open Data
@@ -56,6 +57,8 @@
     + http://archive.ics.uci.edu/ml/datasets/Student+Performance
     + http://archive.ics.uci.edu/ml/datasets/Automobile
     + http://archive.ics.uci.edu/ml/datasets/Auto+MPG
+- Computer Vision
+    + http://www.cvpapers.com/datasets.html
 
 **Specific Data Sets**
 - [3 Million Instacart Orders, Open Sourced](https://www.instacart.com/datasets/grocery-shopping-2017)

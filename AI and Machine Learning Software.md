@@ -2,14 +2,18 @@
 - Deep learning and neural networks (General)
     + [Torch](http://torch.ch/docs/getting-started.html#_) - A scientific computing framework with wide support for machine learning algorithms that puts GPUs first
     + [Caffe](http://caffe.berkeleyvision.org/) - A deep learning framework made with expression, speed, and modularity in mind
+        * [Caffe Model Zoo](http://caffe.berkeleyvision.org/model_zoo.html)
+        * [Model Zoo Repo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
     + [DL4J](https://deeplearning4j.org/) - Open-Source, Distributed, Deep Learning Library for the JVM
     + [Theano](http://deeplearning.net/software/theano/) - Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently
     + [TensorFlow](https://www.tensorflow.org/versions/r0.11/api_docs/index.html) - Open source software library for numerical computation using data flow graphs
     + [Amazon Deep Scalable Sparse Tensor Network Engine (DSSTNE)](https://github.com/amznlabs/amazon-dsstne) - An Amazon developed library for building Deep Learning (DL) machine learning (ML) models
     + [Keras: Deep Learning library for Theano and TensorFlow](https://keras.io/) - A high-level neural networks library, written in Python and capable of running on top of either TensorFlow or Theano
+        * [Deep learning models](https://github.com/fchollet/deep-learning-models)
     + [Blocks](http://blocks.readthedocs.io/en/latest/) - A framework that helps you build and manage neural network models on using Theano
     + [Lasagne](http://lasagne.readthedocs.io/en/latest/) - A lightweight library to build and train neural networks in Theano
     + [MXNet](http://mxnet.io/api/python/index.html#python-api-reference) - Flexible and Efficient Library for Deep Learning
+        * [Model Zoo](http://mxnet.incubator.apache.org/model_zoo/index.html)
     + [Sonnet](https://github.com/deepmind/sonnet) - TensorFlow-based neural network library
 - Artificial Intelligence (AI)
     + [PyBrain](http://pybrain.org/) - Python-Based Reinforcement Learning, Artificial Intelligence and Neural Network Library
@@ -74,8 +78,11 @@
     + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
 - Natural language
     + [Narrative Science](https://narrativescience.com/)
+- EDA and Feature Analysis
+    + [Facets - Know Your Data](https://pair-code.github.io/facets/)
+        * [Facets: An Open Source Visualization Tool for Machine Learning Training Data](https://research.googleblog.com/2017/07/facets-open-source-visualization-tool.html)
 
-## APIs and Platforms
+## APIs, SaaS, and Platforms
 - [AWS Artificial Intelligence](https://aws.amazon.com/amazon-ai/)
 - [AWS Machine Learning](https://aws.amazon.com/documentation/machine-learning/)
     + [Lex](https://aws.amazon.com/lex/)
@@ -104,3 +111,5 @@
 - [Recast.ai](https://recast.ai/)
 - [Dialogflow - Formerly API.AI](https://dialogflow.com/)
 - [IBM Watson](https://www.ibm.com/watson/developer-resources/)
+- [Networked Insights - Audience.ai](http://www.networkedinsights.com/)
+- [KnowledgeHound](http://www.knowledgehound.com/)

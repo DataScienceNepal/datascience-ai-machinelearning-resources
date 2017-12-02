@@ -9,6 +9,7 @@
 - [Gulp](http://gulpjs.com/plugins/)
 - [Grunt](http://gruntjs.com/plugins)
 - [Cookiecutter - Project templates](https://github.com/audreyr/cookiecutter)
+- [Data Version Control](https://dataversioncontrol.com/) - Make your data science projects reproducible and shareable.
 
 ## Python Software, Libraries, and Packages
 
@@ -65,6 +66,7 @@
 - Package and Environment Management
     + [devtools](https://cran.r-project.org/web/packages/devtools/index.html) - Collection of package development tools
     + [packrat](https://cran.r-project.org/web/packages/packrat/index.html) - Manage the R packages your project depends on in an isolated, portable, and reproducible way
+    + [R Docuementation](https://www.rdocumentation.org/)
 - Platform
     + [proto](https://cran.r-project.org/web/packages/proto/index.html) - An object oriented system using object-based, also called prototype-based, rather than class-based object oriented ideas
     + [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html) - Provides a mechanism for chaining commands with a new forward-pipe operator, %>%
@@ -122,13 +124,16 @@
     + [Britecharts](http://eventbrite.github.io/britecharts/)
 - Reinforcement learning
     + [Ray](http://ray.readthedocs.io/en/latest/index.html) - A flexible, high-performance distributed execution framework
-- Notebooks and collaboration
+- Notebooks, collaboration, and platforms
     + [Jupyter notebook](http://jupyter-notebook.readthedocs.io/en/latest/) - A web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text
     + [Jupyter notebook extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) - A collection of various notebook extensions for Jupyter
     + [Mode Analytics](https://about.modeanalytics.com/) - A SQL editor, Python notebook, and visualization builder, all rolled into one.
     + [Apache Zeppelin](https://zeppelin.apache.org/) - A web-based notebook that enables interactive data analytics. 
     + [Beaker](http://beakernotebook.com/index) - A notebook-style development environment for working interactively with large and complex datasets. 
     + [Dataiku](http://www.dataiku.com/) - Dataiku DSS is the collaborative data science software platform for teams of data scientists, data analysts, and engineers to explore, prototype, build, and deliver their own data products more efficiently
+    + [Domino Data Lab](https://www.dominodatalab.com/)
+    + [Cloudera Data Science Workbench](https://www.cloudera.com/products/data-science-and-engineering/data-science-workbench.html)
+    + [ScienceOps Data Science Operations System](https://www.yhat.com/products/scienceops)
 - GUI-driven advanced analytics and data mining
     + [RapidMiner](http://docs.rapidminer.com/) - Data science platform
     + [KNIME](https://tech.knime.org/documentation) - Fast, easy and intuitive access to advanced data science
@@ -206,3 +211,4 @@
 - [R Studio](https://support.rstudio.com/hc/en-us/categories/200035113-Documentation)
 - [Rodeo](http://rodeo.yhat.com/docs/)
 - [Spyder](https://pythonhosted.org/spyder/)
+- [iD3: an Integrated Development Environment for D3.js](https://github.com/C-JSN/D3-ID3)
