@@ -146,6 +146,7 @@
 - [Top 15 Python Libraries for Data Science in 2017](https://medium.com/activewizards-machine-learning-company/top-15-python-libraries-for-data-science-in-in-2017-ab61b4f9b4a7)
 - [Top 15 Frameworks for Machine Learning Experts](https://www.kdnuggets.com/2016/04/top-15-frameworks-machine-learning-experts.html)
 - [Github stats for Python data science libraries - April, 2017](https://docs.google.com/spreadsheets/d/1wLOtLLJ65QMbLumc3F2Mop_4uPIFbyJ6iDZwOp0cXrQ/edit#gid=0)
+- [Architecture of Giants: Data Stacks at Facebook, Netflix, Airbnb, and Pinterest](https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54)
 
 <h2><a name="freelancing"></a>Freelancing and Consulting</h2>
 
@@ -199,6 +200,7 @@
 - [The importance of a date dimension in a data warehouse and BI project](https://www.linkedin.com/pulse/importance-date-dimension-data-warehouse-bi-project-dirk-cludts/)
 - [How to Choose the Right Database System: RDBMS vs. NoSql vs. NewSQL](http://www.innoarchitech.com/how-choose-right-database-system-relational-rdbms-vs-nosql-vs-newsql/)
 - [DAO vs ORM vs ActiveRecord vs TableGateway vs AHHHH!](https://www.sitepoint.com/community/t/dao-vs-orm-vs-activerecord-vs-tablegateway-vs-ahhhh/2473/2)
+- [SQL is 43 years old - here’s 8 reasons we still use it today](http://blog.sqlizer.io/posts/sql-43/)
 
 <h2><a name="product"></a>Product</h2>
 

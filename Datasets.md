@@ -59,6 +59,7 @@
     + http://archive.ics.uci.edu/ml/datasets/Auto+MPG
 - Computer Vision
     + http://www.cvpapers.com/datasets.html
+- IoT
 
 **Specific Data Sets**
 - [3 Million Instacart Orders, Open Sourced](https://www.instacart.com/datasets/grocery-shopping-2017)
