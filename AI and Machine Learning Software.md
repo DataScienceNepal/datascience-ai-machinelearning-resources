@@ -99,4 +99,8 @@
     + [BigML](https://bigml.com/)
     + [Carto.com](https://carto.com/)
     + [RISELab](https://rise.cs.berkeley.edu/) - Real-time Intelligence with Secure Execution
-    + [Crowdflower](https://www.crowdflower.com/) - AI for your business: Training data, machine learning and human-in-the-loop in a single platform 
+    + [Crowdflower](https://www.crowdflower.com/) - AI for your business: Training data, machine learning and human-in-the-loop in a single platform
+- [Clarifai](https://clarifai.com/)
+- [Recast.ai](https://recast.ai/)
+- [Dialogflow - Formerly API.AI](https://dialogflow.com/)
+- [IBM Watson](https://www.ibm.com/watson/developer-resources/)

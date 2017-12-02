@@ -134,6 +134,8 @@ Note that some links are categorized according to my determination of best fit s
 - [Dimension](https://en.wikipedia.org/wiki/Dimension_(data_warehouse))
 - [Fact Table](https://en.wikipedia.org/wiki/Fact_table)
 - [Federated database system](https://en.wikipedia.org/wiki/Federated_database_system)
+- [MultiDimensional eXpressions](https://en.wikipedia.org/wiki/MultiDimensional_eXpressions)
+- [Comparison of OLAP Servers](https://en.wikipedia.org/wiki/Comparison_of_OLAP_Servers)
 
 ## Data Modeling and Schemas
 - Data marts

@@ -3,6 +3,7 @@
     + [NumPy Cheat Sheet - Python for Data Science](https://www.dataquest.io/blog/numpy-cheat-sheet/)
     + [Bokeh Cheat Sheet - DataCamp](https://www.datacamp.com/community/blog/bokeh-cheat-sheet-python)
     + [PySpark Cheat Sheet: Spark in Python](https://www.datacamp.com/community/blog/pyspark-cheat-sheet-python)
+    + [Scikit-Learn Cheat Sheet: Python Machine Learning](https://www.datacamp.com/community/blog/scikit-learn-cheat-sheet?imm_mid=0f1d05&cmp=em-data-na-na-newsltr_20170524)
 - R
     + [RStudio Cheat Sheet Collection](https://www.rstudio.com/resources/cheatsheets/)
     + [R Reference Card for Data Mining](https://cran.r-project.org/doc/contrib/YanchangZhao-refcard-data-mining.pdf)

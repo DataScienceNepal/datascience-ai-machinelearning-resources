@@ -4,7 +4,7 @@
 - <a href="#tutorials">Tutorials</a>
 - <a href="#moocs">Online Learning</a>
 - <a href="#whitepapers">Whitepapers and Research</a>
-- <a href="#bootcamps">Bootcamps</a>
+- <a href="#bootcamps">Bootcamps and Offline Learning</a>
 - <a href="#resources">General Resources</a>
 
 <h2><a name="interactive">Interactive</a></h2>
@@ -70,6 +70,10 @@
 - Subject-specific courses
     + [Harvard's CS109 Data Science](http://cs109.github.io/2015/)
     + [General Assembly - Data Science](https://generalassemb.ly/education/data-science)
+- Mathematics
+    + [math-as-code - A cheat-sheet for mathematical notation in code form](https://github.com/Jam3/math-as-code)
+    + [understanding-math](https://github.com/nbro/understanding-math)
+    + [Statistics and Probability](https://getpocket.com/redirect?url=http%3A%2F%2Fstattrek.com%2F&formCheck=7855d2c1249808090e01b523f28b2e60)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
@@ -77,7 +81,7 @@
 - [Increase Your Analytics Proficiency - Making the Move From Analytics to Data Science](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
 - [AWS](https://aws.amazon.com/whitepapers/)
 
-<h2><a name="bootcamps">Bootcamps</a></h2>
+<h2><a name="bootcamps">Bootcamps and Offline Learning</a></h2>
 
 - General and Search
     + [Switchup - Data Science](https://www.switchup.org/data-science-bootcamps-and-courses)
@@ -99,6 +103,7 @@
 - [Metis](http://www.thisismetis.com/)
 - [The Data Incubator](https://www.thedataincubator.com/)
 - [XTOL](http://www.xtolcorp.com/)
+- [Accelebrate - Comprehensive Data Science with Python](https://www.accelebrate.com/training/comprehensive-data-science-with-python)
 
 <h2><a name="resources">General Resources</a></h2>
 
@@ -106,5 +111,3 @@
 - [Data Science Weekly resources](https://www.datascienceweekly.org/data-science-resources)
 - [Data School resources](http://www.dataschool.io/resources/)
 - [Learn DataSci Data Science Resources](http://www.learndatasci.com/data-science-resources/)
-- Newsletters
-    + [7 awesome data science newsletters to keep you informed](http://www.dataquest.io/blog/data-science-newsletters/)

@@ -19,6 +19,7 @@
 - [Harvard Data Science](http://harvarddatascience.com/)
 - [OpenAI](https://openai.com/blog/)
 - [Dataquest](http://www.dataquest.io/blog/)
+- [Yhat](http://blog.yhat.com/)
 
 ## Product
 - [Jobs-to-be-Done](https://jobs-to-be-done.com/)

@@ -301,6 +301,8 @@
     + [Scrum: a Breathtakingly Brief and Agile Introduction](https://www.amazon.com/Scrum-Breathtakingly-Brief-Agile-Introduction-ebook/dp/B007P5N8D4/ref=sr_1_15)
     + [Kanban](https://www.amazon.com/Kanban-David-J-Anderson-ebook/dp/B0057H2M70/ref=sr_1_1)
     + [#pmbook: How to become a product manager](https://www.inkshares.com/books/pmbook)
+- Whitepapers
+    + [Perfecting the Customer Experience](http://pages.testlio.com/rs/685-TMD-429/images/Perfecting%20the%20Customer%20Experience.pdf)
 
 <h2><a name="glossary">Product Management Glossary, Jargon, and Effective Communication</a></h2>
 

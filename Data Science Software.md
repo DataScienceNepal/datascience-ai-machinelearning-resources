@@ -14,6 +14,7 @@
 
 + Package and Environment Management
     + [Anaconda](https://docs.continuum.io/) - Open data science platform powered by Python
+    + [ActiveState](http://www3.activestate.com/activepython-data-science.html) - 300+ Packages Including Data Science and Machine Learning
 - Platform
     + [Python(x,y)](http://python-xy.github.io/) - A free scientific and engineering development software for numerical computations, data analysis and data visualization based on Python programming language, Qt graphical user interfaces and Spyder interactive scientific development environment
 - Probabilistic Graphical Modelling

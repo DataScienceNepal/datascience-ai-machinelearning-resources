@@ -143,9 +143,6 @@ the horizontal scalability of distributed systems with the familiarity of SQL
     + MemcacheDB
     + Redis
 
-## Database Comparisons
-- [MongoDB and HBase Compared](https://www.mongodb.com/compare/mongodb-hbase)
-
 ## Database, data warehouse, and Analytical Terminology
 + Dimension (e.g., customer, product, ...)
     * Data must vary to be considered a dimension
@@ -303,10 +300,6 @@ the horizontal scalability of distributed systems with the familiarity of SQL
 ## Querying
 - SQL - Structured Query Language
 - DMQL - Data Mining Query Language
-
-## Articles
-- [How to Choose the Right Database System: RDBMS vs. NoSql vs. NewSQL](http://www.innoarchitech.com/how-choose-right-database-system-relational-rdbms-vs-nosql-vs-newsql/)
-- [DAO vs ORM vs ActiveRecord vs TableGateway vs AHHHH!](https://www.sitepoint.com/community/t/dao-vs-orm-vs-activerecord-vs-tablegateway-vs-ahhhh/2473/2)
 
 ## Choosing a Database
 - [Next Generation Databases by Guy Harrison](https://www.amazon.com/Next-Generation-Databases-NoSQL-NewSQL-ebook/dp/B015PQPALM/ref=mt_kindle?_encoding=UTF8&me=) - Here are the choices one must make as Guy writes about in his book:

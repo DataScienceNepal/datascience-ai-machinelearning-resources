@@ -4,7 +4,7 @@
 - <a href="#tutorials">Tutorials</a>
 - <a href="#moocs">Online Learning</a>
 - <a href="#whitepapers">Whitepapers and Research</a>
-- <a href="#bootcamps">Bootcamps</a>
+- <a href="#bootcamps">Bootcamps and Offline Learning</a>
 - <a href="#resources">General Resources</a>
 
 <h2><a name="interactive">Interactive</a></h2>
@@ -17,6 +17,7 @@
 - [A Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
 - [An Introduction to Hierarchical Modeling](http://mfviz.com/hierarchical-models/)
 - [Machine Learning Flashcards](https://machinelearningflashcards.com/)
+- [ConvNetJS MNIST demo](http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
 
 <h2><a name="apidocs">API Docs</a></h2>
 
@@ -32,6 +33,7 @@
 + [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
 + [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 + [r-statistics.co](http://r-statistics.co/)
++ [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 
 <h2><a name="moocs">Online Learning</a></h2>
 
@@ -44,13 +46,14 @@
 - [Stanford Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning)
 - [Deeplearningtrack - Online data science school](https://www.deeplearningtrack.com/)
 - [Deep Learning Specialization - Coursera](https://www.coursera.org/specializations/deep-learning)
+- [Artificial Intelligence Engineer Nanodegree](https://www.udacity.com/ai)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
 - [arXiv.org](https://arxiv.org/) - Cornell University's open access to 1MM+ e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics
 - [The four types of analytics - Neil Raden](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
 
-<h2><a name="bootcamps">Bootcamps</a></h2>
+<h2><a name="bootcamps">Bootcamps and Offline Learning</a></h2>
 
 <h2><a name="resources">General Resources</a></h2>
 - [My Curated List of AI and Machine Learning Resources from Around the Web](https://unsupervisedmethods.com/my-curated-list-of-ai-and-machine-learning-resources-from-around-the-web-9a97823b8524)
