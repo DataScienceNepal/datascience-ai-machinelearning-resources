@@ -64,6 +64,11 @@
 - [Top 12 Interesting Careers to Explore in Big Data](http://www.kdnuggets.com/2016/10/top-12-interesting-careers-explore-big-data.html)
 - [How to Job Interview a Data Scientist](https://blog.modeanalytics.com/how-to-job-interview-data-scientist/)
 - [9 Mistakes to Avoid When Starting Your Career in Data Science](https://elitedatascience.com/beginner-mistakes)
+- [Is data scientist the most rewarding tech job? New report says yes](https://www.techrepublic.com/article/is-data-scientist-the-most-rewarding-tech-job-new-report-says-yes/)
+
+## Internet of Things (IoT)
+
+- [The Internet of Things Market](https://www.oreilly.com/ideas/the-internet-of-things-market)
 
 ## Jobs, Skills, and Salary Trends
 - [The 3 Highest Paid Jobs in Tech (and 17 Skills That Get You Hired)](https://hired.com/blog/candidates/3-highest-paid-jobs-technology/)
@@ -73,6 +78,7 @@
 
 ## Tools and Language Popularity, Comparisons, Trends, ...
 - [Tiobe Index for Programming Languages](http://www.tiobe.com/tiobe-index/)
+- [A list of artificial intelligence tools you can use today](https://medium.com/imlyra/a-list-of-artificial-intelligence-tools-you-can-use-today-for-personal-use-1-3-7f1b60b6c94f)
 - [Top Analytics, Data Science software – KDnuggets 2016 Software Poll Results](http://www.kdnuggets.com/2016/06/r-python-top-analytics-data-mining-data-science-software.html)
 - [What Big Data, Data Science, Deep Learning software goes together?](http://www.kdnuggets.com/2016/06/big-data-science-deep-learning-software-associations.html)
 - [Python Deep Learning Frameworks Reviewed](https://indico.io/blog/python-deep-learning-frameworks-reviewed/)

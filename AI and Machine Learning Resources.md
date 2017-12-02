@@ -36,6 +36,7 @@
 <h2><a name="moocs">Online Learning</a></h2>
 
 - [Google's Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
+- [AI Playbook](http://aiplaybook.a16z.com/)
 - [deeplearning.ai](https://www.deeplearning.ai/)
 - [fast.ai](http://www.fast.ai/)
 - [Become A Machine Learning Engineer](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)

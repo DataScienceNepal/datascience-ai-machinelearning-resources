@@ -113,10 +113,12 @@
 - Web and API
     + [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html) - A wrapper for 'libcurl' <http://curl.haxx.se/libcurl/> Provides functions to allow one to compose general HTTP requests and provides convenient functions to fetch URIs, get & post forms, etc. and process the results returned by the Web server
 
-## Non-language Specific
+## Non-Python/R Specific
 
 - Visualization
     + [Plot.ly](https://plot.ly/) - The modern platform for agile business intelligence and data science
+    + [D3](https://d3js.org/)
+    + [Britecharts](http://eventbrite.github.io/britecharts/)
 - Reinforcement learning
     + [Ray](http://ray.readthedocs.io/en/latest/index.html) - A flexible, high-performance distributed execution framework
 - Notebooks and collaboration
