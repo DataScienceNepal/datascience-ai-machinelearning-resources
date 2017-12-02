@@ -54,6 +54,7 @@
 - [Demystifying Deep Reinforcement Learning](https://www.intelnervana.com/demystifying-deep-reinforcement-learning/)
 - [Applying deep learning to real-world problems](https://medium.com/merantix/applying-deep-learning-to-real-world-problems-ba2d86ac5837)
 - [Top AI Influencers](http://www.onalytica.com/blog/posts/artificial-intelligence-2017-top-100-influencers-brands-and-publications/)
+- [Introduction to reinforcement learning and OpenAI Gym](https://www.oreilly.com/learning/introduction-to-reinforcement-learning-and-openai-gym)
 
 <h2><a name="ml"></a>Machine Learning</h2>
 
@@ -65,7 +66,7 @@
 - [Introduction to Online Machine Learning : Simplified](https://www.analyticsvidhya.com/blog/2015/01/introduction-online-machine-learning-simplified-2/)
 - [Machine Learning From Streaming Data: Two Problems, Two Solutions, Two Concerns, and Two Lessons](https://blog.bigml.com/2013/03/12/machine-learning-from-streaming-data-two-problems-two-solutions-two-concerns-and-two-lessons/)
 - [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
-- [Which machine learning algorithm should I use?](http://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/)
+- [Which machine learning algorithm should I use?](http://blogs.sas.com/content/subconsciousmusings/2017/0  4/12/machine-learning-algorithm-use/)
 - [How to choose algorithms for Microsoft Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice)
 - [Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb](https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8)
 - [8 Ways Machine Learning Is Improving Companies’ Work Processes](https://hbr.org/2017/05/8-ways-machine-learning-is-improving-companies-work-processes)
@@ -147,6 +148,7 @@
 - [Top 15 Frameworks for Machine Learning Experts](https://www.kdnuggets.com/2016/04/top-15-frameworks-machine-learning-experts.html)
 - [Github stats for Python data science libraries - April, 2017](https://docs.google.com/spreadsheets/d/1wLOtLLJ65QMbLumc3F2Mop_4uPIFbyJ6iDZwOp0cXrQ/edit#gid=0)
 - [Architecture of Giants: Data Stacks at Facebook, Netflix, Airbnb, and Pinterest](https://blog.keen.io/architecture-of-giants-data-stacks-at-facebook-netflix-airbnb-and-pinterest-9b7cd881af54)
+- [10 Tools for the Novice Data Scientist](https://datafloq.com/read/10-tools-for-the-novice-data-scientist/2994)
 
 <h2><a name="freelancing"></a>Freelancing and Consulting</h2>
 

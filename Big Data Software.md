@@ -77,6 +77,7 @@
     + [Apache SystemML](https://apache.github.io/incubator-systemml/) - A machine learning platform optimal for big data
     + [Apache Kylin](http://kylin.apache.org/docs15/) - An open source Distributed Analytics Engine designed to provide SQL interface and multi-dimensional analysis (OLAP) on Hadoop supporting extremely large datasets, original contributed from eBay Inc
     + [Apache Lens](http://lens.apache.org/user/index.html) - A unified analytics interface
+    + [Programming with Big Data in R" project (pbdR)](https://rbigdata.github.io/index.html)
 - Hadoop Enabled Applications
     + [Cascading](http://www.cascading.org/documentation/) - The proven application development platform for building data applications on Hadoop
     + [Cascalog](http://nathanmarz.github.io/cascalog/) - Fully-featured data processing and querying library 

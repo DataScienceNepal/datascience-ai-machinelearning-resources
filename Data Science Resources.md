@@ -14,9 +14,11 @@
 - [Immersive linear algebra](http://immersivemath.com/ila/index.html)
 - [Seeing Theory - A Visual Introduction to Probability and Statistics](http://students.brown.edu/seeing-theory)
 - [The data science interview](https://www.thedsinterview.com/)
+- [Online Statistics Education: An Interactive Multimedia Course of Study](http://onlinestatbook.com/2/index.html)
 
 <h2><a name="apidocs">API Docs</a></h2>
 
+- [Advanced R](http://adv-r.had.co.nz/)
 - [SQL² REFERENCE](http://quasar-analytics.org/docs/sqlreference/)
 
 <h2><a name="tutorials">Tutorials</a></h2>
@@ -36,6 +38,18 @@
 - [Top 10 IPython Notebook Tutorials for Data Science and Machine Learning](http://www.kdnuggets.com/2016/04/top-10-ipython-nb-tutorials.html)
 - [New KDnuggets Tutorials Page: Learn R, Python, Data Visualization, Data Science, and more](http://www.kdnuggets.com/2016/03/new-tutorials-section-r-python-data-visualization-data-science.html)
 - [Curated list of R tutorials for Data Science](https://www.r-bloggers.com/curated-list-of-r-tutorials-for-data-science/)
+- [Scipy Lecture Notes](http://www.scipy-lectures.org/)
+- [Jupyter Notebook Tutorial: The Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
+- [Docker: Data Science Environment with Jupyter](https://www.dataquest.io/blog/docker-data-science/)
+- [NumPy Tutorial: Data analysis with Python](https://www.dataquest.io/blog/numpy-tutorial-python/)
+- [Pandas Tutorial: Data analysis with Python: Part 1](https://www.dataquest.io/blog/pandas-python-tutorial/)
+- [Reproducible Data Analysis in Jupyter](https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/)
+- [Data Manipulation and Visualization with Pandas and Seaborn — A Practical Introduction](https://gist.github.com/5agado/ee95008f25730d04bfd0eedd5c36f0ee)
+- [Graph Analytics Over Relational Datasets with Python](http://blog.districtdatalabs.com/graph-analytics-over-relational-datasets)
+- [Effectively Using Matplotlib](http://pbpython.com/effective-matplotlib.html)
+- [Creating Data Visualizations in Matplotlib](https://www.datascience.com/blog/learn-data-science-intro-to-data-visualization-in-matplotlib)
+- [Exploratory Data Analysis in Python](https://www.svds.com/exploratory-data-analysis-python/)
+- [SQL Tutorial: How To Write Better Queries](https://www.datacamp.com/community/tutorials/sql-tutorial-query)
 - Software Vendor Tutorials
     + [Pandas Tutorials](http://pandas.pydata.org/pandas-docs/stable/tutorials.html)
     + [Numpy Tutorials](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
@@ -43,6 +57,7 @@
     + [Statsmodels Tutorials](http://statsmodels.sourceforge.net/stable/examples/index.html)
     + [Statsmodels Examples](http://statsmodels.sourceforge.net/devel/examples/)
     + [Matplotlib Examples](http://matplotlib.org/examples/index.html)
+    + [SQL² Tutorial](http://quasar-analytics.org/docs/sqltutorial/)
 
 <h2><a name="moocs">Online Learning</a></h2>
 
@@ -112,3 +127,5 @@
 - [Data School resources](http://www.dataschool.io/resources/)
 - [Learn DataSci Data Science Resources](http://www.learndatasci.com/data-science-resources/)
 - [Advanced R Style guide](http://adv-r.had.co.nz/Style.html)
+- [List of mathematical symbols](https://en.wikipedia.org/wiki/List_of_mathematical_symbols)
+- [Notation in probability and statistics](https://en.wikipedia.org/wiki/Notation_in_probability_and_statistics)

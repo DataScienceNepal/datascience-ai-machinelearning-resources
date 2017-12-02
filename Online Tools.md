@@ -1,7 +1,9 @@
 ## Productivity
-
 - [Pagico](https://www.pagico.com/)
 - [OmniFocus](https://www.omnigroup.com/omnifocus)
+
+## Configuration
+- [EnvKey](https://www.envkey.com/)
 
 ## Networking, DNS, IP, ...
 - [What is my IP?](http://whatismyipaddress.com/)
@@ -30,15 +32,23 @@
 
 ## Design, UI, UX
 - [Website Dimensions](http://www.websitedimensions.com/)
+- [Axure](https://www.axure.com/)
+- [OmniGraffle](https://www.omnigroup.com/omnigraffle)
 
 ## Research
 - [StatCounter Global Stats](http://gs.statcounter.com/)
+
+## Testing
+- [SeaLights](https://www.sealights.io)
 
 ## Mail Lists and Newsletters
 - [Mailchimp](https://mailchimp.com/)
 
 ## Web Forms
 - [123ContactForm](http://www.123contactform.com/)
+
+## Mobile
+- [Average App Store Review Times](http://appreviewtimes.com/)
 
 ## Colors
 - [Coolers](https://coolors.co/)
@@ -59,6 +69,9 @@
 
 ## CDN
 - [Fastly](https://www.fastly.com/)
+
+## Sales and Marketing
+- [Autopilot](https://autopilothq.com/tour.html)
 
 ## MISC
 - [Open Source License Chooser](http://choosealicense.com/)

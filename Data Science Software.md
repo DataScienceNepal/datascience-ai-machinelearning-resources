@@ -122,6 +122,7 @@
     + [Plot.ly](https://plot.ly/) - The modern platform for agile business intelligence and data science
     + [D3](https://d3js.org/)
     + [Britecharts](http://eventbrite.github.io/britecharts/)
+    + [Mathbox](https://github.com/unconed/mathbox) - Presentation-quality WebGL math graphing
 - Reinforcement learning
     + [Ray](http://ray.readthedocs.io/en/latest/index.html) - A flexible, high-performance distributed execution framework
 - Notebooks, collaboration, and platforms

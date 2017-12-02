@@ -15,6 +15,7 @@
     + [MXNet](http://mxnet.io/api/python/index.html#python-api-reference) - Flexible and Efficient Library for Deep Learning
         * [Model Zoo](http://mxnet.incubator.apache.org/model_zoo/index.html)
     + [Sonnet](https://github.com/deepmind/sonnet) - TensorFlow-based neural network library
+    + [Spotlight](https://github.com/maciejkula/spotlight) - Deep recommender models using PyTorch
 - Artificial Intelligence (AI)
     + [PyBrain](http://pybrain.org/) - Python-Based Reinforcement Learning, Artificial Intelligence and Neural Network Library
     + [Chainer](http://docs.chainer.org/en/stable/) - A Powerful, Flexible, and Intuitive Framework for Neural Networks
@@ -42,7 +43,7 @@
     + [Annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
     + [PyMVPA](http://www.pymvpa.org/manual.html) - PyMVPA stands for MultiVariate Pattern Analysis (MVPA) in Python
     + [Deap](http://deap.gel.ulaval.ca/doc/default/index.html) - A novel evolutionary computation framework for rapid prototyping and testing of ideas
-
+    + [Vowpal Wabbit (Fast Learning)](https://github.com/JohnLangford/vowpal_wabbit) - Out-of-core learning system
 ## R Software, Libraries, and Packages
 - Artificial Intelligence (AI)
     + [nnet](https://cran.r-project.org/web/packages/nnet/index.html) - Software for feed-forward neural networks with a single hidden layer, and for multinomial log-linear models
@@ -73,6 +74,10 @@
     + [princurve](https://cran.r-project.org/web/packages/princurve/index.html) - Fits a principal curve to a data matrix in arbitrary dimensions
 
 ## Non-language Specific
+- Artificial intelligence
+    + [Vectorflow](https://medium.com/@NetflixTechBlog/introducing-vectorflow-fe10d7f126b8)
+    + [deeplearn.js](https://deeplearnjs.org/)
+    + [Deepo](https://github.com/ufoym/deepo) - A series of Docker images (and their generator) that allows you to quickly set up your deep learning research environment
 - General machine learning
     + [Turi](https://turi.com/learn/) - A machine learning modeling tool for developers and data scientists
     + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
@@ -113,3 +118,13 @@
 - [IBM Watson](https://www.ibm.com/watson/developer-resources/)
 - [Networked Insights - Audience.ai](http://www.networkedinsights.com/)
 - [KnowledgeHound](http://www.knowledgehound.com/)
+- [WebyClip](https://webyclip.com/)
+- [Infer](https://www.infer.com/)
+- [AgilOne](http://www.agilone.com/)
+- [SiteZeus](https://sitezeus.com/)
+- [Sentient's AI platform](https://www.sentient.ai/digital-marketing/)
+- [CamFind](http://camfindapp.com/)
+- [Tagalys](https://www.tagalys.com/)
+- [Findally](https://www.findally.com/)
+- [Persado](https://persado.com/)
+- [Boomtrain](https://boomtrain.com/why_boomtrain/)

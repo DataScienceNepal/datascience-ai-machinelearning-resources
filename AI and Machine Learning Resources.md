@@ -19,6 +19,7 @@
 - [ConvNetJS MNIST demo](http://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html)
 - [Exploring LSTMs](http://blog.echen.me/2017/05/30/exploring-lstms/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_134)
 - [TensorFlow Playground](http://playground.tensorflow.org/)
+- [An Interactive Tutorial on Numerical Optimization](http://www.benfrederickson.com/numerical-optimization/)
 
 <h2><a name="apidocs">API Docs</a></h2>
 
@@ -30,13 +31,24 @@
 - [7 Steps to Mastering Machine Learning With Python](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html)
 - [7 More Steps to Mastering Machine Learning With Python](http://www.kdnuggets.com/2017/03/seven-more-steps-machine-learning-python.html)
 - Software Vendor Tutorials
-- [Scikit-learn Tutorials](http://scikit-learn.org/stable/tutorial/)
-- [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
+    + [Scikit-learn Tutorials](http://scikit-learn.org/stable/tutorial/)
+    + [Scikit-learn Examples](http://scikit-learn.org/stable/auto_examples/)
+    + [TensorFlow tutorials](https://www.tensorflow.org/tutorials/)
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [r-statistics.co](http://r-statistics.co/)
 - [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
 - [Hands-on Machine Learning with Scikit-Learn and TensorFlow](https://github.com/ageron/handson-ml)
 - [Machine learning algorithms tutorials](https://github.com/ethen8181/machine-learning)
+- [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning)
+- [Natural Language Processing with Python Tutorial](https://www.dataquest.io/blog/natural-language-processing-with-python/)
+- [Preparing and Cleaning Data for Machine Learning](https://www.dataquest.io/blog/machine-learning-preparing-data/)
+- [Text mining in R: a tutorial](https://www.springboard.com/blog/text-mining-in-r/)
+- [A Beginner’s Guide to Neural Networks in Python and SciKit Learn 0.18](https://www.springboard.com/blog/beginners-guide-neural-network-in-python-scikit-learn-0-18/)
+- [Deep Learning in Minutes with this Pre-configured Python VM Image](https://www.kdnuggets.com/2017/05/deep-learning-pre-configured-python-vm-image.html)
+- [Intuitive Classification using KNN and Python](http://blog.yhat.com/posts/classification-using-knn-and-python.html)
+- [An Introduction to the MXNet Python API](https://www.kdnuggets.com/2017/05/intro-mxnet-python-api.html)
+- [Perform sentiment analysis with LSTMs, using TensorFlow](https://www.oreilly.com/learning/perform-sentiment-analysis-with-lstms-using-tensorflow)
+- [Using the TensorFlow API: An Introductory Tutorial Series](https://www.kdnuggets.com/2017/06/using-tensorflow-api-tutorial-series.html)
 
 <h2><a name="moocs">Online Learning</a></h2>
 
@@ -53,6 +65,7 @@
 - [AI Progress Measurement](https://www.eff.org/ai/metrics)
 - [Neural Networks and Deep Learning Online Book](http://neuralnetworksanddeeplearning.com/index.html)
 - [Elite Data Science Free Applied Machine Learning](https://elitedatascience.com/)
+- [StatSoft Electronic Statistics Textbook](http://www.statsoft.com/Textbook)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 

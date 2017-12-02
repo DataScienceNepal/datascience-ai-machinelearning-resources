@@ -47,6 +47,7 @@
     + [Spark Notebook](https://github.com/andypetrella/spark-notebook)
     + [Statsmodels examples](https://github.com/statsmodels/statsmodels/tree/master/examples)
 - Book Resources
+    + [Introduction to Artificial Neural Networks and Deep Learning: A Practical Guide with Applications in Python](https://github.com/rasbt/deep-learning-book)
     + [Python Machine Learning book resources](https://github.com/rasbt/python-machine-learning-book)
     + [Python Machine Learning book FAQ](https://github.com/rasbt/python-machine-learning-book/tree/master/faq)
     + [Learning-Predictive-Analytics-with-R](https://github.com/PacktPublishing/Learning-Predictive-Analytics-with-R)
