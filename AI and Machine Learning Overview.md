@@ -151,6 +151,8 @@
             - Hinge loss
             - Logistic loss
             - Negative log likelihood
+        * Reconstruction
+            - Entropy loss
 - Model complexity and reduction
     + Subset selection
         * Best subset selection
@@ -196,32 +198,48 @@
     + Classification via definitive vs probabilistic assigment
     + Kernel selection (e.g., SVM)
     + Neural networks and deep learning-specific
-        * Architecture and algorithm
-            - Inputs
-            - Hidden layers
-            - Outputs and output type
-                + Output types
-                    * Real-valued numeric
-                    * Probabilities
-                + Output controlled by output layer activation functions
-            - Activation functions and forward propogation
-                + Output values, e.g., 0 to 1, -1 to 1, ...
-                + Nonzero is 'activated'
-                + Examples
-                    * Linear
-                    * Rectified linear units (ReLU) and Leaky ReLU
-                    * Sigmoid
-                    * Tanh and hard Tanh
-                    * Softmax and hierarchical softmax
-                    * Softplus
+        * Inputs
+        * Hidden layers
+        * Outputs and output type
+            - Output types
+                + Real-valued numeric (regression)
+                + Probabilities (binary and multiclass classification)
+            - Output controlled by output layer activation functions
+        * Activation functions and forward propogation
+            - Output values, e.g., 0 to 1, -1 to 1, ...
+            - Nonzero is 'activated'
+            - Examples
+                + Linear
+                + Rectified linear units (ReLU) and Leaky ReLU
+                + Sigmoid
+                + Tanh and hard Tanh
+                + Softmax and hierarchical softmax
+                + Softplus
+        * Architecture type <sup>4</sup>
+            - Unsupervised Pretrained Networks (UPNs)
+                + Autoencoders
+                + Deep Belief Networks (DBNs)
+                + Generative Adversarial Networks (GANs)
+            - Convolutional Neural Networks (CNNs)
+                + Image modeling
+            - Recurrent Neural Networks
+                + Sequence modeling
+                    * E.g., Long Short-Term Memory (LSTM)
+            - Recursive Neural Networks
+        * Algorithms
+            - First and second order
 - Generalization vs representation
 - Model tuning and performance optimization
     + Hyperparameter tuning
-        * Examples
-            - Learning rate
-            - Regularization
-            - Momentum
-            - Sparsity
+        * Example categories <sup>4</sup>
+            - Layer size
+            - Magnitude (momentum, learning rate)
+            - Regularization (dropout, drop connect, L1, L2)
+            - Activations (and activation function families)
+            - Weight initialization strategy
+            - Loss functions
+            - Settings for epochs during training (mini-batch size)
+            - Normalization scheme for input data (vectorization)
     + Grid search
     + Ensemble methods
     + Bagging and boosting
@@ -294,3 +312,4 @@
 1. [7 Ways to Handle Large Data Files for Machine Learning](https://machinelearningmastery.com/large-data-files-machine-learning/)
 2. [Beyond Distributed ML Algorithms: Techniques for Learning from Large Data Sets](https://iwringer.wordpress.com/2015/10/06/techniques-for-learning-from-large-amounts-of-data/)
 3. [Joy Buolamwini - TED Talk](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms)
+4. [Deep Learning by Josh Patterson and Adam Gibson - O'Reilly](https://www.amazon.com/Deep-Learning-Practitioners-Josh-Patterson-ebook/dp/B074D5YF1D/ref=mt_kindle?_encoding=UTF8&me=)
