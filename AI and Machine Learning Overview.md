@@ -132,13 +132,25 @@
         * ROC and AUC
     + Performance metric tradeoffs
         * Cost of false positives vs false negatives
-    + Inability to achieve desired performrmance level
+    + Inability to achieve desired performance level
+        * Intractability
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
     + Missing features
     + Global vs local minima
     + Ensemble learning
     + Linear separability
+    + Choice of loss function
+        * Regression examples
+            - Mean squared error (MSE)
+            - Mean squared log error (MSLE)
+            - Root mean squared error (RMSE)
+            - Mean absolute percentage error (MAPE)
+            - Mean absolute error (MAE)
+        * Classification examples
+            - Hinge loss
+            - Logistic loss
+            - Negative log likelihood
 - Model complexity and reduction
     + Subset selection
         * Best subset selection
@@ -196,11 +208,20 @@
                 + Output values, e.g., 0 to 1, -1 to 1, ...
                 + Nonzero is 'activated'
                 + Examples
+                    * Linear
+                    * Rectified linear units (ReLU) and Leaky ReLU
                     * Sigmoid
-                    * Softmax
+                    * Tanh and hard Tanh
+                    * Softmax and hierarchical softmax
+                    * Softplus
 - Generalization vs representation
 - Model tuning and performance optimization
     + Hyperparameter tuning
+        * Examples
+            - Learning rate
+            - Regularization
+            - Momentum
+            - Sparsity
     + Grid search
     + Ensemble methods
     + Bagging and boosting
@@ -221,6 +242,7 @@
     + Data format transformation
     + Iterative learning
         * Stochastic gradient descent
+        * Mini-batch
         * KNN
     + Streaming machine learning
     + Progressively loading
