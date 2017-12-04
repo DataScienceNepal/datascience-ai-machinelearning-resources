@@ -138,6 +138,7 @@
     + Missing features
     + Global vs local minima
     + Ensemble learning
+    + Linear separability
 - Model complexity and reduction
     + Subset selection
         * Best subset selection
@@ -175,17 +176,35 @@
             - Decision trees
             - KNN - k nearest neighbors
             - SVMs
+    + Generative vs discriminative models
     + Handling of redundant or irrelevant features
     + Ability to perform with small data sets
     + Complexity vs parsimony
     + Ability to automatically learn feature interactions
     + Classification via definitive vs probabilistic assigment
+    + Kernel selection (e.g., SVM)
+    + Neural networks and deep learning-specific
+        * Architecture and algorithm
+            - Inputs
+            - Hidden layers
+            - Outputs and output type
+                + Output types
+                    * Real-valued numeric
+                    * Probabilities
+                + Output controlled by output layer activation functions
+            - Activation functions and forward propogation
+                + Output values, e.g., 0 to 1, -1 to 1, ...
+                + Nonzero is 'activated'
+                + Examples
+                    * Sigmoid
+                    * Softmax
 - Generalization vs representation
 - Model tuning and performance optimization
     + Hyperparameter tuning
     + Grid search
     + Ensemble methods
     + Bagging and boosting
+    + Kernel selection (e.g., SVM)
 - Resampling
     + Cross-validation
     + Bootstrap

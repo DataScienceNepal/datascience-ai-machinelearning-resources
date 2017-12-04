@@ -248,6 +248,10 @@
 - Support vector machines (SVM)
 - Kohonen networks (KN, also self organising (feature) map, SOM, SOFM)
 
+**Example Applications**
+
+
+
 <h2><a name="recognition">Recognition and Computer Vision</a></h2>
 
 - Image
