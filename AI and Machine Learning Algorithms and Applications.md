@@ -240,7 +240,7 @@
 - Generative adversarial networks (GAN)Recurrent neural networks (RNN)Long / short term memory (LSTM)
 - Gated recurrent units (GRU)
 - Neural Turing machines (NTM)
-- Bidirectional recurrent neural networks, bidirectional long / short term memory networks and bidirectional gated recurrent units (BiRNN, BiLSTM and BiGRU respectively)
+- Bidirectional recurrent neural networks, bidirectional long / short term memory networks and bidirectional gated recurrent units (BiRNN/BRNN, BiLSTM and BiGRU respectively)
 - Deep residual networks (DRN)
 - Echo state networks (ESN)
 - Extreme learning machines (ELM)

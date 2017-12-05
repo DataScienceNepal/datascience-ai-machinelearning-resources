@@ -120,56 +120,121 @@
 
 ## AI and ML Tradeoffs, Considerations, and Constraints (High-level)
 
+**Model Selection**
++ Parametric vs non-parametric
+    * Parametric examples
+        - Simple and multiple linear regresion
+    * Non-parametric examples
+        - Decision trees
+        - KNN - k nearest neighbors
+        - SVMs
++ Generative vs discriminative models
++ Handling of redundant or irrelevant features
++ Ability to perform with small data sets
++ Complexity vs parsimony
++ Ability to automatically learn feature interactions
++ Classification via definitive vs probabilistic assigment
++ Kernel selection (e.g., SVM)
++ Neural networks and deep learning-specific
+    * Inputs
+    * Hidden layers
+    * Outputs and output type
+        - Output types
+            + Real-valued numeric (regression)
+            + Probabilities (binary and multiclass classification)
+        - Output controlled by output layer activation functions
+    * Activation functions and forward propogation
+        - Output values, e.g., 0 to 1, -1 to 1, ...
+        - Nonzero is 'activated'
+        - Examples
+            + Linear
+            + Rectified linear units (ReLU) and Leaky ReLU
+            + Sigmoid
+            + Tanh and hard Tanh
+            + Softmax and hierarchical softmax
+            + Softplus
+    * Architecture type <sup>4</sup>
+        - Unsupervised Pretrained Networks (UPNs)
+            + Autoencoders
+            + Deep Belief Networks (DBNs)
+            + Generative Adversarial Networks (GANs)
+        - Convolutional Neural Networks (CNNs)
+            + Image modeling
+        - Recurrent Neural Networks
+            + Sequence modeling
+                * E.g., Long Short-Term Memory (LSTM)
+        - Recursive Neural Networks
+    * Algorithms
+        - First and second order
+
+**Model Performance**
 - Overfitting and quality of fit
     + Bias vs variance
     + Noise
     + Outliers
-- Model performance vs interpretability and explainability
-    + Black box vs non-black box algorithms
-- Model performance
-    + Performance metric selection
-        * Precision vs recall
-        * ROC and AUC
-    + Performance metric tradeoffs
-        * Cost of false positives vs false negatives
-    + Inability to achieve desired performance level
-        * Intractability
+- Performance metric selection
+    + Precision vs recall
+    + ROC and AUC
+- Performance metric tradeoffs
+    + Cost of false positives vs false negatives
+- Inability to achieve desired performance level
+    + Intractability
+- Collinearity, multicollinearity, correlation, ...
+- Confounding variables
+- Missing features
+- Global vs local minima
+- Ensemble learning
+- Linear separability
+- Choice of loss function
+    + Regression examples
+        * Mean squared error (MSE)
+        * Mean squared log error (MSLE)
+        * Root mean squared error (RMSE)
+        * Mean absolute percentage error (MAPE)
+        * Mean absolute error (MAE)
+    + Classification examples
+        * Hinge loss
+        * Logistic loss
+        * Negative log likelihood
+    + Reconstruction
+        * Entropy loss
+
+**Model Complexity**
+- Subset selection
+    + Best subset selection
+    + Stepwise selection (forward and backward)
+- Shrinkage and regularization
+    + Ridge regression
+    + The Lasso
+- Dimension reduction
+    + PCA
+    + Partial least squares
+- Tree methods (e.g., pruning, ...)
+- Feature selection and engineering
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
     + Missing features
-    + Global vs local minima
-    + Ensemble learning
-    + Linear separability
-    + Choice of loss function
-        * Regression examples
-            - Mean squared error (MSE)
-            - Mean squared log error (MSLE)
-            - Root mean squared error (RMSE)
-            - Mean absolute percentage error (MAPE)
-            - Mean absolute error (MAE)
-        * Classification examples
-            - Hinge loss
-            - Logistic loss
-            - Negative log likelihood
-        * Reconstruction
-            - Entropy loss
-- Model complexity and reduction
-    + Subset selection
-        * Best subset selection
-        * Stepwise selection (forward and backward)
-    + Shrinkage and regularization
-        * Ridge regression
-        * The Lasso
-    + Dimension reduction
-        * PCA
-        * Partial least squares
-    + Tree methods (e.g., pruning, ...)
-    + Feature selection and engineering
-        * Collinearity, multicollinearity, correlation, ...
-        * Confounding variables
-        * Missing features
-- Model complexity vs simplicity (i.e., parsimony)
-- Statistical, algorithmic, and cognitive biases
+
+**Model Training, Validation, Tuning, and Optimization**
+- Resampling
+    + Cross-validation
+    + Bootstrap
+- Hyperparameter tuning
+    + Example categories <sup>4</sup>
+        * Layer size
+        * Magnitude (momentum, learning rate)
+        * Regularization (dropout, drop connect, L1, L2)
+        * Activations (and activation function families)
+        * Weight initialization strategy
+        * Loss functions
+        * Settings for epochs during training (mini-batch size)
+        * Normalization scheme for input data (vectorization)
+- Grid search
+- Ensemble methods
+- Bagging and boosting
+- Kernel selection (e.g., SVM)
+
+**Data and Data Sources**
 - Balanced vs imbalanced data
     + Equal proportion of target values
 - Data availability, amount, depth, and quality
@@ -182,76 +247,6 @@
 - Curse of dimensionality
     + Exponential increase in data needed to prevent loss of predictive power
     + Data must fill as much as the feature space as possible
-- Model selection
-    + Parametric vs non-parametric
-        * Parametric examples
-            - Simple and multiple linear regresion
-        * Non-parametric examples
-            - Decision trees
-            - KNN - k nearest neighbors
-            - SVMs
-    + Generative vs discriminative models
-    + Handling of redundant or irrelevant features
-    + Ability to perform with small data sets
-    + Complexity vs parsimony
-    + Ability to automatically learn feature interactions
-    + Classification via definitive vs probabilistic assigment
-    + Kernel selection (e.g., SVM)
-    + Neural networks and deep learning-specific
-        * Inputs
-        * Hidden layers
-        * Outputs and output type
-            - Output types
-                + Real-valued numeric (regression)
-                + Probabilities (binary and multiclass classification)
-            - Output controlled by output layer activation functions
-        * Activation functions and forward propogation
-            - Output values, e.g., 0 to 1, -1 to 1, ...
-            - Nonzero is 'activated'
-            - Examples
-                + Linear
-                + Rectified linear units (ReLU) and Leaky ReLU
-                + Sigmoid
-                + Tanh and hard Tanh
-                + Softmax and hierarchical softmax
-                + Softplus
-        * Architecture type <sup>4</sup>
-            - Unsupervised Pretrained Networks (UPNs)
-                + Autoencoders
-                + Deep Belief Networks (DBNs)
-                + Generative Adversarial Networks (GANs)
-            - Convolutional Neural Networks (CNNs)
-                + Image modeling
-            - Recurrent Neural Networks
-                + Sequence modeling
-                    * E.g., Long Short-Term Memory (LSTM)
-            - Recursive Neural Networks
-        * Algorithms
-            - First and second order
-- Generalization vs representation
-- Model tuning and performance optimization
-    + Hyperparameter tuning
-        * Example categories <sup>4</sup>
-            - Layer size
-            - Magnitude (momentum, learning rate)
-            - Regularization (dropout, drop connect, L1, L2)
-            - Activations (and activation function families)
-            - Weight initialization strategy
-            - Loss functions
-            - Settings for epochs during training (mini-batch size)
-            - Normalization scheme for input data (vectorization)
-    + Grid search
-    + Ensemble methods
-    + Bagging and boosting
-    + Kernel selection (e.g., SVM)
-- Resampling
-    + Cross-validation
-    + Bootstrap
-- Computing resources and power
-    + CPU processing speed and computing time
-        * Data processing, model training, and prediction speed
-    + CPU vs GPU
-    + System memory (RAM)
 - Working with large datasets <sup>1</sup><sup>,</sup><sup>2</sup>
     + Partition data vs partition execution
     + Software-specific memory allocation
@@ -268,13 +263,44 @@
     + Big data platformes (e.g., Spark and MLLib)
     + Parallel and distributed computing and associated communications cost and complexity
     + Parameter server
+- Data types
+    + Structured data
+    + Unstructured data
+    + Semi-structured data
+    + Streaming data
+    + Batch data
+- Data acquisition, ingestion, and processing
+    + Disparate data sources
+
+**Computing and Infrastructure Requirements**
+- CPU processing speed and computing time
+    + Data processing, model training, and prediction speed
+- CPU vs GPU
+- System memory (RAM)
+
+**Real-World AI and Machine Learning**
+- AI and machine learnng in production
+    + Deploying to production and maintenance
+    + Scalability
+    + Online vs offline learning
+    + Distributed learning
+    + Model types and implementation lanaguages
+    + Data access (if required), particularly for disparate data sources
+    + Temporal drift, i.e., data changing over time
+        * Avoid stale models
+    + Model monitoring and accuracy tracking over time
+
+**General**
+- Model performance vs interpretability and explainability
+    + Black box vs non-black box algorithms
+- Model complexity vs simplicity (i.e., parsimony)
+- Statistical, algorithmic, and cognitive biases
+- Generalization vs representation
+
+**AI and Machine Learning**
 - AI limitations
     + Unsupervised learning to some extent
     + Solving multiple problems at once
-- AI and machine learnng in production
-    + Deploying and maintaining
-    + Scalability
-    + Online vs offline learning
 - Statistical, algorithmic, and cognitive biases
     + Sample or selection bias
     + Confirmation bias
@@ -284,6 +310,15 @@
 - AI and machine learning automations and future advancements
     + Automated learning (AutoML)
         * Auto-sklearn, TPOT, ...
+- Execution models
+    + Sequencing
+        * Serial execution
+        * Parallel execution
+    + Scheduling
+        * Streaming execution
+        * Batch execution
+
+**Statistics**
 - Prediction vs inference
     + Prediction
         * Model an output variable Y (aka response or dependent variable) as a function of a set of input variables X (aka inputs, features, predictors, independent variables)
@@ -292,20 +327,6 @@
     + Inference
         * Understand how Y varies with X and any underlying relationships between Y and X, particularly wrt. individual predictors and each of their impact on the response
         * Understand the degree to which Y varies with each predictor, e.g., linear, non-linear, ...
-- Execution models
-    + Sequencing
-        * Serial execution
-        * Parallel execution
-    + Scheduling
-        * Streaming execution
-        * Batch execution
-- Data types
-    + Structured data
-    + Unstructured data
-    + Semi-structured data
-    + Streaming data
-    + Batch data
-- Disparate data sources
 
 ## References
 
