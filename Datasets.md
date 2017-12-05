@@ -25,6 +25,8 @@
 - [FiveThirtyEight datasets and code](https://github.com/fivethirtyeight/data)
 - [data.world](https://data.world/)
 - [Great IoT, Sensor and other Data Sets Repositories](https://www.datasciencecentral.com/profiles/blogs/great-sensor-datasets-to-prepare-your-next-career-move-in-iot-int)
+- [Quora - Where can I find large datasets open to the public?](https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public)
+- [Subreddit](https://www.reddit.com/r/datasets/)
 
 **Dataset By Category**
 - Streaming Open Data
@@ -63,6 +65,11 @@
 
 **Specific Data Sets**
 - [3 Million Instacart Orders, Open Sourced](https://www.instacart.com/datasets/grocery-shopping-2017)
+
+## Data Portals and Meta portals
+- [DataPortals.org](http://dataportals.org/)
+- [Open Data Monitor](https://opendatamonitor.eu/frontend/web/index.php?r=dashboard%2Findex)
+- [Quandl](https://www.quandl.com/)
 
 ## Data Marketplaces and Monetization
 - [Dawex](https://www.dawex.com/en/)

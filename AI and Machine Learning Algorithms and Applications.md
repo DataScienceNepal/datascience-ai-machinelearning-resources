@@ -141,7 +141,7 @@
 
 <h2><a name="clustering">Clustering (Unsupervised)</a></h2>
 
-- Hierarchical clustering, aka connectivity-based clustering
+- Hierarchical clustering, aka connectivity-basedclustering and Hierarchical Cluster Analysis (HCA)
     + Single-linkage clustering
     + Complete linkage clustering
     + Unweighted Pair Group Method with Arithmetic Mean (UPGMA), aka average linkage clustering
@@ -158,7 +158,9 @@
     + Ordering points to identify the clustering structure (OPTICS)
     + Mean-shift
 - Canapoy
-- Association rule mining (Apriori)
+- Association rule learning
+    + Apriori
+    + Eclat
 - Topic modeling (text data)
 - Fractal
 - Guassian mixture models
@@ -502,6 +504,9 @@
 <h2><a name="dimensionality-reduction">Dimensionality Reduction</a></h2>
 
 - Principle component analysis (PCA)
+- Kernel PCA
+- Locally-Linear Embedding (LLE)
+- t-distributed Stochastic Neighbor Embedding (t-SNE)
 - Factor analysis
 - K-means clustering
 - Canopy clustering

@@ -121,6 +121,9 @@
 ## AI and ML Tradeoffs, Considerations, and Constraints (High-level)
 
 **Model Selection**
++ No Free Lunch (NFL) theorem
+    * There is no model that is a priori guaranteed to work better
+    * Must evaluate multiple and make reasonable assumptions
 + Parametric vs non-parametric
     * Parametric examples
         - Simple and multiple linear regresion
@@ -129,6 +132,8 @@
         - KNN - k nearest neighbors
         - SVMs
 + Generative vs discriminative models
++ Model complexity
++ Model assumptions (e.g., linearity)
 + Handling of redundant or irrelevant features
 + Ability to perform with small data sets
 + Complexity vs parsimony
@@ -168,16 +173,32 @@
         - First and second order
 
 **Model Performance**
-- Overfitting and quality of fit
-    + Bias vs variance
-    + Noise
-    + Outliers
+- Overfitting and quality of fit (aka bias vs variance)
+    + Noise - errors and outliers
+    + Not enough data
+    + Overly complex model
+    + Solutions
+        * More data
+        * Reduce noise and/or increase the signal-to-noise ratio
+        * Reduce model complexity (see Model Complexity and Reduction section)
+- Underfitting
+    + Opposite of overfitting
+    + Solutions
+        * Increase model complexity and reduce regularization (if applicable)
+        * Feature engineering
+        * Select more powerful and complex model (e.g., neural networks)
 - Performance metric selection
     + Precision vs recall
     + ROC and AUC
 - Performance metric tradeoffs
     + Cost of false positives vs false negatives
+- Error types
+    + Error types 1 and 2
+    + Out-of-sample error (generalization error)
+        * Sum of: bias error + variance error + irreducible error
+    + In-sample vs out-of-sample errors
 - Inability to achieve desired performance level
+    + Ill-posed problem
     + Intractability
 - Collinearity, multicollinearity, correlation, ...
 - Confounding variables
@@ -199,27 +220,81 @@
     + Reconstruction
         * Entropy loss
 
-**Model Complexity**
+**Model Complexity and Reduction**
 - Subset selection
     + Best subset selection
     + Stepwise selection (forward and backward)
 - Shrinkage and regularization
     + Ridge regression
     + The Lasso
+    + Elastic Net
 - Dimension reduction
     + PCA
     + Partial least squares
 - Tree methods (e.g., pruning, ...)
-- Feature selection and engineering
+- Feature selection, engineering, and extraction
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
     + Missing features
+    + Feature extraction via dimensionality reduction
 
-**Model Training, Validation, Tuning, and Optimization**
+**Model Training and Learning**
+- Learning type
+    + Supervised
+    + Unsupervised
+    + Semi-supervised
+        * Much more unlabled data
+        * examples
+            * Apply a label to clusters
+            * Fine tuning neural networks trained with unsupervised methods
+    + Reinforcement
+        * Agent
+        * Environment
+        * Actions
+        * Policy
+        * Rewards
+    + Transfer
+- Machine learning algorithm families <sup>5</sup>
+    + Information-based learning
+    + Similarity-based learning
+    + Probability-based learning
+    + Error-based learning
+- Offline (batch) vs online learning
+    + Offline
+        * Train and deploy
+    + Online (incremental)
+        * Limited computing resources
+        * Usually done offline
+        * Requires close monitoring of input data for data quality and anomaly/outlier detection, and also to model performance over time
+    + Out-of-core (type of online learning)
+        * Train on datasets too big to fit into system memory
+        * Incremental loading of data into memory and training
+- Instance-based vs model-based learning
+    + Comparison vs pattern/relationship detection
+- Iterative learning
+    + Gradient descent
+        * Batch (full dataset)
+        * Mini-batch (small datasets)
+        * Stochastic gradient descent (single instance)
+    + KNN
+- Gradient descent
+    + Random initialization
+    + Convergence vs divergence
+    + Global vs local minimum
+    + Convex vs non-convex functions
+    + Weight space vs error/loss space
+    + Early stopping
+- Gradient descent vs normal equations
+    + Depends on computational complexity and speed/time
+- Cost or loss function selection
+    + MSE
+    + Cross entropy
+
+**Model Validation, Tuning, and Optimization**
 - Resampling
     + Cross-validation
     + Bootstrap
-- Hyperparameter tuning
+- Hyperparameters
     + Example categories <sup>4</sup>
         * Layer size
         * Magnitude (momentum, learning rate)
@@ -229,40 +304,39 @@
         * Loss functions
         * Settings for epochs during training (mini-batch size)
         * Normalization scheme for input data (vectorization)
-- Grid search
+- Hyperparameter tuning and optimization
+    + Grid search
+    + Randomized search for large search space
 - Ensemble methods
 - Bagging and boosting
 - Kernel selection (e.g., SVM)
+- Learning curves
 
-**Data and Data Sources**
+**Data, Data Sources, and Data Preparation**
+- Analytics base table (ABT) and data quality report <sup>5</sup>
 - Balanced vs imbalanced data
     + Equal proportion of target values
-- Data availability, amount, depth, and quality
-    + Curse of dimensionality
+- Data availability, amount, and depth
     + Small data sets
         * Selecting models that excel with small data sets
+        * Sampling noise
+    + Moderate to large data sets
+        * Sampling bias
     + Sparse data
-    + Data veracity
-    + Signal to noise ratio
-- Curse of dimensionality
+    + Resources
+        * http://static.googleusercontent.com/media/research.google.com/fr//pubs/archive/35179.pdf
+        * https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acl2001.pdf
+- Curse of dimensionality and representative data
     + Exponential increase in data needed to prevent loss of predictive power
-    + Data must fill as much as the feature space as possible
-- Working with large datasets <sup>1</sup><sup>,</sup><sup>2</sup>
-    + Partition data vs partition execution
-    + Software-specific memory allocation
-    + Full dataset vs subset (down sampling, e.g., 1/10 to 1/100)
-    + Local development vs remote compute resources (e.g., AWS) with lots of RAM
-    + Data format transformation
-    + Iterative learning
-        * Stochastic gradient descent
-        * Mini-batch
-        * KNN
-    + Streaming machine learning
-    + Progressively loading
-    + Direct database connection for machine learning
-    + Big data platformes (e.g., Spark and MLLib)
-    + Parallel and distributed computing and associated communications cost and complexity
-    + Parameter server
+    + Data must fill as much as the feature space as possible, and be as balanced as possible
+- Data quality
+    + Signal to noise ratio
+    + Data veracity
+    + Errors
+    + Outliers
+    + Missing data
+    + NAs
+    + Irrelevant features
 - Data types
     + Structured data
     + Unstructured data
@@ -271,12 +345,24 @@
     + Batch data
 - Data acquisition, ingestion, and processing
     + Disparate data sources
+- Data preparation
+    + Feature scaling
+        * Standardization
+        * Min-max (normalization)
+    + Feature encoding
+    + Missing values handling
+    + Imputation
 
-**Computing and Infrastructure Requirements**
+**Computing and Infrastructure Requirements and Performance**
 - CPU processing speed and computing time
     + Data processing, model training, and prediction speed
 - CPU vs GPU
 - System memory (RAM)
+- Disk storage
+- I/O: disk, network, etc.
+- Cost
+- Training and prediction speed
+- Computational complexity
 
 **Real-World AI and Machine Learning**
 - AI and machine learnng in production
@@ -289,15 +375,24 @@
     + Temporal drift, i.e., data changing over time
         * Avoid stale models
     + Model monitoring and accuracy tracking over time
+- Working with large datasets <sup>1</sup><sup>,</sup><sup>2</sup>
+    + Partition data vs partition execution
+    + Software-specific memory allocation
+    + Full dataset vs subset (down sampling, e.g., 1/10 to 1/100)
+    + Local development vs remote compute resources (e.g., AWS) with lots of RAM
+    + Data format transformation
+    + Streaming machine learning
+    + Progressively loading
+    + Direct database connection for machine learning
+    + Big data platformes (e.g., Spark and MLLib)
+    + Parallel and distributed computing and associated communications cost and complexity
+    + Parameter server
 
-**General**
+**General AI and Machine Learning**
 - Model performance vs interpretability and explainability
     + Black box vs non-black box algorithms
 - Model complexity vs simplicity (i.e., parsimony)
-- Statistical, algorithmic, and cognitive biases
 - Generalization vs representation
-
-**AI and Machine Learning**
 - AI limitations
     + Unsupervised learning to some extent
     + Solving multiple problems at once
@@ -305,6 +400,7 @@
     + Sample or selection bias
     + Confirmation bias
     + Algorithmic bias <sup>3</sup>
+- Ethical considerations
 - AI and machine learning process
     + CRISP-DM, etc.
 - AI and machine learning automations and future advancements
@@ -334,3 +430,4 @@
 2. [Beyond Distributed ML Algorithms: Techniques for Learning from Large Data Sets](https://iwringer.wordpress.com/2015/10/06/techniques-for-learning-from-large-amounts-of-data/)
 3. [Joy Buolamwini - TED Talk](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms)
 4. [Deep Learning by Josh Patterson and Adam Gibson - O'Reilly](https://www.amazon.com/Deep-Learning-Practitioners-Josh-Patterson-ebook/dp/B074D5YF1D/ref=mt_kindle?_encoding=UTF8&me=)
+5. [Fundamentals of Machine Learning for Predictive Data Analytics](https://www.amazon.com/Fundamentals-Machine-Learning-Predictive-Analytics-ebook/dp/B013FHC8CM/ref=sr_1_1)
