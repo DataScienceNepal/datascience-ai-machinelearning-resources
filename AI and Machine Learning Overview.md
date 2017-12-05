@@ -141,8 +141,14 @@
 + Classification via definitive vs probabilistic assigment
 + Kernel selection (e.g., SVM)
 + Neural networks and deep learning-specific
+    * Artificial neurons
+        - Linear threshold unit (LTU)
     * Inputs
-    * Hidden layers
+    * Number of hidden layers
+    * Number of neurons per layer
+    * Network topology and interconnections between neurons
+    * Network depth vs width
+        - Parameter efficiency (increased depth reduces neurons required)
     * Outputs and output type
         - Output types
             + Real-valued numeric (regression)
@@ -158,6 +164,8 @@
             + Tanh and hard Tanh
             + Softmax and hierarchical softmax
             + Softplus
+            + Exponential linear unit (ELU)
+                * Slower
     * Architecture type <sup>4</sup>
         - Unsupervised Pretrained Networks (UPNs)
             + Autoencoders
@@ -171,6 +179,7 @@
         - Recursive Neural Networks
     * Algorithms
         - First and second order
+            + First-order partial derivatives (Jacobians) vs Second-order partial derivatives (the Hessians)
 
 **Model Performance**
 - Overfitting and quality of fit (aka bias vs variance)
@@ -228,6 +237,12 @@
     + Ridge regression
     + The Lasso
     + Elastic Net
+    + Neural networks
+        * Early stopping
+        * L1 and L2 regularization
+        * Dropout
+        * Max-norm regularization
+        * Data augmentation
 - Dimension reduction
     + PCA
     + Partial least squares
@@ -289,6 +304,28 @@
 - Cost or loss function selection
     + MSE
     + Cross entropy
+- Vanishing gradients, exploding gradients, batch normalization (BN), and gradient clipping
+- Unstable gradients
+- Activation function saturation
+- Dying ReLUs (only output 0, neuron goes dead, once dead -> stays dead) vs leaky ReLUs vs randomized leaky ReLU (RReLU) vs parametric leaky ReLU (PReLU)
+- Internal Covariate Shift problem
+- Model pretraining, transfer learning, and frozen layers
+    + Model zoos
+    + Lower layer reuse
+- Max margin learning
+- Speed up DNN training <sup>5</sup>
+    + Apply a good initialization strategy for the connection weights
+    + Use a good activation function
+    + Use Batch Normalization
+    + Use parts of a pretrained network
+    + Use a faster optimizer than the regular Gradient Descent optimizer
+        * Momentum optimization
+        * Nesterov Accelerated Gradient
+        * AdaGrad
+        * RMSProp
+        * Adam optimization
+- Sparse data
+    + Dual averaging, aka Follow The Regularized Leader (FTRL)
 
 **Model Validation, Tuning, and Optimization**
 - Resampling
@@ -307,6 +344,11 @@
 - Hyperparameter tuning and optimization
     + Grid search
     + Randomized search for large search space
+    + Learning rate reduction (learning schedules)
+        * Predetermined piecewise constant learning rate
+        * Performance scheduling
+        * Exponential scheduling
+        * Power scheduling
 - Ensemble methods
 - Bagging and boosting
 - Kernel selection (e.g., SVM)
