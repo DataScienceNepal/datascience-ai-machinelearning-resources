@@ -146,7 +146,7 @@
     * Inputs
     * Number of hidden layers
     * Number of neurons per layer
-    * Network topology and interconnections between neurons
+    * Network topology and interconnections and interconnection types between neurons
     * Network depth vs width
         - Parameter efficiency (increased depth reduces neurons required)
     * Outputs and output type
