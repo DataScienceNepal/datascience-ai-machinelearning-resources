@@ -89,6 +89,7 @@
 
 ## APIs, SaaS, and Platforms
 - [AWS Artificial Intelligence](https://aws.amazon.com/amazon-ai/)
+- [AWS SageMaker](https://aws.amazon.com/sagemaker/)
 - [AWS Machine Learning](https://aws.amazon.com/documentation/machine-learning/)
     + [Lex](https://aws.amazon.com/lex/)
     + [Rekognition](https://aws.amazon.com/rekognition/)
@@ -128,3 +129,4 @@
 - [Findally](https://www.findally.com/)
 - [Persado](https://persado.com/)
 - [Boomtrain](https://boomtrain.com/why_boomtrain/)
+- [Mozilla's Common Voice](https://voice.mozilla.org/)

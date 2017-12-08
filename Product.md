@@ -236,6 +236,7 @@
     + Feasibility risk: can our engineers build this with the technology
         available, the time available, and the skill­sets available on the team?
     + Stakeholder risk: are the different parts of the company ok with this proposed solution?
+    + Business viability risk (whether this solution also works for the various aspects of our business)
 
 <h2><a name="resources">Learning Resources</a></h2>
 
