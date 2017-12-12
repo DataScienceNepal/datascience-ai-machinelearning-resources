@@ -220,7 +220,7 @@
 - Service level agreement (SLA)
     + Mean time between failures (MTBF)
     + Mean time to repair/recovery (MTTR)
-
+ 
 <h2><a name="risk">Risk Management</a></h2>
 
 - ROAM model

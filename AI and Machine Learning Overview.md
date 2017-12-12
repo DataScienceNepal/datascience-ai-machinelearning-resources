@@ -131,7 +131,25 @@
         - Decision trees
         - KNN - k nearest neighbors
         - SVMs
-+ Generative vs discriminative models
++ Generative vs discriminative models<sup>1</sup>
+    * Generative
+        - Gaussian mixture model
+        - Hidden Markov model
+        - Probabilistic context-free grammar
+        - Naive Bayes
+        - Averaged one-dependence estimators
+        - Latent Dirichlet allocation
+        - Restricted Boltzmann machine
+        - Generative adversarial networks
+    * Discriminative
+        - Linear regression
+        - Logistic regression
+        - Support Vector Machines
+        - Maximum Entropy Markov Model
+        - Boosting (meta-algorithm)
+        - Conditional Random Fields
+        - Neural Networks
+        - Random forests
 + Model complexity
 + Model assumptions (e.g., linearity)
 + Handling of redundant or irrelevant features
@@ -151,8 +169,10 @@
         - Parameter efficiency (increased depth reduces neurons required)
     * Outputs and output type
         - Output types
-            + Real-valued numeric (regression)
-            + Probabilities (binary and multiclass classification)
+            + Single neuron: real-valued numeric (regression)
+            + Single neuron: binary classification (classification)
+            + Multiple neurons: class scores/probabilities (classification)
+            + Multiple neurons: binary assignment per class (classification)
         - Output controlled by output layer activation functions
     * Activation functions and forward propogation
         - Output values, e.g., 0 to 1, -1 to 1, ...
@@ -310,6 +330,7 @@
 - Dying ReLUs (only output 0, neuron goes dead, once dead -> stays dead) vs leaky ReLUs vs randomized leaky ReLU (RReLU) vs parametric leaky ReLU (PReLU)
 - Internal Covariate Shift problem
 - Model pretraining, transfer learning, and frozen layers
+    + Pretraining for weight initialization
     + Model zoos
     + Lower layer reuse
 - Max margin learning

@@ -57,6 +57,7 @@
 - [deeplearning.ai](https://www.deeplearning.ai/)
 - [fast.ai](http://www.fast.ai/)
     + [Course materials](http://files.fast.ai/)
+- [How to Choose a Neural Network](https://deeplearning4j.org/neuralnetworktable.html)
 - [Become A Machine Learning Engineer](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)
 - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
 - [Stanford Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning)

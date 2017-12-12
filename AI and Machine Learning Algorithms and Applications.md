@@ -20,7 +20,7 @@
 - <a href="#reality">Virtual and Augmented Reality</a>
 - <a href="#information-retrieval">Information Retrieval</a>
 - <a href="#logical-reasoning">Logical Reasoning</a>
-- <a href="#optimization">Optimization</a>
+- <a href="#optimization">Optimization and Search</a>
 - <a href="#risk">Quantitative Finance and Risk Management</a>
 - <a href="#ranking">Ranking</a>
 - <a href="#time-series">Time-series</a>
@@ -250,9 +250,39 @@
 - Support vector machines (SVM)
 - Kohonen networks (KN, also self organising (feature) map, SOM, SOFM)
 
-**Example Applications**
+**Example Applications**<sup>1</sup>
 
-
+- Feed forward neural network and Multilayer perceptron
+    + Regression and classifications
+- Restricted Boltzmann machine
+    + Dimensionality reduction
+    + Feature extraction/learning
+    + Classification
+    + Recommender systems
+    + Topic modeling
+    + Pretraining for weight initialization
+- Autoencoders
+    + Dimensionality reduction
+    + Anomaly detection
+    + Generative modeling
+- Convolutional neural network
+    + Image recognition
+    + Video recognition
+    + Automatic speech recognition (ASR)
+    + Recommender systems
+    + Natural language processing
+- Recurrent neural network
+    + Language modeling
+    + Machine translation
+    + Handwriting recognition
+    + Speech recognition
+    + Multilingual Language Processing
+    + Natural language processing
+- Self-organizing map
+    + Dimensionality reduction
+- Generative models
+- Combinations
+    + Image captioning (LSTM + CNN)
 
 <h2><a name="recognition">Recognition and Computer Vision</a></h2>
 
@@ -450,6 +480,7 @@
 
 <h2><a name="reinforcement">Reinforcement Learning</a></h2>
 
+- Q-learning
 - Markov decision process (MDP)
 - Finite MDPs
 - Monte Carlo methods
@@ -534,9 +565,10 @@
 - Expert systems
 - Logical reasoning
 
-<h2><a name="optimization">Optimization</a></h2>
+<h2><a name="optimization">Optimization and Search</a></h2>
 
 - Stochastic search
+- Stochastic optimization (SO) methods
 - Genetic algorithms
 - Simulated annealing
 - Gradient search
@@ -546,8 +578,13 @@
 - Active learning
 - Ensemble learning
 - Minimum
-- Maximun
+- Maximum
 - Optimal value or optimal combination
+- Metaheuristic methods
+- Randomized search methods
+- Tree search
+- Monte Carlo tree search (MCTS)
+- Evolutionary computation
 
 <h2><a name="risk">Mathematical/quantitative Finance and Risk Management</a></h2>
 

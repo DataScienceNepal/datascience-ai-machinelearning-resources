@@ -59,8 +59,9 @@
     + http://archive.ics.uci.edu/ml/datasets/Student+Performance
     + http://archive.ics.uci.edu/ml/datasets/Automobile
     + http://archive.ics.uci.edu/ml/datasets/Auto+MPG
-- Computer Vision
+- Computer Vision and Recognition
     + http://www.cvpapers.com/datasets.html
+    + http://www.image-net.org/
 - IoT
 
 **Specific Data Sets**
