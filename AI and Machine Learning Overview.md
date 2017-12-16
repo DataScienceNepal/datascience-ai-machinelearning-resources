@@ -32,6 +32,7 @@
     + Increase operational efficiency
     + Reduce waste
     + Increase customer acquisition, retention, and growth
+    + Maximize customer retention and minimize churn/loss (particularly to competitors)
     + Improve customer service
     + Enhance business development
     + Improve business governance
@@ -48,8 +49,8 @@
         * Easy to use
         * Easy to understand
         * No extra fluff or unnecessary information
-    + Products that are sticky
-    + Personalized experiences
+    + Products that are sticky, i.e., maximum stickyness
+    + Highly personalized experiences
 - Goals for artificial intelligence in the future
     + It just works
     + Great user experience
@@ -106,6 +107,14 @@
 - Mind - The element, part, substance, or process that reasons, thinks, feels, wills, perceives, judges, etc.
 - Think - To employ one’s mind rationally and objectively in evaluating or dealing with a given situation
 - Artificial (aka machine or synthetic) consciousness - The aim of the theory of artificial consciousness is to "Define that which would have to be synthesized were consciousness to be found in an engineered artifact"
+- Sensing
+- Learning
+- Remembering
+- Reasoning
+- Transcendent 
+- Conscious 
+- Self-aware
+- Latent Intelligence
 
 
 ## AI and ML Process (High-level)
@@ -547,6 +556,19 @@
     + Inference
         * Understand how Y varies with X and any underlying relationships between Y and X, particularly wrt. individual predictors and each of their impact on the response
         * Understand the degree to which Y varies with each predictor, e.g., linear, non-linear, ...
+
+## AI Current and Future
+
+- Hype cycle
+    + AI winter and trough of disillutionment
+- Expectation management
+- Actual AI vs simpler machine learning algorithms
+- Machine learning by itself is not AI, intelligent systems are built from machine learning models and much more
+
+## AI and Machine Learning Costs
+
+- Financial
+- Non-financial
 
 ## References
 

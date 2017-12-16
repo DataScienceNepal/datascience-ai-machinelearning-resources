@@ -1,7 +1,8 @@
 ### Table of Contents
 - <a href="#categories">Algorithm Categories</a>
 - <a href="#fields">Algorithms and Applications by Field/Industry</a>
-- <a href="#data-type">Algorithms and Applications by Task</a>
+- <a href="#data-type">Algorithms and Applications by Data Type</a>
+- <a href="#tasks">Algorithms and Applications by Task</a>
 - <a href="#regression">Regression (Supervised) - Univariate, Multivariate, ...</a>
 - <a href="#classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a>
 - <a href="#regularization">Regularization and Overfitting Prevention</a>
@@ -53,6 +54,12 @@
 
 <h2><a name="fields">Algorithms and Applications by Field/Industry</a></h2>
 
+- Telecommunications
+    + 5G
+    + IoT
+    + Autonomous vehicles
+    + Smart cities
+    + Engagement insights whose info is sold back to advertisers
 - Marketing
     + Segmentation
     + Ranking/scoring
@@ -68,6 +75,21 @@
     + Revenue forecasting and growth
 - Security intelligence (security, fraud, and risk analysis)
 - Customer relationship management
+- AR and VR
+- Gaming
+    + Examples
+        * AlphaGo
+        * DeepBlue
+        * Watson Jeapordy
+- Health care
+- Insurance
+- Retail
+    + Recommendation engines
+    + Virtual reality fitting systems
+    + Shopping experience
+- Autonomous transportation
+    + Examples
+        * Google autonomous cars
 
 <h2><a name="data-type">Algorithms and Applications by Data Type</a></h2><sup>2</sup>
 
@@ -79,12 +101,25 @@
     + Flaw detection (engine noise)
     + Fraud detection (latent audio artifacts)
     + Speech-to-Text
-- Time Series
+- Time Series/sequence
     + Log analysis/Risk detection
     + Enterprise resource planning
     + Predictive analysis using sensor data
     + Business and economic analysis
     + Recommendation engine
+    + Examples and algorithms
+        * Web log
+            - RNN
+        * Time series in general (has time stamp)
+            - RNN
+        * Sensors and measures over time
+            - RNN
+        * Arbitrarily long sequence that may take full input data
+            - RNN
+            - Markova model with large hidden state space
+        * Fixed length sequence
+            - CNN
+            - Multilayer perceptron
 - Text
     + Sentiment analysis
     + Augmented search, theme detection
@@ -98,6 +133,8 @@
     + Machine vision
     + Photo clustering
     + Object recognition
+    + Algorithms
+        * CNN
 - Video
     + Motion detection
     + Real-time threat detection
@@ -114,6 +151,35 @@
             - Health degredation, failure, and disease
             - Customer churn
             - Employee churn
+- Columnar/tabular
+    + Classic multilayer perceptrons + feature engineering
+
+<h2><a name="tasks">Algorithms and Applications by Task</a>
+
+- Prediction
+    + Regression/classification
+        * RNN
+- Recommendation
+- Generative
+    + Novel output
+        * RNN
+- Reconstruction
+    + Example: MINST
+- Recognition and computer vision
+    + Changing images in time (video)
+        * LSTM (temporal aspect) with convolutions layers (capture structure/features)
+- NLP, NLG, NLU
+    + Machine translation
+        * CNN
+    + Sentiment analysis
+        * CNN
+    + Sentence classification
+        * CNN
+- Personal assistant
+    + Voice to text then NLP to understand what the user wants to accomplish, then generating text, voice, action
+- Anamoly detection
+- Reinforcement learning
+- Reality capture and reality computing
 
 <h2><a name="regression">Regression (Supervised) - Univariate, Multivariate, ...</a></h2>
 
