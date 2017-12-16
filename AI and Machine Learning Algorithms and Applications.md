@@ -1,6 +1,7 @@
 ### Table of Contents
 - <a href="#categories">Algorithm Categories</a>
 - <a href="#fields">Algorithms and Applications by Field/Industry</a>
+- <a href="#data-type">Algorithms and Applications by Task</a>
 - <a href="#regression">Regression (Supervised) - Univariate, Multivariate, ...</a>
 - <a href="#classification">Classification (Supervised) - Unary (one-class), Binary, and Multi-class</a>
 - <a href="#regularization">Regularization and Overfitting Prevention</a>
@@ -66,6 +67,53 @@
 - Sales
     + Revenue forecasting and growth
 - Security intelligence (security, fraud, and risk analysis)
+- Customer relationship management
+
+<h2><a name="data-type">Algorithms and Applications by Data Type</a></h2><sup>2</sup>
+
+- Sound/Audio
+    + Voice detection/recognition
+    + Voice search
+    + Speaker identification
+    + Sentiment analysis
+    + Flaw detection (engine noise)
+    + Fraud detection (latent audio artifacts)
+    + Speech-to-Text
+- Time Series
+    + Log analysis/Risk detection
+    + Enterprise resource planning
+    + Predictive analysis using sensor data
+    + Business and economic analysis
+    + Recommendation engine
+- Text
+    + Sentiment analysis
+    + Augmented search, theme detection
+    + Threat detection
+    + Fraud detection
+    + Named-entity recognition
+- Image
+    + Facial recognition and expression recognition
+    + People identification
+    + Image search
+    + Machine vision
+    + Photo clustering
+    + Object recognition
+- Video
+    + Motion detection
+    + Real-time threat detection
+    + Gesture recognition
+- Unlabeled and/or unstructured data
+    + Clustering
+    + Anamoly detection (detecting anamolies)
+    + Search (detecting similarities)
+        * Compare docs, images, sounds, etc., and return similar items
+- Labeled data
+    + Predictive analytics
+        * Regression and classification
+            - Hardware failure
+            - Health degredation, failure, and disease
+            - Customer churn
+            - Employee churn
 
 <h2><a name="regression">Regression (Supervised) - Univariate, Multivariate, ...</a></h2>
 
@@ -795,6 +843,16 @@
 ## References
 
 1. [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+2. [DL4J Deep Learning Use Cases](https://deeplearning4j.org/use_cases)
+3. [Wikipedia Outline of Machine Learning](https://en.wikipedia.org/wiki/Outline_of_machine_learning)
+4. [Wikipedia Machine Learning Portal](https://en.wikipedia.org/wiki/Portal:Machine_learning)
+5. [Wikipedia Outline of Artificial Intelligence](https://en.wikipedia.org/wiki/Outline_of_artificial_intelligence)
+6. [Wikipedia Artificial Intelligence Portal](https://en.wikipedia.org/wiki/Portal:Artificial_intelligence)
+7. [Wikipedia List of Emerging Technologies](https://en.wikipedia.org/wiki/List_of_emerging_technologies)
+8. [Wikipedia Outline of Statistics](https://en.wikipedia.org/wiki/Outline_of_statistics)
+9. [Wikipedia Statistics Portal](https://en.wikipedia.org/wiki/Portal:Statistics)
+10. [Wikipedia Outline of Mathemetics](https://en.wikipedia.org/wiki/Outline_of_mathematics)
+11. [Wikipedia Mathemetics Portal](https://en.wikipedia.org/wiki/Portal:Mathematics)
 
 <!-- ## References
 - [The Field Guide to Data Science (Booz, Allen, Hamilton)](https://www.boozallen.com/content/dam/boozallen/documents/2015/12/2015-FIeld-Guide-To-Data-Science.pdf) -->

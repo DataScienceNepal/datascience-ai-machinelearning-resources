@@ -71,7 +71,7 @@
     + Deep - Machine learning based on deep neural networks, i.e., those with more than one hidden layer, each which learns components of the bigger picture
         * Multiple hidden layers allow deep neural networks to learn simple features of the data in a hierarchy, which are combined by the network
     + Shallow - One so-called hidden layer
-        * Can be very wide to achieve similar results to deep, but not as good or efficient
+        * Can be very wide to achieve similar results to deep, but not as efficient and requires more neurons
     + Soft - Not really used
     + Applied - Building ‘smart’ systems or enhancing or extending software applications, where each AI is built for a single purpose
     + AGI, Strong, Full, Hard, Complete
@@ -157,18 +157,49 @@
 + Complexity vs parsimony
 + Ability to automatically learn feature interactions
 + Classification via definitive vs probabilistic assigment
++ Output types
+    * Continuous numeric
+    * Probability: 0 to 1
+    * Classification
+        - Binary
+        - Multiclass/ multinomial
+            + One vs all or one vs rest (probability per class and ranked)
+            + One vs one (binary classifier for every class)
+        - Multilabel (assign to multiple classes)
+            + Multiple binary labels
+        - Multioutput
+            + Multiple labels, each label can be multiclass (more than two classes)
 + Kernel selection (e.g., SVM)
+    * Linear
+    * Polynomial
+    * Gaussian
+    * RBF
++ Feature engineering tractability
+    * Use NN and DL if intractable
 + Neural networks and deep learning-specific
     * Artificial neurons
         - Linear threshold unit (LTU)
     * Inputs
+        - Sound/audio
+        - Time series
+        - Text
+        - Image
+        - Video
+        - Unlabeled and/or unstructured data
+        - Labeled data
+            + Can be difficult, time consuming, and/or costly to obtain
+            + Consider a service, e.g., Mechanical Turk, CrowdFlower, ...
     * Number of hidden layers
+    * Layer type
+        - Fully connected
+        - Restricted Boltzman Machine (RBM)
+        - Autoencoders
     * Number of neurons per layer
     * Network topology and interconnections and interconnection types between neurons
     * Network depth vs width
         - Parameter efficiency (increased depth reduces neurons required)
     * Outputs and output type
-        - Output types
+        - Output neurons
             + Single neuron: real-valued numeric (regression)
             + Single neuron: binary classification (classification)
             + Multiple neurons: class scores/probabilities (classification)
@@ -179,13 +210,15 @@
         - Nonzero is 'activated'
         - Examples
             + Linear
-            + Rectified linear units (ReLU) and Leaky ReLU
-            + Sigmoid
-            + Tanh and hard Tanh
+            + Rectified linear units (ReLU), Leaky ReLU, Randomized leaky ReLU (RReLU), Parametric leaky ReLU (PReLU)
+            + Sigmoid and hard sigmoid
+            + Tanh, hard Tanh, rational Tanh
             + Softmax and hierarchical softmax
             + Softplus
+            + Softsign
             + Exponential linear unit (ELU)
-                * Slower
+                * Slower, but very high performing
+            + Cube
     * Architecture type <sup>4</sup>
         - Unsupervised Pretrained Networks (UPNs)
             + Autoencoders
@@ -200,6 +233,7 @@
     * Algorithms
         - First and second order
             + First-order partial derivatives (Jacobians) vs Second-order partial derivatives (the Hessians)
+    * Translation invariance
 
 **Model Performance**
 - Overfitting and quality of fit (aka bias vs variance)
@@ -229,6 +263,7 @@
 - Inability to achieve desired performance level
     + Ill-posed problem
     + Intractability
+        * Bad data and/or bad algorithm
 - Collinearity, multicollinearity, correlation, ...
 - Confounding variables
 - Missing features
@@ -289,6 +324,11 @@
         * Policy
         * Rewards
     + Transfer
+        * Reuse similar network lower layers
+        * Requires much less training data
+        * Speeds up training
+        * Frozen layers and stop gradient
+        * Model zoo for models
 - Machine learning algorithm families <sup>5</sup>
     + Information-based learning
     + Similarity-based learning
@@ -323,28 +363,49 @@
     + Depends on computational complexity and speed/time
 - Cost or loss function selection
     + MSE
+    + Exponential log likelihood
     + Cross entropy
+    + Multiclass Cross Entropy
+    + RMSE Cross Entropy
+    + Squared Loss
+    + Negative Log Likelihood
 - Vanishing gradients, exploding gradients, batch normalization (BN), and gradient clipping
 - Unstable gradients
 - Activation function saturation
-- Dying ReLUs (only output 0, neuron goes dead, once dead -> stays dead) vs leaky ReLUs vs randomized leaky ReLU (RReLU) vs parametric leaky ReLU (PReLU)
+- Dying or comatose ReLUs
+    + Only output 0, neuron goes dead, once dead -> stays dead
 - Internal Covariate Shift problem
+- Unsupervised Pretraining
+    + RBM or autoencoders
 - Model pretraining, transfer learning, and frozen layers
     + Pretraining for weight initialization
     + Model zoos
     + Lower layer reuse
+    + 
 - Max margin learning
+- Initilization strategy
+    + He initialization
+    + Glorot initialization
+    + Xavier initialization
+    + Random initializations
+    + ESN-based Initialization
 - Speed up DNN training <sup>5</sup>
     + Apply a good initialization strategy for the connection weights
     + Use a good activation function
     + Use Batch Normalization
     + Use parts of a pretrained network
-    + Use a faster optimizer than the regular Gradient Descent optimizer
+    + Use a faster optimizer (updater) than the regular Gradient Descent optimizer
         * Momentum optimization
         * Nesterov Accelerated Gradient
         * AdaGrad
         * RMSProp
-        * Adam optimization
+        * Adam
+        * AdaADelta
+        * SGD
+        * Conjugate Gradient
+        * Hessian Free
+        * LBFGS
+        * Line Gradient Descent
 - Sparse data
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
 
