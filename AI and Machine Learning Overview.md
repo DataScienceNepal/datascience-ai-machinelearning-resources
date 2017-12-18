@@ -200,7 +200,7 @@
             + Consider a service, e.g., Mechanical Turk, CrowdFlower, ...
     * Number of hidden layers
     * Layer type
-        - Fully connected
+        - Fully connected (aka dense)
         - Restricted Boltzman Machine (RBM)
         - Autoencoders
     * Number of neurons per layer
