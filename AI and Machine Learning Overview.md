@@ -140,6 +140,7 @@
         - Decision trees
         - KNN - k nearest neighbors
         - SVMs
++ Regressor vs classifier
 + Generative vs discriminative models<sup>1</sup>
     * Generative
         - Gaussian mixture model
@@ -194,6 +195,7 @@
         - Text
         - Image
         - Video
+        - Structured data
         - Unlabeled and/or unstructured data
         - Labeled data
             + Can be difficult, time consuming, and/or costly to obtain
@@ -253,6 +255,9 @@
         * More data
         * Reduce noise and/or increase the signal-to-noise ratio
         * Reduce model complexity (see Model Complexity and Reduction section)
+        * Trees
+            - Pruning
+            - Max depth
 - Underfitting
     + Opposite of overfitting
     + Solutions
@@ -281,12 +286,14 @@
 - Linear separability
 - Choice of loss function
     + Regression examples
+        * L1 and L2 loss
         * Mean squared error (MSE)
         * Mean squared log error (MSLE)
         * Root mean squared error (RMSE)
         * Mean absolute percentage error (MAPE)
         * Mean absolute error (MAE)
     + Classification examples
+        * Cross-entropy
         * Hinge loss
         * Logistic loss
         * Negative log likelihood
@@ -307,6 +314,13 @@
         * Dropout
         * Max-norm regularization
         * Data augmentation
+            - Learnable and not noise
+            - Examples
+                + Images
+                    * Shift/translate, rotate, resize
+                    * Brightness, contrast, saturation, and hue
+                    * Flip across axis
+                    * Cropping
 - Dimension reduction
     + PCA
     + Partial least squares
@@ -390,7 +404,6 @@
     + Pretraining for weight initialization
     + Model zoos
     + Lower layer reuse
-    + 
 - Max margin learning
 - Initilization strategy
     + He initialization
@@ -425,7 +438,7 @@
 - Hyperparameters
     + Example categories <sup>4</sup>
         * Layer size
-        * Magnitude (momentum, learning rate)
+        * Magnitude (momentum, learning rate, learning rate decay)
         * Regularization (dropout, drop connect, L1, L2)
         * Activations (and activation function families)
         * Weight initialization strategy
@@ -441,6 +454,8 @@
         * Exponential scheduling
         * Power scheduling
 - Ensemble methods
+    + Hard voting (majority vote)
+    + Soft voting
 - Bagging and boosting
 - Kernel selection (e.g., SVM)
 - Learning curves
@@ -568,7 +583,16 @@
 ## AI and Machine Learning Costs
 
 - Financial
+    + Employees
+    + Tools and software
+    + Cloud computing
+    + Data
+    + Research
+    + Computing equipment
 - Non-financial
+    + Coordination
+    + Communication
+    + Opportunity
 
 ## References
 

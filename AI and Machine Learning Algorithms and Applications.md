@@ -295,9 +295,10 @@
     + LogitBoost
     + LPBoost
     + TotalBoost
+- Pasting
 - Bayesian model averaging (BMA)
 - Weak learner theory
-- Stacking and Blending
+- Stacking (stacked generalization) and Blending
 - Bayes optimal classifier
 - Bayesian parameter averaging (BPA)
 - Bayesian model combination (BMC)
