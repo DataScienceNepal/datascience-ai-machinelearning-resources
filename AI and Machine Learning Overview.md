@@ -64,6 +64,7 @@
     + Visualizations
     + Presentation
     + Asynchronous messaging, notifications, insights, and alerts
+- Creating intelligent agents able to predict and take action as opposed to only predictive models
 
 ## Types
 
@@ -179,6 +180,7 @@
             + Multiple binary labels
         - Multioutput
             + Multiple labels, each label can be multiclass (more than two classes)
+        - Hierarchical
 + Kernel selection (e.g., SVM)
     * Linear
     * Polynomial
@@ -346,6 +348,7 @@
         * Actions
         * Policy
         * Rewards
+        * Credit assignment problem
     + Transfer
         * Reuse similar network lower layers
         * Requires much less training data
@@ -436,7 +439,7 @@
     + Cross-validation
     + Bootstrap
 - Hyperparameters
-    + Example categories <sup>4</sup>
+    + Example categories for NN and DL <sup>4</sup>
         * Layer size
         * Magnitude (momentum, learning rate, learning rate decay)
         * Regularization (dropout, drop connect, L1, L2)
@@ -445,6 +448,8 @@
         * Loss functions
         * Settings for epochs during training (mini-batch size)
         * Normalization scheme for input data (vectorization)
+    + Trees
+        * Gini vs entropy for impurity
 - Hyperparameter tuning and optimization
     + Grid search
     + Randomized search for large search space
