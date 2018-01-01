@@ -1,4 +1,23 @@
-## Goals and Purpose
+### Table of Contents
+- <a href="#goals">Goals and Purpose</a>
+- <a href="#types">Types</a>
+- <a href="#terms">AI Related Terms</a>
+- <a href="#process">AI and ML Process (High-level)</a>
+- <a href="#tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a>
+- <a href="#model_selection">Model Selection</a>
+- <a href="#model_performance">Model Performance</a>
+- <a href="#model_training">Model Training and Learning</a>
+- <a href="#model_tuning">Model Validation, Tuning, and Optimization</a>
+- <a href="#model_complexity">Model Complexity and Reduction</a>
+- <a href="#data">Data, Data Sources, and Data Preparation</a>
+- <a href="#requirements">Computing and Infrastructure Requirements and Performance</a>
+- <a href="#real-world">Real-World AI and Machine Learning</a>
+- <a href="#general">General AI and Machine Learning</a>
+- <a href="#stats">Statistics</a>
+- <a href="#future">AI Current and Future</a>
+- <a href="#costs">AI and Machine Learning Costs</a>
+
+<h2><a name="goals">Goals and Purpose</a></h2>
 
 - Derive discoveries, information, patterns, trends, and actionable insights
     + Automated, ad-hoc, and self-service
@@ -66,7 +85,7 @@
     + Asynchronous messaging, notifications, insights, and alerts
 - Creating intelligent agents able to predict and take action as opposed to only predictive models
 
-## Types
+<h2><a name="types">Types</a></h2>
 
 - AI (encompasses machine learning and other fields)
     + Weak/Narrow - Non-sentient artificial intelligence that is focused on one narrow task
@@ -99,7 +118,7 @@
         * Ensemble methods
             - Bagging (random forests) and boosting
 
-## AI Related Terms
+<h2><a name="terms">AI Related Terms</a></h2>
 
 - Sentient - Able to perceive or feel things
 - Consciousness - The state of being awake and aware of one's surroundings (opposite is dead or inanimate object)
@@ -117,8 +136,7 @@
 - Self-aware
 - Latent Intelligence
 
-
-## AI and ML Process (High-level)
+<h2><a name="process">AI and ML Process (High-level)</a></h2>
 
 - Ask the right question
 - Obtain the data
@@ -128,9 +146,10 @@
 - Iterate and improve performance
 - Deliver/communicate/present results
 
-## AI and ML Tradeoffs, Considerations, and Constraints (High-level)
+<h2><a name="tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a></h2>
 
-**Model Selection**
+<h5><a name="model_selection">Model Selection</a></h5>
+
 + No Free Lunch (NFL) theorem
     * There is no model that is a priori guaranteed to work better
     * Must evaluate multiple and make reasonable assumptions
@@ -248,7 +267,8 @@
             + First-order partial derivatives (Jacobians) vs Second-order partial derivatives (the Hessians)
     * Translation invariance
 
-**Model Performance**
+<h5><a name="model_performance">Model Performance</a></h5>
+
 - Overfitting and quality of fit (aka bias vs variance)
     + Noise - errors and outliers
     + Not enough data
@@ -302,38 +322,8 @@
     + Reconstruction
         * Entropy loss
 
-**Model Complexity and Reduction**
-- Subset selection
-    + Best subset selection
-    + Stepwise selection (forward and backward)
-- Shrinkage and regularization
-    + Ridge regression
-    + The Lasso
-    + Elastic Net
-    + Neural networks
-        * Early stopping
-        * L1 and L2 regularization
-        * Dropout
-        * Max-norm regularization
-        * Data augmentation
-            - Learnable and not noise
-            - Examples
-                + Images
-                    * Shift/translate, rotate, resize
-                    * Brightness, contrast, saturation, and hue
-                    * Flip across axis
-                    * Cropping
-- Dimension reduction
-    + PCA
-    + Partial least squares
-- Tree methods (e.g., pruning, ...)
-- Feature selection, engineering, and extraction
-    + Collinearity, multicollinearity, correlation, ...
-    + Confounding variables
-    + Missing features
-    + Feature extraction via dimensionality reduction
+<h5><a name="model_training">Model Training and Learning</a></h5>
 
-**Model Training and Learning**
 - Learning type
     + Supervised
     + Unsupervised
@@ -434,7 +424,8 @@
 - Sparse data
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
 
-**Model Validation, Tuning, and Optimization**
+<h5><a name="model_tuning">Model Validation, Tuning, and Optimization</a></h5>
+
 - Resampling
     + Cross-validation
     + Bootstrap
@@ -465,7 +456,40 @@
 - Kernel selection (e.g., SVM)
 - Learning curves
 
-**Data, Data Sources, and Data Preparation**
+<h5><a name="model_complexity">Model Complexity and Reduction</a></h5>
+
+- Subset selection
+    + Best subset selection
+    + Stepwise selection (forward and backward)
+- Shrinkage and regularization
+    + Ridge regression
+    + The Lasso
+    + Elastic Net
+    + Neural networks
+        * Early stopping
+        * L1 and L2 regularization
+        * Dropout
+        * Max-norm regularization
+        * Data augmentation
+            - Learnable and not noise
+            - Examples
+                + Images
+                    * Shift/translate, rotate, resize
+                    * Brightness, contrast, saturation, and hue
+                    * Flip across axis
+                    * Cropping
+- Dimension reduction
+    + PCA
+    + Partial least squares
+- Tree methods (e.g., pruning, ...)
+- Feature selection, engineering, and extraction
+    + Collinearity, multicollinearity, correlation, ...
+    + Confounding variables
+    + Missing features
+    + Feature extraction via dimensionality reduction
+
+<h2><a name="data">Data, Data Sources, and Data Preparation</a></h2>
+
 - Analytics base table (ABT) and data quality report <sup>5</sup>
 - Balanced vs imbalanced data
     + Equal proportion of target values
@@ -506,7 +530,8 @@
     + Missing values handling
     + Imputation
 
-**Computing and Infrastructure Requirements and Performance**
+<h2><a name="requirements">Computing and Infrastructure Requirements and Performance</a></h2>
+
 - CPU processing speed and computing time
     + Data processing, model training, and prediction speed
 - CPU vs GPU
@@ -517,7 +542,8 @@
 - Training and prediction speed
 - Computational complexity
 
-**Real-World AI and Machine Learning**
+<h2><a name="real-world">Real-World AI and Machine Learning</a></h2>
+
 - AI and machine learnng in production
     + Deploying to production and maintenance
     + Scalability
@@ -541,7 +567,8 @@
     + Parallel and distributed computing and associated communications cost and complexity
     + Parameter server
 
-**General AI and Machine Learning**
+<h2><a name="general">General AI and Machine Learning</a></h2>
+
 - Model performance vs interpretability and explainability
     + Black box vs non-black box algorithms
 - Model complexity vs simplicity (i.e., parsimony)
@@ -567,7 +594,8 @@
         * Streaming execution
         * Batch execution
 
-**Statistics**
+<h2><a name="stats">Statistics</a></h2>
+
 - Prediction vs inference
     + Prediction
         * Model an output variable Y (aka response or dependent variable) as a function of a set of input variables X (aka inputs, features, predictors, independent variables)
@@ -577,7 +605,7 @@
         * Understand how Y varies with X and any underlying relationships between Y and X, particularly wrt. individual predictors and each of their impact on the response
         * Understand the degree to which Y varies with each predictor, e.g., linear, non-linear, ...
 
-## AI Current and Future
+<h2><a name="future">AI Current and Future</a></h2>
 
 - Hype cycle
     + AI winter and trough of disillutionment
@@ -585,7 +613,7 @@
 - Actual AI vs simpler machine learning algorithms
 - Machine learning by itself is not AI, intelligent systems are built from machine learning models and much more
 
-## AI and Machine Learning Costs
+<h2><a name="costs">AI and Machine Learning Costs</a></h2>
 
 - Financial
     + Employees
