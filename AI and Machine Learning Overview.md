@@ -148,7 +148,7 @@
 
 <h2><a name="tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a></h2>
 
-<h5><a name="model_selection">Model Selection</a></h5>
+<h3><a name="model_selection">Model Selection</a></h3>
 
 + No Free Lunch (NFL) theorem
     * There is no model that is a priori guaranteed to work better
@@ -267,7 +267,7 @@
             + First-order partial derivatives (Jacobians) vs Second-order partial derivatives (the Hessians)
     * Translation invariance
 
-<h5><a name="model_performance">Model Performance</a></h5>
+<h3><a name="model_performance">Model Performance</a></h3>
 
 - Overfitting and quality of fit (aka bias vs variance)
     + Noise - errors and outliers
@@ -322,7 +322,7 @@
     + Reconstruction
         * Entropy loss
 
-<h5><a name="model_training">Model Training and Learning</a></h5>
+<h3><a name="model_training">Model Training and Learning</a></h3>
 
 - Learning type
     + Supervised
@@ -424,7 +424,7 @@
 - Sparse data
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
 
-<h5><a name="model_tuning">Model Validation, Tuning, and Optimization</a></h5>
+<h3><a name="model_tuning">Model Validation, Tuning, and Optimization</a></h3>
 
 - Resampling
     + Cross-validation
@@ -456,7 +456,7 @@
 - Kernel selection (e.g., SVM)
 - Learning curves
 
-<h5><a name="model_complexity">Model Complexity and Reduction</a></h5>
+<h3><a name="model_complexity">Model Complexity and Reduction</a></h3>
 
 - Subset selection
     + Best subset selection
