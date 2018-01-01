@@ -385,8 +385,9 @@
     + RMSE Cross Entropy
     + Squared Loss
     + Negative Log Likelihood
-- Vanishing gradients, exploding gradients, batch normalization (BN), and gradient clipping
-- Unstable gradients
+- Vanishing, exploding, and unstable gradients, 
+- Batch normalization (BN)
+- Gradient clipping
 - Activation function saturation
 - Dying or comatose ReLUs
     + Only output 0, neuron goes dead, once dead -> stays dead
@@ -414,7 +415,7 @@
         * Nesterov Accelerated Gradient
         * AdaGrad
         * RMSProp
-        * Adam
+        * Adam (momentum and RMSProp)
         * AdaADelta
         * SGD
         * Conjugate Gradient
@@ -423,38 +424,63 @@
         * Line Gradient Descent
 - Sparse data
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
+- Parameters vs hyperparameters
+- Training, dev (aka validation), and test dataset sizes
 
 <h3><a name="model_tuning">Model Validation, Tuning, and Optimization</a></h3>
 
 - Resampling
     + Cross-validation
     + Bootstrap
-- Hyperparameters
-    + Example categories for NN and DL <sup>4</sup>
-        * Layer size
-        * Magnitude (momentum, learning rate, learning rate decay)
-        * Regularization (dropout, drop connect, L1, L2)
-        * Activations (and activation function families)
+- Hyperparameters and model adjustments
+    + Hyperparameter values and scaling (choosing appropriate scale for search and tuning)
+    + NN and DL <sup>4, 6</sup>
+        * Number artificial neurons (hidden and output layers)
+        * Number hidden layers
+        * Momentum (exponentially weighted average applied to gradients)
+            - Beta (typically 0.90)
+        * RMSProp (exponentially weighted average applied to element-wise squared gradients with gradient adjustment scaled)
+            - Beta (typically 0.999, and different from momentum beta hyperparameter)
+            - Epsilon (typically 10^-8)
+        * Adam
+            - Hyperparameters for both momentum and RMSProp
+        * Learning rate
+            - Alpha
+        * Learning rate decay
+        * Regularization
+            - Dropout percentage (network and/or per layer)
+            - Lamda: L1 and L2
+        * Activation functions
         * Weight initialization strategy
+        * Batch normalization (typically applied to z, not a)
+            - Beta (learnable model parameters)
+            - Gamma (learnable model parameters)
         * Loss functions
-        * Settings for epochs during training (mini-batch size)
+        * Batch/Mini-batch size
+            - Batch: Full dataset
+            - Mini-batch: Subsets of full dataset
+                + Single instance as extreme case
+        * Epochs and iterations
         * Normalization scheme for input data (vectorization)
     + Trees
         * Gini vs entropy for impurity
 - Hyperparameter tuning and optimization
     + Grid search
     + Randomized search for large search space
+    + Coordinate Descent
     + Learning rate reduction (learning schedules)
         * Predetermined piecewise constant learning rate
         * Performance scheduling
         * Exponential scheduling
         * Power scheduling
+- Pandas vs caviar <sup>6</sup>
 - Ensemble methods
     + Hard voting (majority vote)
     + Soft voting
 - Bagging and boosting
 - Kernel selection (e.g., SVM)
 - Learning curves
+- Bias correction
 
 <h3><a name="model_complexity">Model Complexity and Reduction</a></h3>
 
@@ -468,10 +494,13 @@
     + Neural networks
         * Early stopping
         * L1 and L2 regularization
+            - L1 good for sparse models
         * Dropout
+        * Drop connect
         * Max-norm regularization
         * Data augmentation
             - Learnable and not noise
+            - Apply when dataset small
             - Examples
                 + Images
                     * Shift/translate, rotate, resize
@@ -634,3 +663,4 @@
 3. [Joy Buolamwini - TED Talk](https://www.ted.com/talks/joy_buolamwini_how_i_m_fighting_bias_in_algorithms)
 4. [Deep Learning by Josh Patterson and Adam Gibson - O'Reilly](https://www.amazon.com/Deep-Learning-Practitioners-Josh-Patterson-ebook/dp/B074D5YF1D/ref=mt_kindle?_encoding=UTF8&me=)
 5. [Fundamentals of Machine Learning for Predictive Data Analytics](https://www.amazon.com/Fundamentals-Machine-Learning-Predictive-Analytics-ebook/dp/B013FHC8CM/ref=sr_1_1)
+6. [deeplearning.ai Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
