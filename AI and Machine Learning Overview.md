@@ -3,6 +3,7 @@
 - <a href="#types">Types</a>
 - <a href="#terms">AI Related Terms</a>
 - <a href="#process">AI and ML Process (High-level)</a>
+- <a href="#theory">Theory</a>
 - <a href="#tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a>
 - <a href="#model_selection">Model Selection</a>
 - <a href="#model_performance">Model Performance</a>
@@ -146,13 +147,17 @@
 - Iterate and improve performance
 - Deliver/communicate/present results
 
+<h2><a name="theory">Theory</a></h2>
+
+- No Free Lunch (NFL) theorem
+    + There is no model that is a priori guaranteed to work better
+    + Must evaluate multiple and make reasonable assumptions
+- Universal approximation theorem
+
 <h2><a name="tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a></h2>
 
 <h3><a name="model_selection">Model Selection</a></h3>
 
-+ No Free Lunch (NFL) theorem
-    * There is no model that is a priori guaranteed to work better
-    * Must evaluate multiple and make reasonable assumptions
 + Parametric vs non-parametric
     * Parametric examples
         - Simple and multiple linear regresion
@@ -231,7 +236,7 @@
     * Network depth vs width
         - Parameter efficiency (increased depth reduces neurons required)
     * Outputs and output type
-        - Output neurons
+        - Output neurons (same number as training data outputs)
             + Single neuron: real-valued numeric (regression)
             + Single neuron: binary classification (classification)
             + Multiple neurons: class scores/probabilities (classification)
@@ -251,6 +256,8 @@
             + Exponential linear unit (ELU)
                 * Slower, but very high performing
             + Cube
+        - Hidden activations scaling (similar to inputs)
+        - Output activations scaling (similar to outputs)
     * Architecture type <sup>4</sup>
         - Unsupervised Pretrained Networks (UPNs)
             + Autoencoders
@@ -286,9 +293,12 @@
         * Increase model complexity and reduce regularization (if applicable)
         * Feature engineering
         * Select more powerful and complex model (e.g., neural networks)
-- Performance metric selection
-    + Precision vs recall
+- Performance metric, loss funtion, and cost function selection
+    + Single number metric
+    + Precision vs recall vs F1 score
     + ROC and AUC
+    + Loss vs cost functions
+    + Satisficing vs Optimizing metrics
 - Performance metric tradeoffs
     + Cost of false positives vs false negatives
 - Error types
@@ -304,6 +314,7 @@
 - Confounding variables
 - Missing features
 - Global vs local minima
+    + Local minima almost impossible in deep learning due to number inputs and lack of simultaneously non-zero gradients
 - Ensemble learning
 - Linear separability
 - Choice of loss function
@@ -321,6 +332,7 @@
         * Negative log likelihood
     + Reconstruction
         * Entropy loss
+- Bayes optimal, Bayes error, and avoidable bias
 
 <h3><a name="model_training">Model Training and Learning</a></h3>
 
@@ -405,27 +417,10 @@
     + Xavier initialization
     + Random initializations
     + ESN-based Initialization
-- Speed up DNN training <sup>5</sup>
-    + Apply a good initialization strategy for the connection weights
-    + Use a good activation function
-    + Use Batch Normalization
-    + Use parts of a pretrained network
-    + Use a faster optimizer (updater) than the regular Gradient Descent optimizer
-        * Momentum optimization
-        * Nesterov Accelerated Gradient
-        * AdaGrad
-        * RMSProp
-        * Adam (momentum and RMSProp)
-        * AdaADelta
-        * SGD
-        * Conjugate Gradient
-        * Hessian Free
-        * LBFGS
-        * Line Gradient Descent
 - Sparse data
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
 - Parameters vs hyperparameters
-- Training, dev (aka validation), and test dataset sizes
+- Training, dev (aka validation), and test dataset sizes (proportions) and distributions (should be same)
 
 <h3><a name="model_tuning">Model Validation, Tuning, and Optimization</a></h3>
 
@@ -462,6 +457,7 @@
                 + Single instance as extreme case
         * Epochs and iterations
         * Normalization scheme for input data (vectorization)
+        * Frozen layers (pre-training and transfer learning) vs fine tuning layers
     + Trees
         * Gini vs entropy for impurity
 - Hyperparameter tuning and optimization
@@ -481,6 +477,23 @@
 - Kernel selection (e.g., SVM)
 - Learning curves
 - Bias correction
+- Speed up DNN training <sup>5</sup>
+    + Apply a good initialization strategy for the connection weights
+    + Use a good activation function
+    + Use Batch Normalization
+    + Use parts of a pretrained network
+    + Use a faster optimizer (updater) than the regular Gradient Descent optimizer
+        * Momentum optimization
+        * Nesterov Accelerated Gradient
+        * AdaGrad
+        * RMSProp
+        * Adam (momentum and RMSProp)
+        * AdaADelta
+        * SGD
+        * Conjugate Gradient
+        * Hessian Free
+        * LBFGS
+        * Line Gradient Descent
 
 <h3><a name="model_complexity">Model Complexity and Reduction</a></h3>
 
