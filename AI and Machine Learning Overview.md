@@ -4,15 +4,14 @@
 - <a href="#terms">AI Related Terms</a>
 - <a href="#process">AI and ML Process (High-level)</a>
 - <a href="#theory">Theory</a>
-- <a href="#tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a>
+- <a href="#tradeoffs">AI and ML Concepts, Tradeoffs, Considerations, and Constraints (High-level)</a>
 - <a href="#model_selection">Model Selection</a>
 - <a href="#model_performance">Model Performance and Potential Issues</a>
-- <a href="#model_training">Model Training and Learning</a>
+- <a href="#model_training">Model Training, Learning, and Execution</a>
 - <a href="#model_tuning">Model Validation, Tuning, Complexity Reduction, and Optimization</a>
 - <a href="#data">Data, Data Sources, and Data Preparation</a>
 - <a href="#requirements">Computing and Infrastructure Requirements and Performance</a>
 - <a href="#real-world">Real-World AI and Machine Learning</a>
-- <a href="#general">General AI and Machine Learning</a>
 - <a href="#stats">Statistics</a>
 - <a href="#future">AI Current and Future</a>
 - <a href="#costs">AI and Machine Learning Costs</a>
@@ -153,10 +152,11 @@
     + Must evaluate multiple and make reasonable assumptions
 - Universal approximation theorem
 
-<h2><a name="tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a></h2>
+<h2><a name="tradeoffs">AI and ML Concepts, Tradeoffs, Considerations, and Constraints (High-level)</a></h2>
 
 <h3><a name="model_selection">Model Selection</a></h3>
 
+- Generalization vs representation
 + Parametric vs non-parametric
     * Parametric examples
         - Simple and multiple linear regresion
@@ -184,10 +184,12 @@
         - Conditional Random Fields
         - Neural Networks
         - Random forests
-+ Model complexity
+- Model performance vs interpretability and explainability
+    + Black box vs non-black box algorithms
++ Model complexity vs simplicity (i.e., parsimony)
     * Degree of non-linearity
     * Number, type, and combination of functions and parameters
-    * Number and type of inputs
+    * Number and type of inputs/features
 + Model assumptions (e.g., linearity)
 + Handling of redundant or irrelevant features
 + Ability to perform with small data sets
@@ -341,18 +343,49 @@
 - Vanishing, exploding, and unstable gradients
 - Slow learning, training, prediction, model results, ...
 - Internal Covariate Shift problem
-- Bias
+- Statistical, algorithmic, and cognitive biases
     + Sampling bias 
     + Differing training/testing distributions (inputs and activations)
     + Data
-    + Confirmation
     + Cognitive
+    + Sample or selection bias
+    + Confirmation bias
+    + Algorithmic bias <sup>3</sup>
 - Neural networks and deep learning-specific
     + Activation function saturation
     + Dying or comatose ReLUs
         * Only output 0, neuron goes dead, once dead -> stays dead
+- Data-related
+    + Balanced vs imbalanced data
+        * Equal proportion of target values
+    + Data availability, amount, and depth
+        * Small data sets
+            - Selecting models that excel with small data sets
+            - Sampling noise
+        * Moderate to large data sets
+            - Sampling bias
+        * Sparse data
+        * Resources
+            - http://static.googleusercontent.com/media/research.google.com/fr//pubs/archive/35179.pdf
+            - https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acl2001.pdf
+    + Curse of dimensionality and representative data
+        * Exponential increase in data needed to prevent loss of predictive power
+        * Data must fill as much as the feature space as possible, and be as balanced as possible
+    + Data quality
+        * Signal to noise ratio
+        * Data veracity
+        * Errors
+        * Outliers
+        * Missing data
+        * NAs
+        * Irrelevant features
+- Computing requirements
+    + CPU/GPU processing power and speed
+    + System memory (RAM)
+    + Disk storage
+    + I/O (disk, network, ...)
 
-<h3><a name="model_training">Model Training and Learning</a></h3>
+<h3><a name="model_training">Model Training, Learning, and Execution</a></h3>
 
 - Learning type
     + Supervised
@@ -426,6 +459,13 @@
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
 - Parameters vs hyperparameters
 - Training, dev (aka validation), and test dataset sizes (proportions) and distributions (should be same)
+- Execution models
+    + Sequencing
+        * Serial execution
+        * Parallel execution
+    + Scheduling
+        * Streaming execution
+        * Batch execution
 
 <h3><a name="model_tuning">Model Validation, Tuning, Complexity Reduction, and Optimization</a></h3>
 
@@ -538,29 +578,6 @@
 <h2><a name="data">Data, Data Sources, and Data Preparation</a></h2>
 
 - Analytics base table (ABT) and data quality report <sup>5</sup>
-- Balanced vs imbalanced data
-    + Equal proportion of target values
-- Data availability, amount, and depth
-    + Small data sets
-        * Selecting models that excel with small data sets
-        * Sampling noise
-    + Moderate to large data sets
-        * Sampling bias
-    + Sparse data
-    + Resources
-        * http://static.googleusercontent.com/media/research.google.com/fr//pubs/archive/35179.pdf
-        * https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acl2001.pdf
-- Curse of dimensionality and representative data
-    + Exponential increase in data needed to prevent loss of predictive power
-    + Data must fill as much as the feature space as possible, and be as balanced as possible
-- Data quality
-    + Signal to noise ratio
-    + Data veracity
-    + Errors
-    + Outliers
-    + Missing data
-    + NAs
-    + Irrelevant features
 - Data types
     + Structured data
     + Unstructured data
@@ -591,6 +608,8 @@
 
 <h2><a name="real-world">Real-World AI and Machine Learning</a></h2>
 
+- AI and machine learning process
+    + CRISP-DM, etc.
 - AI and machine learnng in production
     + Deploying to production and maintenance
     + Scalability
@@ -614,34 +633,7 @@
     + Parallel and distributed computing and associated communications cost and complexity
     + Parameter server
 
-<h2><a name="general">General AI and Machine Learning</a></h2>
-
-- Model performance vs interpretability and explainability
-    + Black box vs non-black box algorithms
-- Model complexity vs simplicity (i.e., parsimony)
-- Generalization vs representation
-- AI limitations
-    + Unsupervised learning to some extent
-    + Solving multiple problems at once
-- Statistical, algorithmic, and cognitive biases
-    + Sample or selection bias
-    + Confirmation bias
-    + Algorithmic bias <sup>3</sup>
-- Ethical considerations
-- AI and machine learning process
-    + CRISP-DM, etc.
-- AI and machine learning automations and future advancements
-    + Automated learning (AutoML)
-        * Auto-sklearn, TPOT, ...
-- Execution models
-    + Sequencing
-        * Serial execution
-        * Parallel execution
-    + Scheduling
-        * Streaming execution
-        * Batch execution
-
-<h2><a name="stats">Statistics</a></h2>
+<h2><a name="stats">Related Statistics</a></h2>
 
 - Prediction vs inference
     + Prediction
@@ -659,6 +651,12 @@
 - Expectation management
 - Actual AI vs simpler machine learning algorithms
 - Machine learning by itself is not AI, intelligent systems are built from machine learning models and much more
+- AI and machine learning automations and future advancements
+    + Automated learning (AutoML)
+        * Auto-sklearn, TPOT, ...
+- AI limitations
+    + Unsupervised learning to some extent
+    + Solving multiple problems at once
 
 <h2><a name="costs">AI and Machine Learning Costs</a></h2>
 
