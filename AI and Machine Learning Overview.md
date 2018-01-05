@@ -6,10 +6,9 @@
 - <a href="#theory">Theory</a>
 - <a href="#tradeoffs">AI and ML Tradeoffs, Considerations, and Constraints (High-level)</a>
 - <a href="#model_selection">Model Selection</a>
-- <a href="#model_performance">Model Performance</a>
+- <a href="#model_performance">Model Performance and Potential Issues</a>
 - <a href="#model_training">Model Training and Learning</a>
-- <a href="#model_tuning">Model Validation, Tuning, and Optimization</a>
-- <a href="#model_complexity">Model Complexity and Reduction</a>
+- <a href="#model_tuning">Model Validation, Tuning, Complexity Reduction, and Optimization</a>
 - <a href="#data">Data, Data Sources, and Data Preparation</a>
 - <a href="#requirements">Computing and Infrastructure Requirements and Performance</a>
 - <a href="#real-world">Real-World AI and Machine Learning</a>
@@ -186,6 +185,9 @@
         - Neural Networks
         - Random forests
 + Model complexity
+    * Degree of non-linearity
+    * Number, type, and combination of functions and parameters
+    * Number and type of inputs
 + Model assumptions (e.g., linearity)
 + Handling of redundant or irrelevant features
 + Ability to perform with small data sets
@@ -213,7 +215,7 @@
 + Feature engineering tractability
     * Use NN and DL if intractable
 + Neural networks and deep learning-specific
-    * Artificial neurons
+    * Artificial neuron type
         - Linear threshold unit (LTU)
     * Inputs
         - Sound/audio
@@ -226,55 +228,75 @@
         - Labeled data
             + Can be difficult, time consuming, and/or costly to obtain
             + Consider a service, e.g., Mechanical Turk, CrowdFlower, ...
-    * Number of hidden layers
-    * Layer type
-        - Fully connected (aka dense)
-        - Restricted Boltzman Machine (RBM)
-        - Autoencoders
-    * Number of neurons per layer
-    * Network topology and interconnections and interconnection types between neurons
-    * Network depth vs width
-        - Parameter efficiency (increased depth reduces neurons required)
-    * Outputs and output type
-        - Output neurons (same number as training data outputs)
-            + Single neuron: real-valued numeric (regression)
-            + Single neuron: binary classification (classification)
-            + Multiple neurons: class scores/probabilities (classification)
-            + Multiple neurons: binary assignment per class (classification)
-        - Output controlled by output layer activation functions
-    * Activation functions and forward propogation
-        - Output values, e.g., 0 to 1, -1 to 1, ...
-        - Nonzero is 'activated'
-        - Examples
-            + Linear
-            + Rectified linear units (ReLU), Leaky ReLU, Randomized leaky ReLU (RReLU), Parametric leaky ReLU (PReLU)
-            + Sigmoid and hard sigmoid
-            + Tanh, hard Tanh, rational Tanh
-            + Softmax and hierarchical softmax
-            + Softplus
-            + Softsign
-            + Exponential linear unit (ELU)
-                * Slower, but very high performing
-            + Cube
-        - Hidden activations scaling (similar to inputs)
-        - Output activations scaling (similar to outputs)
-    * Architecture type <sup>4</sup>
-        - Unsupervised Pretrained Networks (UPNs)
+    * Architecture
+        - Architecture type <sup>4</sup>
+            + Unsupervised Pretrained Networks (UPNs)
+                * Autoencoders
+                * Deep Belief Networks (DBNs)
+                * Generative Adversarial Networks (GANs)
+            + Convolutional Neural Networks (CNNs)
+                * Image modeling
+            + Recurrent Neural Networks
+                * Sequence modeling
+                    - E.g., Long Short-Term Memory (LSTM)
+            + Recursive Neural Networks
+        - Number of hidden layers
+        - Layer type
+            + Fully connected (aka dense)
+            + Restricted Boltzman Machine (RBM)
             + Autoencoders
-            + Deep Belief Networks (DBNs)
-            + Generative Adversarial Networks (GANs)
-        - Convolutional Neural Networks (CNNs)
-            + Image modeling
-        - Recurrent Neural Networks
-            + Sequence modeling
-                * E.g., Long Short-Term Memory (LSTM)
-        - Recursive Neural Networks
+        - Number of neurons per layer
+        - Network topology and interconnections and interconnection types between neurons
+        - Network depth vs width
+            + Parameter efficiency (increased depth reduces neurons required)
+        - Outputs and output type
+            + Output neurons (same number as training data outputs)
+                * Single neuron: real-valued numeric (regression)
+                * Single neuron: binary classification (classification)
+                * Multiple neurons: class scores/probabilities (classification)
+                * Multiple neurons: binary assignment per class (classification)
+            + Output controlled by output layer activation functions
+        - Activation functions and forward propogation
+            + Output values, e.g., 0 to 1, -1 to 1, ...
+            + Nonzero is 'activated'
+            + Examples
+                * Linear
+                * Rectified linear units (ReLU), Leaky ReLU, Randomized leaky ReLU (RReLU), Parametric leaky ReLU (PReLU)
+                * Sigmoid and hard sigmoid
+                * Tanh, hard Tanh, rational Tanh
+                * Softmax and hierarchical softmax
+                * Softplus
+                * Softsign
+                * Exponential linear unit (ELU)
+                    - Slower, but very high performing
+                * Cube
+            + Hidden activations scaling (similar to inputs)
+            + Output activations scaling (similar to outputs)
     * Algorithms
         - First and second order
             + First-order partial derivatives (Jacobians) vs Second-order partial derivatives (the Hessians)
     * Translation invariance
+- Choice of loss function
+    + Regression examples
+        * L1 and L2 loss
+        * Mean squared error (MSE)
+        * Mean squared log error (MSLE)
+        * Root mean squared error (RMSE)
+        * Mean absolute percentage error (MAPE)
+        * Mean absolute error (MAE)
+    + Classification examples
+        * Cross entropy (RMSE, Multiclass, ...)
+        * Hinge loss
+        * Logistic loss
+        * Negative log likelihood
+        * Exponential log likelihood
+    + Reconstruction
+        * Entropy loss
+    + Categories
+        * Squared Loss
+        * Absolute loss
 
-<h3><a name="model_performance">Model Performance</a></h3>
+<h3><a name="model_performance">Model Performance and Potential Issues</a></h3>
 
 - Overfitting and quality of fit (aka bias vs variance)
     + Noise - errors and outliers
@@ -293,11 +315,10 @@
         * Increase model complexity and reduce regularization (if applicable)
         * Feature engineering
         * Select more powerful and complex model (e.g., neural networks)
-- Performance metric, loss funtion, and cost function selection
-    + Single number metric
+- Performance metric selection
+    + Single number metric (preferred)
     + Precision vs recall vs F1 score
     + ROC and AUC
-    + Loss vs cost functions
     + Satisficing vs Optimizing metrics
 - Performance metric tradeoffs
     + Cost of false positives vs false negatives
@@ -315,24 +336,21 @@
 - Missing features
 - Global vs local minima
     + Local minima almost impossible in deep learning due to number inputs and lack of simultaneously non-zero gradients
-- Ensemble learning
 - Linear separability
-- Choice of loss function
-    + Regression examples
-        * L1 and L2 loss
-        * Mean squared error (MSE)
-        * Mean squared log error (MSLE)
-        * Root mean squared error (RMSE)
-        * Mean absolute percentage error (MAPE)
-        * Mean absolute error (MAE)
-    + Classification examples
-        * Cross-entropy
-        * Hinge loss
-        * Logistic loss
-        * Negative log likelihood
-    + Reconstruction
-        * Entropy loss
 - Bayes optimal, Bayes error, and avoidable bias
+- Vanishing, exploding, and unstable gradients
+- Slow learning, training, prediction, model results, ...
+- Internal Covariate Shift problem
+- Bias
+    + Sampling bias 
+    + Differing training/testing distributions (inputs and activations)
+    + Data
+    + Confirmation
+    + Cognitive
+- Neural networks and deep learning-specific
+    + Activation function saturation
+    + Dying or comatose ReLUs
+        * Only output 0, neuron goes dead, once dead -> stays dead
 
 <h3><a name="model_training">Model Training and Learning</a></h3>
 
@@ -389,21 +407,8 @@
     + Early stopping
 - Gradient descent vs normal equations
     + Depends on computational complexity and speed/time
-- Cost or loss function selection
-    + MSE
-    + Exponential log likelihood
-    + Cross entropy
-    + Multiclass Cross Entropy
-    + RMSE Cross Entropy
-    + Squared Loss
-    + Negative Log Likelihood
-- Vanishing, exploding, and unstable gradients, 
 - Batch normalization (BN)
-- Gradient clipping
-- Activation function saturation
-- Dying or comatose ReLUs
-    + Only output 0, neuron goes dead, once dead -> stays dead
-- Internal Covariate Shift problem
+- Gradient clipping (for exploding gradients)
 - Unsupervised Pretraining
     + RBM or autoencoders
 - Model pretraining, transfer learning, and frozen layers
@@ -422,7 +427,7 @@
 - Parameters vs hyperparameters
 - Training, dev (aka validation), and test dataset sizes (proportions) and distributions (should be same)
 
-<h3><a name="model_tuning">Model Validation, Tuning, and Optimization</a></h3>
+<h3><a name="model_tuning">Model Validation, Tuning, Complexity Reduction, and Optimization</a></h3>
 
 - Resampling
     + Cross-validation
@@ -430,8 +435,9 @@
 - Hyperparameters and model adjustments
     + Hyperparameter values and scaling (choosing appropriate scale for search and tuning)
     + NN and DL <sup>4, 6</sup>
-        * Number artificial neurons (hidden and output layers)
-        * Number hidden layers
+        * Architectural
+            - Number artificial neurons (hidden and output layers)
+            - Number and type of hidden layers
         * Momentum (exponentially weighted average applied to gradients)
             - Beta (typically 0.90)
         * RMSProp (exponentially weighted average applied to element-wise squared gradients with gradient adjustment scaled)
@@ -460,7 +466,7 @@
         * Frozen layers (pre-training and transfer learning) vs fine tuning layers
     + Trees
         * Gini vs entropy for impurity
-- Hyperparameter tuning and optimization
+- Hyperparameter tuning and optimization methods
     + Grid search
     + Randomized search for large search space
     + Coordinate Descent
@@ -473,7 +479,7 @@
 - Ensemble methods
     + Hard voting (majority vote)
     + Soft voting
-- Bagging and boosting
+    + Bagging and boosting
 - Kernel selection (e.g., SVM)
 - Learning curves
 - Bias correction
@@ -494,9 +500,6 @@
         * Hessian Free
         * LBFGS
         * Line Gradient Descent
-
-<h3><a name="model_complexity">Model Complexity and Reduction</a></h3>
-
 - Subset selection
     + Best subset selection
     + Stepwise selection (forward and backward)
@@ -523,7 +526,9 @@
 - Dimension reduction
     + PCA
     + Partial least squares
-- Tree methods (e.g., pruning, ...)
+- Tree methods
+    + Pruning
+    + Max depth
 - Feature selection, engineering, and extraction
     + Collinearity, multicollinearity, correlation, ...
     + Confounding variables
