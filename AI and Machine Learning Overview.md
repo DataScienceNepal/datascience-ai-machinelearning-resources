@@ -190,6 +190,8 @@
     * Degree of non-linearity
     * Number, type, and combination of functions and parameters
     * Number and type of inputs/features
+    * Start simple and increase complexity, not the other way around
+        - Start with single hidden layer for DL for example
 + Model assumptions (e.g., linearity)
 + Handling of redundant or irrelevant features
 + Ability to perform with small data sets
@@ -300,23 +302,34 @@
 
 <h3><a name="model_performance">Model Performance and Potential Issues</a></h3>
 
-- Overfitting and quality of fit (aka bias vs variance)
+- Overfitting (variance)
     + Noise - errors and outliers
     + Not enough data
     + Overly complex model
+    + Identifiers
+        * Low training error, high dev/test error
     + Solutions
-        * More data
+        * Data augmentation (training data only) and/or more data (more data = less regularization)
         * Reduce noise and/or increase the signal-to-noise ratio
         * Reduce model complexity (see Model Complexity and Reduction section)
-        * Trees
-            - Pruning
-            - Max depth
-- Underfitting
+        * Batch normalization
+        * Regularization
+        * Ensemble methods
+        * Complexity reduction
+            - Trees
+                + Pruning
+                + Max depth
+- Underfitting (bias)
     + Opposite of overfitting
+    + Identifiers
+        * High training error
+        * Training error higher than dev/test error
     + Solutions
         * Increase model complexity and reduce regularization (if applicable)
         * Feature engineering
         * Select more powerful and complex model (e.g., neural networks)
+- Well performing model
+    + Low training and dev/test errors, and both similar
 - Performance metric selection
     + Single number metric (preferred)
     + Precision vs recall vs F1 score
@@ -333,6 +346,8 @@
     + Ill-posed problem
     + Intractability
         * Bad data and/or bad algorithm
+        * Identifiers
+            - High training error and test error, and unable to improve
 - Collinearity, multicollinearity, correlation, ...
 - Confounding variables
 - Missing features
@@ -384,6 +399,7 @@
     + System memory (RAM)
     + Disk storage
     + I/O (disk, network, ...)
+- Data leakage
 
 <h3><a name="model_training">Model Training, Learning, and Execution</a></h3>
 
@@ -441,6 +457,10 @@
 - Gradient descent vs normal equations
     + Depends on computational complexity and speed/time
 - Batch normalization (BN)
+    + Speeds training by helping gradient descent and parameter scaling and ranges
+    + Reduces and normalizes dimensional scaling for activations (similar to input normalization)
+    + Reduces overfitting without model information loss (can use less dropout)
+    + May allow increased learning rate
 - Gradient clipping (for exploding gradients)
 - Unsupervised Pretraining
     + RBM or autoencoders
@@ -458,7 +478,15 @@
 - Sparse data
     + Dual averaging, aka Follow The Regularized Leader (FTRL)
 - Parameters vs hyperparameters
-- Training, dev (aka validation), and test dataset sizes (proportions) and distributions (should be same)
+- Training, dev (aka validation), and test dataset sizes (proportions) and distributions
+    + Distributions should be the same for all datasets
+    + Entire datasets usually not necessary if huge, can use sample
+    + Example splits for smaller datasets
+        * 80/20
+        * 70/30
+        * 60/20/20
+    + Example splits for very big datasets (tune to dev and test size needed for good performance evaluation)
+        * 98/1/1
 - Execution models
     + Sequencing
         * Serial execution
@@ -478,18 +506,19 @@
         * Architectural
             - Number artificial neurons (hidden and output layers)
             - Number and type of hidden layers
-        * Momentum (exponentially weighted average applied to gradients)
+        * Momentum (exponentially weighted average applied to gradients and has increased learning rate effect)
             - Beta (typically 0.90)
-        * RMSProp (exponentially weighted average applied to element-wise squared gradients with gradient adjustment scaled)
+        * RMSProp (exponentially weighted average applied to element-wise squared gradients with gradient adjustment scaled, prevents explosion and helps convergence)
             - Beta (typically 0.999, and different from momentum beta hyperparameter)
             - Epsilon (typically 10^-8)
         * Adam
             - Hyperparameters for both momentum and RMSProp
         * Learning rate
             - Alpha
-        * Learning rate decay
+        * Learning rate decay/annealing
         * Regularization
             - Dropout percentage (network and/or per layer)
+                + 0.50 a good starting point, but use trial and error
             - Lamda: L1 and L2
         * Activation functions
         * Weight initialization strategy
@@ -574,6 +603,7 @@
     + Confounding variables
     + Missing features
     + Feature extraction via dimensionality reduction
+- Pseudo labeling
 
 <h2><a name="data">Data, Data Sources, and Data Preparation</a></h2>
 
@@ -590,7 +620,9 @@
     + Feature scaling
         * Standardization
         * Min-max (normalization)
+        * Normally normalize inputs and outputs to be mean 0 and stdev 1
     + Feature encoding
+        * One hot encoding for categorical variables
     + Missing values handling
     + Imputation
 
