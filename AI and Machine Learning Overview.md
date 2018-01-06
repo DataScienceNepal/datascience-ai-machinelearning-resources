@@ -494,6 +494,11 @@
     + Scheduling
         * Streaming execution
         * Batch execution
+- Automated machine learning (AML/AutoML)
+    + Model/algorithm selection
+    + Hyperparameter tuning
+    + Diagnostics
+    + Automation
 
 <h3><a name="model_tuning">Model Validation, Tuning, Complexity Reduction, and Optimization</a></h3>
 
@@ -693,10 +698,10 @@
 <h2><a name="costs">AI and Machine Learning Costs</a></h2>
 
 - Financial
-    + Employees
+    + Employees/talent
     + Tools and software
     + Cloud computing
-    + Data
+    + Data and data labeling 
     + Research
     + Computing equipment
 - Non-financial
