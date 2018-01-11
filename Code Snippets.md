@@ -1,3 +1,5 @@
+A set of regularly used code snippets
+
 ## Packages: Installing, Importing, Searching, Updating
 
 ### Linux
@@ -178,6 +180,12 @@ conda update -n <env_name> <package_name(s)>
 conda update <package_name> # E.g., juptyer
 
 conda install -n <env_name> <package_name> # NOTE: -n <env_name> is the environment to install into, if omitted is default
+```
+
+**REPL**
+
+```
+from __future__ import division # Converts division output to decimal format
 ```
 
 ### R
