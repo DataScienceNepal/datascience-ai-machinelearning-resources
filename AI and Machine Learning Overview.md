@@ -306,6 +306,7 @@
     + Noise - errors and outliers
     + Not enough data
     + Overly complex model
+    + Diff between test and training error, when test error greater
     + Identifiers
         * Low training error, high dev/test error
     + Solutions
@@ -319,6 +320,7 @@
             - Trees
                 + Pruning
                 + Max depth
+    + NOTE: ensure not due to different distributions between training and dev/test set data <sup>6</sup>
 - Underfitting (bias)
     + Opposite of overfitting
     + Identifiers
@@ -354,7 +356,7 @@
 - Global vs local minima
     + Local minima almost impossible in deep learning due to number inputs and lack of simultaneously non-zero gradients
 - Linear separability
-- Bayes optimal, Bayes error, and avoidable bias
+- Bayes optimal, Bayes error (minimum possible error, human error a proxy), and avoidable bias (diff between bayes and training errors)
 - Vanishing, exploding, and unstable gradients
 - Slow learning, training, prediction, model results, ...
 - Internal Covariate Shift problem
@@ -373,7 +375,7 @@
 - Data-related
     + Balanced vs imbalanced data
         * Equal proportion of target values
-    + Data availability, amount, and depth
+    + Data availability, amount, and feature space span
         * Small data sets
             - Selecting models that excel with small data sets
             - Sampling noise
@@ -386,6 +388,10 @@
     + Curse of dimensionality and representative data
         * Exponential increase in data needed to prevent loss of predictive power
         * Data must fill as much as the feature space as possible, and be as balanced as possible
+    + Data (features) not IID (independent and identically distributed)
+    + Data mismatch <sup>6</sup>
+        * Data quality and distribution between training and dev/test
+        * Example for images: image data for training significantly higher quality and resolution than typical unseen data passed to classifier, hence different data distributions
     + Data quality
         * Signal to noise ratio
         * Data veracity
@@ -499,6 +505,7 @@
     + Hyperparameter tuning
     + Diagnostics
     + Automation
+- Distributed training
 
 <h3><a name="model_tuning">Model Validation, Tuning, Complexity Reduction, and Optimization</a></h3>
 
@@ -669,6 +676,8 @@
     + Big data platformes (e.g., Spark and MLLib)
     + Parallel and distributed computing and associated communications cost and complexity
     + Parameter server
+- Model sharing and formats
+    + [ONNX](https://onnx.ai/) - Open format to represent deep learning models
 
 <h2><a name="stats">Related Statistics</a></h2>
 
@@ -694,6 +703,24 @@
 - AI limitations
     + Unsupervised learning to some extent
     + Solving multiple problems at once
+- Current and future active areas of innovation and progress
+    + Deep learning
+        * Faster training NN architectures
+        * Improved NN performance via new hyperparameters, techniques, and architectures
+    + Reinforcement learning
+        * Deep Q-learning
+    + Computing (power, distributed, parallel, GPUs, cheap CPUs for parallel, ...)
+    + Evolution algorithms <sup>7</sup>
+        * Genetic algorithms
+        * Novelty search
+    + Neuroevolution
+    + Bayesian deep learning
+    + Hardware
+        * Nvidia
+        * Intel
+        * Google
+        * Tesla
+- Digital twins
 
 <h2><a name="costs">AI and Machine Learning Costs</a></h2>
 
@@ -717,3 +744,4 @@
 4. [Deep Learning by Josh Patterson and Adam Gibson - O'Reilly](https://www.amazon.com/Deep-Learning-Practitioners-Josh-Patterson-ebook/dp/B074D5YF1D/ref=mt_kindle?_encoding=UTF8&me=)
 5. [Fundamentals of Machine Learning for Predictive Data Analytics](https://www.amazon.com/Fundamentals-Machine-Learning-Predictive-Analytics-ebook/dp/B013FHC8CM/ref=sr_1_1)
 6. [deeplearning.ai Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning)
+7. [AI and Deep Learning in 2017 – A Year in Review](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)

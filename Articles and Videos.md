@@ -25,6 +25,7 @@
 
 <h2><a name="ai"></a>Artificial Intelligence</h2>
 
+- [AI and Deep Learning in 2017 – A Year in Review](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
 - [59 impressive things artificial intelligence can do today](http://www.businessinsider.com/artificial-intelligence-ai-most-impressive-achievements-2017-3/)
 - [MIT - The Missing Link of Artificial Intelligence](https://www.technologyreview.com/s/600819/the-missing-link-of-artificial-intelligence/)
 - [The AI Revolution: The Road to Superintelligence](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html)

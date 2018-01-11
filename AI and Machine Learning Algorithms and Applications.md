@@ -78,7 +78,7 @@
 - AR and VR
 - Gaming
     + Examples
-        * AlphaGo
+        * AlphaGo (Monte-Carlo Tree Search)
         * DeepBlue
         * Watson Jeapordy
 - Health care
@@ -88,8 +88,13 @@
     + Virtual reality fitting systems
     + Shopping experience
 - Autonomous transportation
-    + Examples
-        * Google autonomous cars
+    + Companies
+        * Google
+        * Apple
+        * Uber
+        * Lyft
+        * Tesla
+        * Waymo
 
 <h2><a name="data-type">Algorithms and Applications by Data Type</a></h2><sup>2</sup>
 
@@ -355,6 +360,9 @@
 - Deconvolutional networks (DN)
 - Deep convolutional inverse graphics networks (DCIGN)
 - Generative adversarial networks (GAN)Recurrent neural networks (RNN)Long / short term memory (LSTM)
+    + CycleGAN
+    + DiscoGAN
+    + StarGAN
 - Gated recurrent units (GRU)
 - Neural Turing machines (NTM)
 - Bidirectional recurrent neural networks, bidirectional long / short term memory networks and bidirectional gated recurrent units (BiRNN/BRNN, BiLSTM and BiGRU respectively)

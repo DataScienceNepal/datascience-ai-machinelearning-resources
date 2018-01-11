@@ -1,11 +1,11 @@
 ## Python Software, Libraries, and Packages
-- Deep learning and neural networks (General)
+- Artificial Intelligence (AI), deep learning, neural networks
     + [Torch](http://torch.ch/docs/getting-started.html#_) - A scientific computing framework with wide support for machine learning algorithms that puts GPUs first
     + [Caffe](http://caffe.berkeleyvision.org/) - A deep learning framework made with expression, speed, and modularity in mind
         * [Caffe Model Zoo](http://caffe.berkeleyvision.org/model_zoo.html)
         * [Model Zoo Repo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
     + [DL4J](https://deeplearning4j.org/) - Open-Source, Distributed, Deep Learning Library for the JVM
-    + [Theano](http://deeplearning.net/software/theano/) - Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently
+    + [Theano](http://deeplearning.net/software/theano/) - Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently [DEPRECATED after v1.0]
     + [TensorFlow](https://www.tensorflow.org/versions/r0.11/api_docs/index.html) - Open source software library for numerical computation using data flow graphs
     + [Amazon Deep Scalable Sparse Tensor Network Engine (DSSTNE)](https://github.com/amznlabs/amazon-dsstne) - An Amazon developed library for building Deep Learning (DL) machine learning (ML) models
     + [Keras: Deep Learning library for Theano and TensorFlow](https://keras.io/) - A high-level neural networks library, written in Python and capable of running on top of either TensorFlow or Theano
@@ -14,9 +14,9 @@
     + [Lasagne](http://lasagne.readthedocs.io/en/latest/) - A lightweight library to build and train neural networks in Theano
     + [MXNet](http://mxnet.io/api/python/index.html#python-api-reference) - Flexible and Efficient Library for Deep Learning
         * [Model Zoo](http://mxnet.incubator.apache.org/model_zoo/index.html)
+    + [Gluon](https://github.com/gluon-api/gluon-api/) - Amazon's MXNet-based deep learning framework
     + [Sonnet](https://github.com/deepmind/sonnet) - TensorFlow-based neural network library
     + [Spotlight](https://github.com/maciejkula/spotlight) - Deep recommender models using PyTorch
-- Artificial Intelligence (AI)
     + [PyBrain](http://pybrain.org/) - Python-Based Reinforcement Learning, Artificial Intelligence and Neural Network Library
     + [Chainer](http://docs.chainer.org/en/stable/) - A Powerful, Flexible, and Intuitive Framework for Neural Networks
     + [NuPIC](http://numenta.org/#docs) - An open source project based on a theory of neocortex called Hierarchical Temporal Memory (HTM)
@@ -27,7 +27,8 @@
     + [Nolearn](https://pythonhosted.org/nolearn/) - Utility modules that are helpful with machine learning tasks
     + [Hebel](https://github.com/hannes-brt/hebel) - GPU-Accelerated Deep Learning Library in Python
     + [DeepPy](https://github.com/andersbll/deeppy) - Deep learning in Python
-    + [PyTorch](http://pytorch.org/docs/) - An optimized tensor library for deep learning using GPUs and CPUs
+    + [PyTorch](http://pytorch.org/docs/) - Facebook's optimized tensor library for deep learning using GPUs and CPUs
+    + [Pyro](http://pyro.ai/) - Uber's deep probabilistic programming language
 - Natural Language (NLP, NLG, NLU)
     + [Natural Language Toolkit](http://www.nltk.org/) - A leading platform for building Python programs to work with human language data
     + [spaCy](https://spacy.io/) - Industrial-Strength Natural Language Processing in Python
@@ -44,6 +45,7 @@
     + [PyMVPA](http://www.pymvpa.org/manual.html) - PyMVPA stands for MultiVariate Pattern Analysis (MVPA) in Python
     + [Deap](http://deap.gel.ulaval.ca/doc/default/index.html) - A novel evolutionary computation framework for rapid prototyping and testing of ideas
     + [Vowpal Wabbit (Fast Learning)](https://github.com/JohnLangford/vowpal_wabbit) - Out-of-core learning system
+    + [CoreML](https://developer.apple.com/machine-learning/) - Apple's machine learning framework
 ## R Software, Libraries, and Packages
 - Artificial Intelligence (AI)
     + [nnet](https://cran.r-project.org/web/packages/nnet/index.html) - Software for feed-forward neural networks with a single hidden layer, and for multinomial log-linear models
@@ -76,13 +78,22 @@
 ## Non-language Specific
 - Artificial intelligence
     + [Vectorflow](https://medium.com/@NetflixTechBlog/introducing-vectorflow-fe10d7f126b8)
-    + [deeplearn.js](https://deeplearnjs.org/)
+    + [deeplearn.js](https://deeplearnjs.org/) - Google's web-based deep learning framework
     + [Deepo](https://github.com/ufoym/deepo) - A series of Docker images (and their generator) that allows you to quickly set up your deep learning research environment
 - General machine learning
     + [Turi](https://turi.com/learn/) - A machine learning modeling tool for developers and data scientists
     + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
 - Natural language
     + [Narrative Science](https://narrativescience.com/)
+- Reinforcement learning
+    + [OpenAI Roboschool](https://blog.openai.com/roboschool/)
+    + [OpenAI Baselines](https://github.com/openai/baselines)
+    + [Tensorflow Agents](https://github.com/tensorflow/agents)
+    + [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents)
+    + [Nervana Coach](http://coach.nervanasys.com/)
+    + [Facebook’s ELF](https://code.facebook.com/posts/132985767285406/introducing-elf-an-extensive-lightweight-and-flexible-platform-for-game-research/)
+    + [DeepMind Pycolab](https://github.com/deepmind/pycolab)
+    + [Geek.ai MAgent](https://github.com/geek-ai/MAgent)
 - EDA and Feature Analysis
     + [Facets - Know Your Data](https://pair-code.github.io/facets/)
         * [Facets: An Open Source Visualization Tool for Machine Learning Training Data](https://research.googleblog.com/2017/07/facets-open-source-visualization-tool.html)

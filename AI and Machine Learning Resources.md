@@ -20,6 +20,7 @@
 - [Exploring LSTMs](http://blog.echen.me/2017/05/30/exploring-lstms/?utm_campaign=Data%2BElixir&utm_medium=email&utm_source=Data_Elixir_134)
 - [TensorFlow Playground](http://playground.tensorflow.org/)
 - [An Interactive Tutorial on Numerical Optimization](http://www.benfrederickson.com/numerical-optimization/)
+- [AlphaGo Teach](https://alphagoteach.deepmind.com/)
 
 <h2><a name="apidocs">API Docs</a></h2>
 
@@ -58,6 +59,7 @@
 - [fast.ai](http://www.fast.ai/)
     + [Course materials](http://files.fast.ai/)
 - [How to Choose a Neural Network](https://deeplearning4j.org/neuralnetworktable.html)
+- [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 - [Become A Machine Learning Engineer](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009)
 - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
 - [Stanford Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning)
@@ -68,11 +70,15 @@
 - [Neural Networks and Deep Learning Online Book](http://neuralnetworksanddeeplearning.com/index.html)
 - [Elite Data Science Free Applied Machine Learning](https://elitedatascience.com/)
 - [StatSoft Electronic Statistics Textbook](http://www.statsoft.com/Textbook)
+- [Stanford's Lecture Collection | Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist)
+    + [Class page](http://cs231n.stanford.edu/)
+- [Lecture Collection | Natural Language Processing with Deep Learning](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
+    + [Class page](http://web.stanford.edu/class/cs224n/)
+- [Stanford's Theories of Deep Learning](https://stats385.github.io/)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
 - [arXiv.org](https://arxiv.org/) - Cornell University's open access to 1MM+ e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics
-    + [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846)
 - [The four types of analytics - Neil Raden](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
 
 <h2><a name="bootcamps">Bootcamps and Offline Learning</a></h2>

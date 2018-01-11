@@ -27,6 +27,7 @@
 - [Great IoT, Sensor and other Data Sets Repositories](https://www.datasciencecentral.com/profiles/blogs/great-sensor-datasets-to-prepare-your-next-career-move-in-iot-int)
 - [Quora - Where can I find large datasets open to the public?](https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public)
 - [Subreddit](https://www.reddit.com/r/datasets/)
+- [AI and Deep Learning in 2017 – A Year in Review - Datasets section](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
 
 **Dataset By Category**
 - Streaming Open Data
