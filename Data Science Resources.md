@@ -124,6 +124,7 @@
 <h2><a name="resources">General Resources</a></h2>
 
 - [The Open Source Data Science Masters](http://datasciencemasters.org/)
+- [Open Source Machine Learning Degree](http://nixonite.github.io/open-source-machine-learning-degree/)
 - [Data Science Weekly resources](https://www.datascienceweekly.org/data-science-resources)
 - [Data School resources](http://www.dataschool.io/resources/)
 - [Learn DataSci Data Science Resources](http://www.learndatasci.com/data-science-resources/)

@@ -29,6 +29,10 @@
 - [District Data Labs](http://www.districtdatalabs.com/#data-science-consulting-services)
 - [InData Labs](https://indatalabs.com/)
 - [Kavi Global](https://www.kaviglobal.com/)
+- [Elder Research](https://www.elderresearch.com/)
+- [Sigmoidal](https://sigmoidal.io/)
+- Lists
+    + [Consulting Companies in Analytics, Data Mining, Data Science, and Machine Learning](https://www.kdnuggets.com/companies/consulting.html)
 
 ## Big Data
 - []()

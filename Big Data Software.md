@@ -71,6 +71,8 @@
     + [AirBnB's StreamAlert](https://github.com/airbnb/streamalert?imm_mid=0ed682&cmp=em-data-na-na-newsltr_20170215)
 - Scheduling and Jobs
     + [Apache Oozie](http://oozie.apache.org/) - A workflow scheduler system to manage Apache Hadoop jobs
+    + [Spotify's Luigi](https://github.com/spotify/luigi) - Python module that helps you build complex pipelines of batch jobs.
+    + [LinkedIn's Azkaban](https://azkaban.github.io/) - Open-source Workflow Manager
     + [Apache Airflow (incubating)](https://github.com/apache/incubator-airflow) - A platform to programmatically author, schedule and monitor workflows
 - Analytics
     + [Apache Mahout](http://mahout.apache.org/developers/developer-resources.html) - Build an environment for quickly creating scalable performant machine learning applications

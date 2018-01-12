@@ -38,6 +38,9 @@
 ## Research
 - [StatCounter Global Stats](http://gs.statcounter.com/)
 
+## Reviews
+- [Trustpilot](https://www.trustpilot.com/)
+
 ## Testing
 - [SeaLights](https://www.sealights.io)
 

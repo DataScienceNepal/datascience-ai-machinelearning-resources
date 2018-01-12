@@ -47,6 +47,7 @@
     + [Deap](http://deap.gel.ulaval.ca/doc/default/index.html) - A novel evolutionary computation framework for rapid prototyping and testing of ideas
     + [Vowpal Wabbit (Fast Learning)](https://github.com/JohnLangford/vowpal_wabbit) - Out-of-core learning system
     + [CoreML](https://developer.apple.com/machine-learning/) - Apple's machine learning framework
+
 ## R Software, Libraries, and Packages
 - Artificial Intelligence (AI)
     + [nnet](https://cran.r-project.org/web/packages/nnet/index.html) - Software for feed-forward neural networks with a single hidden layer, and for multinomial log-linear models
@@ -81,6 +82,8 @@
     + [Vectorflow](https://medium.com/@NetflixTechBlog/introducing-vectorflow-fe10d7f126b8)
     + [deeplearn.js](https://deeplearnjs.org/) - Google's web-based deep learning framework
     + [Deepo](https://github.com/ufoym/deepo) - A series of Docker images (and their generator) that allows you to quickly set up your deep learning research environment
+    + [H2O.ai](https://www.h2o.ai/)
+    + [H2O.ai Driverless AI](https://www.h2o.ai/try-driverless-ai/)
 - General machine learning
     + [Turi](https://turi.com/learn/) - A machine learning modeling tool for developers and data scientists
     + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
