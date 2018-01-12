@@ -35,6 +35,20 @@
 - [Axure](https://www.axure.com/)
 - [OmniGraffle](https://www.omnigroup.com/omnigraffle)
 
+## Design Resources
+- [FDR](https://freedesignresources.net/)
+- [Pixeden](https://www.pixeden.com/free-design-web-resources)
+- Lists
+    + [25 Design Freebies Websites Every Designer Should Know](https://www.forbes.com/sites/tomaslaurinavicius/2016/10/03/design-freebies-websites/)
+    + [50 fresh, essential and free resources for your graphic design projects](https://www.creativeboom.com/resources/50-fresh-essential-and-free-resources-for-your-graphic-design-projects/)
+    + [60 Totally Free Design Resources for Non-Designers Read more at http://blog.visme.co/free-design-resources/](http://blog.visme.co/free-design-resources/)
+
+## Fonts
+- [Font Space](http://www.fontspace.com/)
+- [Font Freak](http://www.fontfreak.com/)
+- [Creative Market](https://creativemarket.com/free-goods)
+- [Font Zone](https://fontzone.net/)
+
 ## Research
 - [StatCounter Global Stats](http://gs.statcounter.com/)
 
@@ -55,7 +69,7 @@
 
 ## Colors
 - [Coolers](https://coolors.co/)
-- [Paletton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+- [Paletton](http://paletton.com/)
 - [Adobe Color CC](https://color.adobe.com/create/color-wheel/)
 
 ## SEO
