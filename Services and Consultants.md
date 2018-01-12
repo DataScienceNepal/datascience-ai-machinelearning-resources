@@ -28,6 +28,7 @@
 - [Fishtown Analytics](https://www.fishtownanalytics.com/)
 - [District Data Labs](http://www.districtdatalabs.com/#data-science-consulting-services)
 - [InData Labs](https://indatalabs.com/)
+- [Kavi Global](https://www.kaviglobal.com/)
 
 ## Big Data
 - []()

@@ -28,6 +28,7 @@
 - [Quora - Where can I find large datasets open to the public?](https://www.quora.com/Where-can-I-find-large-datasets-open-to-the-public)
 - [Subreddit](https://www.reddit.com/r/datasets/)
 - [AI and Deep Learning in 2017 – A Year in Review - Datasets section](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
+- [70 Amazing Free Data Sources You Should Know](https://www.kdnuggets.com/2017/12/big-data-free-sources.html)
 
 **Dataset By Category**
 - Streaming Open Data

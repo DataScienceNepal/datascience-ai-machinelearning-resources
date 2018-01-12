@@ -35,6 +35,7 @@
     + [TextBlob](https://textblob.readthedocs.io/en/dev/) - A Python (2 and 3) library for processing textual data
     + [Gensim](http://radimrehurek.com/gensim/) - Topic modelling for humans
     + [fastText](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md) - Pre-trained word vectors for 90 languages, trained on Wikipedia using fastText
+    + [DeepSpeech](https://github.com/mozilla/DeepSpeech) - Mozilla's TensorFlow implementation of Baidu's DeepSpeech architecture
 - Machine Learning
     + [Scikit-image](http://scikit-image.org/) - A collection of algorithms for image processing
     + [Scikit-learn](http://scikit-learn.org/stable/documentation.html) - A Python module for machine learning

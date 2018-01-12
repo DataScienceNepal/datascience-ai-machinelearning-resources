@@ -75,10 +75,13 @@
 - [Lecture Collection | Natural Language Processing with Deep Learning](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
     + [Class page](http://web.stanford.edu/class/cs224n/)
 - [Stanford's Theories of Deep Learning](https://stats385.github.io/)
+- [Machine Learning 101 - Jason Mayes](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview)
 
 <h2><a name="whitepapers">Whitepapers and Research</a></h2>
 
 - [arXiv.org](https://arxiv.org/) - Cornell University's open access to 1MM+ e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance and Statistics
-- [The four types of analytics - Neil Raden](http://www.actian.com/wp-content/uploads/2014/07/Neil-Raden-White-Paper4.pdf)
+- [Artificial Intelligence Index](http://www.aiindex.org/)
 
 <h2><a name="bootcamps">Bootcamps and Offline Learning</a></h2>
+- [INSIGHT ARTIFICIAL INTELLIGENCE FELLOWS PROGRAM](http://insightdata.ai/)
+- [Facebook AI Research Residency Program](https://research.fb.com/programs/facebook-ai-research-residency-program/)

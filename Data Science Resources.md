@@ -119,6 +119,7 @@
 - [The Data Incubator](https://www.thedataincubator.com/)
 - [XTOL](http://www.xtolcorp.com/)
 - [Accelebrate - Comprehensive Data Science with Python](https://www.accelebrate.com/training/comprehensive-data-science-with-python)
+- [INSIGHT DATA SCIENCE FELLOWS PROGRAM](http://insightdatascience.com/)
 
 <h2><a name="resources">General Resources</a></h2>
 

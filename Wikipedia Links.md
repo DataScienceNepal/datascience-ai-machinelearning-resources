@@ -168,6 +168,8 @@ Note that some links are categorized according to my determination of best fit s
 - [Quantum superposition](https://en.wikipedia.org/wiki/Quantum_superposition)
 - [Qubit](https://en.wikipedia.org/wiki/Qubit)
 - [Quantum computing](https://en.wikipedia.org/wiki/Quantum_computing)
+- [Decision support system](https://en.wikipedia.org/wiki/Decision_support_system)
+- [Information processing](https://en.wikipedia.org/wiki/Information_processing)
 
 ## Software Architecture and Design Patterns
 - [Multitenancy](https://en.wikipedia.org/wiki/Multitenancy)
