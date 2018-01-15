@@ -545,6 +545,19 @@
         * Epochs and iterations
         * Normalization scheme for input data (vectorization)
         * Frozen layers (pre-training and transfer learning) vs fine tuning layers
+        * Convolutional NN
+            - Filter size (height, width, and depth, where depth matches depth of input)
+            - Number of filters
+                + Number of filters is the same as depth as activations
+            - Stride
+            - Layers
+                + Input
+                + Convolutions
+                + Pooling (max and average, often part of same layer as convolution)
+                    * Hyperparameters: Filter size and stride (not learnable)
+                    * No learnable parameters associated with pooling layers
+                + Fully connected (dense)
+                + Output
     + Trees
         * Gini vs entropy for impurity
 - Hyperparameter tuning and optimization methods
