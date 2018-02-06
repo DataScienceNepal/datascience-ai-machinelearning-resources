@@ -240,6 +240,12 @@
                 * Generative Adversarial Networks (GANs)
             + Convolutional Neural Networks (CNNs)
                 * Image modeling
+                * Architecture types
+                    - VGG
+                    - AlexNet
+                    - ResNet
+                    - Inception network
+                    - LeNet
             + Recurrent Neural Networks
                 * Sequence modeling
                     - E.g., Long Short-Term Memory (LSTM)
@@ -379,9 +385,11 @@
         * Small data sets
             - Selecting models that excel with small data sets
             - Sampling noise
+            - Transfer learning very helpful for DL with small data sets
         * Moderate to large data sets
             - Sampling bias
         * Sparse data
+        * More data allows for simpler models/algorithms/architectures/hyperparameters and less feature engineering (and vice versa)
         * Resources
             - http://static.googleusercontent.com/media/research.google.com/fr//pubs/archive/35179.pdf
             - https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/acl2001.pdf
@@ -547,6 +555,7 @@
         * Frozen layers (pre-training and transfer learning) vs fine tuning layers
         * Convolutional NN
             - Filter size (height, width, and depth, where depth matches depth of input)
+                + Note: can use 1x1 convolution
             - Number of filters
                 + Number of filters is the same as depth as activations
             - Stride
@@ -557,6 +566,9 @@
                     * Hyperparameters: Filter size and stride (not learnable)
                     * No learnable parameters associated with pooling layers
                 + Fully connected (dense)
+                + Bottleneck
+                    * Shrink before making larger
+                    * Reduces computational cost
                 + Output
     + Trees
         * Gini vs entropy for impurity
@@ -613,10 +625,14 @@
             - Apply when dataset small
             - Examples
                 + Images
-                    * Shift/translate, rotate, resize
+                    * Shift/translate, rotate, resize, shearing, local warping
                     * Brightness, contrast, saturation, and hue
-                    * Flip across axis
-                    * Cropping
+                    * Color shifting
+                        - Add distortions to color channels (e.g., RGB individually)
+                        - Can help simulate changing lighting conditions (sun, ...)
+                        - PCA color augmentation
+                    * Flip across axis (mirroring)
+                    * Cropping (random, closely cropped, ...)
 - Dimension reduction
     + PCA
     + Partial least squares
@@ -629,6 +645,8 @@
     + Missing features
     + Feature extraction via dimensionality reduction
 - Pseudo labeling
+- For image DL
+    + Multi-crop (e.g., 10-crop)
 
 <h2><a name="data">Data, Data Sources, and Data Preparation</a></h2>
 

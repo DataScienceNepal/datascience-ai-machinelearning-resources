@@ -2,7 +2,7 @@
 
 Welcome to my curated set of resources for data science, machine learning, artificial intelligence (AI), big data, internet of things (IoT), and more!
 
-a hyperlinked table of contents is provided below for your convenience.
+A hyperlinked table of contents is provided below for your convenience.
 
 <!-- Please star this repository if you find it to be useful, and a hyperlinked table of contents is provided below for your convenience. -->
 

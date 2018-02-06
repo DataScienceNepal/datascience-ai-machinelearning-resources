@@ -137,7 +137,17 @@
     + Image search
     + Machine vision
     + Photo clustering
-    + Object recognition
+    + Image recognition/classification
+        * Is it a certain class or multiple classes (e.g., cat, car, ...)
+    + Object recognition and detection
+        * Detection is the location of the recognized object in the image (i.e., localization)
+            - Output is bounding box (b_x, b_y, b_h, B_w), is object recognized in image, and class label(s)
+            - Loss function calculation depends on whether the object is detected in the image
+            - Sliding window detection (window size and stride)
+                + Pass window as input to CNN
+    + Landmark detection
+        * X,Y point pairs representing individual landmarks in the image
+        * Useful for emotion detection, filters, pose detection, ...
     + Algorithms
         * CNN
 - Video

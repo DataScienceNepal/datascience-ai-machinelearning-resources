@@ -31,6 +31,7 @@
 - [Kavi Global](https://www.kaviglobal.com/)
 - [Elder Research](https://www.elderresearch.com/)
 - [Sigmoidal](https://sigmoidal.io/)
+- [Soothsayer Analytics](http://soothsayeranalytics.com/)
 - Lists
     + [Consulting Companies in Analytics, Data Mining, Data Science, and Machine Learning](https://www.kdnuggets.com/companies/consulting.html)
 
