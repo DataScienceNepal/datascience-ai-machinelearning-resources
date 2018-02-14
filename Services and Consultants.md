@@ -1,11 +1,13 @@
 ## Advanced Analytics (AI, Machine Learning, ...)
 - [Experfy](https://www.experfy.com/)
+- [Element AI](https://www.elementai.com/en/)
 
 ## Data Science
 
 **Data Scientists for Hire & Training**
 - [Toptal](https://www.toptal.com/data-science)
 - [Upwork](https://www.upwork.com/)
+- [Topcoder](https://www.topcoder.com/)
 - [The Data Incubator](https://www.thedataincubator.com/)
 - [Kaggle Connect](https://www.kaggle.com/host)
 - [Hired](https://hired.com)
@@ -53,4 +55,6 @@
 - [Smith Hanley](http://www.smithhanley.com/)
 
 ## General
+- [AWS Competency Program](https://aws.amazon.com/partners/competencies/)
+    + [AWS Machine Learning Competency Partners](https://aws.amazon.com/blogs/machine-learning/introducing-the-inaugural-aws-machine-learning-competency-partners/)
 - [Amazon Mechanical Turk](https://www.mturk.com/mturk/welcome)
