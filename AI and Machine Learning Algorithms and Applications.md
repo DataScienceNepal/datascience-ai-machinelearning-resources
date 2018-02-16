@@ -96,7 +96,7 @@
         * Tesla
         * Waymo
 
-<h2><a name="data-type">Algorithms and Applications by Data Type</a></h2><sup>2</sup>
+<h2><a name="data-type">Algorithms and Applications by Data Type</a><sup>2</sup></h2>
 
 - Sound/Audio
     + Voice detection/recognition
@@ -169,7 +169,7 @@
 - Columnar/tabular
     + Classic multilayer perceptrons + feature engineering
 
-<h2><a name="tasks">Algorithms and Applications by Task</a>
+<h2><a name="tasks">Algorithms and Applications by Task</a></h2>
 
 - Prediction
     + Regression/classification
