@@ -96,7 +96,7 @@
         * Tesla
         * Waymo
 
-<h2><a name="data-type">Algorithms and Applications by Data Type</a> <sup>2</sup></h2>
+<h2><a name="data-type">Algorithms and Applications by Data Type</a></h2><sup>2</sup>
 
 - Sound/Audio
     + Voice detection/recognition
