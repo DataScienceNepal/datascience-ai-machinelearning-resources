@@ -1,7 +1,9 @@
 ## Goal-Driven Artificial Intelligence and Machine Learning via Skillshare
 - Course URL: https://www.skillshare.com/classes/Goal-Driven-Artificial-Intelligence-and-Machine-Learning/398830472
 - Images
-    + Simple linear regression model: https://www.slideshare.net/dessybudiyanti/simple-linier-regression, https://image.slidesharecdn.com/simplelinearregressionpelatihan-090829234643-phpapp02/95/simple-linier-regression-9-728.jpg
+    + Simple linear regression model: 
+        * https://www.slideshare.net/dessybudiyanti/simple-linier-regression
+        * https://image.slidesharecdn.com/simplelinearregressionpelatihan-090829234643-phpapp02/95/simple-linier-regression-9-728.jpg
     + Machine learning process: https://blog.sujeetjaiswal.com/machine-learning-an-introduction-de88d85ebc5d
     + Machine learning process: http://oliviaklose.azurewebsites.net/machine-learning-11-algorithms-explained/
     + Gradient descent: https://sebastianraschka.com/faq/docs/closed-form-vs-gd.html
