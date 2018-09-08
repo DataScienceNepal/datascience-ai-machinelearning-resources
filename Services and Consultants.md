@@ -2,6 +2,9 @@
 - [Experfy](https://www.experfy.com/)
 - [Element AI](https://www.elementai.com/en/)
 
+## Analytics
+- [Tredence](https://www.tredence.com/)
+
 ## Data Science
 
 **Data Scientists for Hire & Training**

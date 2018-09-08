@@ -87,6 +87,7 @@
 - General machine learning
     + [Turi](https://turi.com/learn/) - A machine learning modeling tool for developers and data scientists
     + [Smile](http://haifengl.github.io/smile/) - Statistical Machine Intelligence & Learning Engine
+    + [simMachines](https://simmachines.com/) - Explainable Machine Learning
 - Natural language
     + [Narrative Science](https://narrativescience.com/)
 - Reinforcement learning
@@ -106,6 +107,7 @@
 - [AWS Artificial Intelligence](https://aws.amazon.com/amazon-ai/)
 - [AWS SageMaker](https://aws.amazon.com/sagemaker/)
 - [AWS Machine Learning](https://aws.amazon.com/documentation/machine-learning/)
+    + [AWS Machine Learning Partner Solutions](https://aws.amazon.com/machine-learning/partner-solutions/)
     + [Lex](https://aws.amazon.com/lex/)
     + [Rekognition](https://aws.amazon.com/rekognition/)
     + [Polly](https://aws.amazon.com/polly/)

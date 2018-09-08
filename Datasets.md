@@ -1,4 +1,5 @@
 **Lists**
+- [Wikipedia List of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research)
 - [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 - [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets.html)
 - [sklearn.datasets](http://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets)
@@ -18,7 +19,6 @@
 - [Deep learning datasets](http://deeplearning.net/datasets/)
 - [Open Data for Deep Learning](https://deeplearning4j.org/opendata)
 - [Datasets for Data Mining and Data Science](http://www.kdnuggets.com/datasets/index.html)
-- [Wikipedia List of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research)
 - [100+ Interesting Data Sets for Statistics](http://rs.io/100-interesting-data-sets-for-statistics/)
 - [NYC OpenData](https://data.cityofnewyork.us/browse)
 - [Data.gov](https://www.data.gov/)
@@ -29,6 +29,9 @@
 - [Subreddit](https://www.reddit.com/r/datasets/)
 - [AI and Deep Learning in 2017 – A Year in Review - Datasets section](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)
 - [70 Amazing Free Data Sources You Should Know](https://www.kdnuggets.com/2017/12/big-data-free-sources.html)
+- [25 Open Datasets for Deep Learning Every Data Scientist Must Work With](https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/)
+- [The 50 Best Free Datasets for Machine Learning](https://gengo.ai/articles/the-50-best-free-datasets-for-machine-learning/)
+- [Announcing Open Images V4 and the ECCV 2018 Open Images Challenge](https://ai.googleblog.com/2018/04/announcing-open-images-v4-and-eccv-2018.html)
 
 **Dataset By Category**
 - Streaming Open Data
@@ -64,6 +67,7 @@
 - Computer Vision and Recognition
     + http://www.cvpapers.com/datasets.html
     + http://www.image-net.org/
+    + https://storage.googleapis.com/openimages/web/index.html
 - IoT
 
 **Specific Data Sets**
