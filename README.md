@@ -1,4 +1,4 @@
-<p><a href="http://www.innoarchitech.com/?utm_source=github&utm_medium=repo&utm_content=repolink&utm_campaign=opensource"><img src="assets/logo-horizontal-blue-No-Tagline.png" alt="InnoArchiTech Logo" width="350px"></a></p>
+<p><a href="http://www.innoarchitech.com/?utm_source=github&utm_medium=repo&utm_content=repolink&utm_campaign=opensource"><img src="assets/inno-logo-master.svg" alt="InnoArchiTech Logo" width="350px"></a></p>
 
 Welcome to my curated set of resources for data science, machine learning, artificial intelligence (AI), big data, internet of things (IoT), and more!
 
